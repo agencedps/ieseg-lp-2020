@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.577" height="60.071" viewBox="0 0 72.577 60.071">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #2b3642;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke: #fd9e00;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #13142c;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="picto_temoignages" transform="translate(1.25 1.25)">
+    <g id="Groupe_65" data-name="Groupe 65" transform="translate(-891.127 -424.887)">
+      <g id="Groupe_60" data-name="Groupe 60">
+        <g id="Groupe_59" data-name="Groupe 59">
+          <path id="Tracé_48" data-name="Tracé 48" class="cls-1" d="M904.584,454.923a.779.779,0,1,1-.777-.779A.777.777,0,0,1,904.584,454.923Z"/>
+        </g>
+      </g>
+      <g id="Groupe_62" data-name="Groupe 62">
+        <g id="Groupe_61" data-name="Groupe 61">
+          <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="0.779" cy="0.779" r="0.779" transform="translate(910.901 454.144)"/>
+        </g>
+      </g>
+      <g id="Groupe_64" data-name="Groupe 64">
+        <g id="Groupe_63" data-name="Groupe 63">
+          <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-1" cx="0.779" cy="0.779" r="0.779" transform="translate(918.777 454.144)"/>
+        </g>
+      </g>
+    </g>
+    <path id="Tracé_49" data-name="Tracé 49" class="cls-2" d="M936.762,456.106h5.773l10.232,11.873,0-11.873h2.766a5.685,5.685,0,0,0,5.669-5.668V430.556a5.686,5.686,0,0,0-5.669-5.669H925.751a5.686,5.686,0,0,0-5.669,5.669v4.4" transform="translate(-891.127 -424.887)"/>
+    <path id="Tracé_50" data-name="Tracé 50" class="cls-3" d="M899.564,482.458V470.585H896.8a5.686,5.686,0,0,1-5.669-5.67v-19.88a5.685,5.685,0,0,1,5.669-5.669H926.58a5.685,5.685,0,0,1,5.669,5.669v19.88a5.686,5.686,0,0,1-5.669,5.67H909.8Z" transform="translate(-891.127 -424.887)"/>
+    <g id="Groupe_67" data-name="Groupe 67" transform="translate(-891.127 -424.887)">
+      <g id="Groupe_66" data-name="Groupe 66">
+        <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-4" cx="0.779" cy="0.779" r="0.779" transform="translate(939.44 439.654)"/>
+      </g>
+    </g>
+    <g id="Groupe_69" data-name="Groupe 69" transform="translate(-891.127 -424.887)">
+      <g id="Groupe_68" data-name="Groupe 68">
+        <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-4" cx="0.779" cy="0.779" r="0.779" transform="translate(947.315 439.654)"/>
+      </g>
+    </g>
+  </g>
+</svg>

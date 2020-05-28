@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.576" height="100.576" viewBox="0 0 100.576 100.576">
+  <g id="picto_international" transform="translate(1.436 1.436)">
+    <line id="Ligne_138" data-name="Ligne 138" y1="84.636" transform="translate(48.879 6.709)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_139" data-name="Ligne 139" x1="78.077" transform="translate(13.144 48.88)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Tracé_132" data-name="Tracé 132" d="M386.193,52.748s-40,36.681,0,84.944" transform="translate(-340.617 -46.456)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Tracé_133" data-name="Tracé 133" d="M380.259,52.748s40,36.681,0,84.944" transform="translate(-328.075 -46.456)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Tracé_134" data-name="Tracé 134" d="M423.637,91.111c-11.546-6.945-32.178-14.583-57.4-3.175" transform="translate(-342.925 -15.381)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Tracé_135" data-name="Tracé 135" d="M424.468,60.315c-11.622,7.083-32.788,15.1-58.7,2.94" transform="translate(-343.417 -38.443)" fill="none" stroke="#001835" stroke-linejoin="round" stroke-width="2.5"/>
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="42.538" cy="42.538" r="42.538" transform="matrix(0.162, -0.987, 0.987, 0.162, 0, 83.958)" fill="none" stroke="#fd9e00" stroke-linejoin="round" stroke-width="2.5"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.433" height="100.996" viewBox="0 0 75.433 100.996">
+  <g id="picto_bars3D" transform="translate(1.707 1.25)">
+    <path id="Tracé_62" data-name="Tracé 62" d="M609.457,135.085l-13.652,7.867-13.652-7.867,13.9-7.375Z" transform="translate(-582.154 -63.348)" fill="none" stroke="#13142c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Tracé_63" data-name="Tracé 63" d="M609.464,147.317l-13.658,8.349L582.154,147.8" transform="translate(-582.154 -57.17)" fill="none" stroke="#13142c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_28" data-name="Ligne 28" x1="7.763" y1="4.475" transform="translate(27.957 80.526)" fill="none" stroke="#13142c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_29" data-name="Ligne 29" x1="8.663" y1="5.059" transform="translate(49.613 66.062)" fill="none" stroke="#fd9e00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_30" data-name="Ligne 30" y2="18.929" transform="translate(0 71.668)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_31" data-name="Ligne 31" y2="18.478" transform="translate(27.32 71.668)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_32" data-name="Ligne 32" y2="18.878" transform="translate(13.705 79.608)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Tracé_64" data-name="Tracé 64" d="M626.184,109.583l-13.652,7.867-13.652-7.867,13.9-7.374Z" transform="translate(-576.671 -71.384)" fill="none" stroke="#13142c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_33" data-name="Ligne 33" y2="23.172" transform="translate(22.21 38.199)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_34" data-name="Ligne 34" y2="38.316" transform="translate(49.504 38.199)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_35" data-name="Ligne 35" y2="38.928" transform="translate(35.762 46.035)" fill="none" stroke="#13142c" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Tracé_65" data-name="Tracé 65" d="M643.13,86.145l-13.652,7.866-13.651-7.866,13.9-7.374Z" transform="translate(-571.115 -78.77)" fill="none" stroke="#fd9e00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_36" data-name="Ligne 36" y2="20.633" transform="translate(44.712 7.449)" fill="none" stroke="#fd9e00" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_37" data-name="Ligne 37" y2="55.427" transform="translate(58.262 15.394)" fill="none" stroke="#fd9e00" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_38" data-name="Ligne 38" y2="55.485" transform="translate(72.017 7.317)" fill="none" stroke="#fd9e00" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Ligne_39" data-name="Ligne 39" y1="8.357" x2="13.697" transform="translate(35.789 76.607)" fill="none" stroke="#13142c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <line id="Ligne_40" data-name="Ligne 40" y1="8.357" x2="13.659" transform="translate(58.348 62.785)" fill="none" stroke="#fd9e00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  </g>
+</svg>

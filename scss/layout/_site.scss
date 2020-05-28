@@ -1,0 +1,20 @@
+/**
+ * site
+ * contains global styles for basic layout site
+ */
+
+html {
+
+  body {
+    .container {
+      width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .container-full {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/**
+ * variables
+ * contains variables for the graphic design.
+ */
+
+// BREAKPOINTS :
+$breakpoints: (
+        'small': (min-width: 768px),
+        'medium': (min-width: 992px),
+        'large': (min-width: 1200px),
+        'wide': (min-width: 1440px)
+) !default;
+
+// COLORS :
+$white: #FFFFFF;
+$whitegrey: #F4F4F4;
+$lightgrey: #DEE1E5;
+$grey: #B7BDC8;
+$darkgrey: #707070;
+$black: #000000;
+$orange: #FD9E00;
+$yellow: #FFDD00;
+$darkblue: #001F44;

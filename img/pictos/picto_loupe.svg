@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #707070;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Tracé_16" data-name="Tracé 16" class="cls-1" d="M0-124.93H31v-31H0Z" transform="translate(0 155.93)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="37.759" height="33.784"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_12" data-name="Groupe 12" class="cls-2">
+    <g id="Groupe_11" data-name="Groupe 11" class="cls-3" transform="translate(-3.38 -2.585)">
+      <g id="Groupe_10" data-name="Groupe 10">
+        <g id="Groupe_9" data-name="Groupe 9" class="cls-4">
+          <g id="Groupe_6" data-name="Groupe 6" transform="translate(22.306 21.512)">
+            <path id="Tracé_13" data-name="Tracé 13" class="cls-5" d="M-45.224-28.663l-7.112-7.112a13.69,13.69,0,0,1-4.11,4.109l7.112,7.112a2.905,2.905,0,0,0,4.11,0,2.9,2.9,0,0,0,0-4.109" transform="translate(56.446 35.775)"/>
+          </g>
+          <g id="Groupe_7" data-name="Groupe 7" transform="translate(3.38 2.584)">
+            <path id="Tracé_14" data-name="Tracé 14" class="cls-5" d="M-93.7-46.849a11.626,11.626,0,0,0-11.625-11.625,11.626,11.626,0,0,0-11.625,11.625,11.626,11.626,0,0,0,11.625,11.625A11.625,11.625,0,0,0-93.7-46.849m-11.625,8.719a8.728,8.728,0,0,1-8.719-8.719,8.728,8.728,0,0,1,8.719-8.719A8.728,8.728,0,0,1-96.6-46.849a8.728,8.728,0,0,1-8.719,8.719" transform="translate(116.947 58.474)"/>
+          </g>
+          <g id="Groupe_8" data-name="Groupe 8" transform="translate(8.224 7.428)">
+            <path id="Tracé_15" data-name="Tracé 15" class="cls-5" d="M0-27.328H1.937a4.85,4.85,0,0,1,4.844-4.844v-1.937A6.789,6.789,0,0,0,0-27.328" transform="translate(0 34.109)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

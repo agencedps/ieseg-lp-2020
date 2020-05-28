@@ -1,0 +1,39 @@
+/**
+ * Buttons
+ *  contains styling for buttons
+ */
+
+.btn {
+  margin: 0.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  background-size: 100% 210%;
+  transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
+  background-position: top;
+  &:hover {
+    background-position: bottom;
+  }
+
+  &.btn-blanc {
+    background-image: linear-gradient(to top, $darkblue 50%, $white 0);
+    color: $darkblue;
+    border: solid 1px $darkblue;
+
+    &:hover {
+      color: $white;
+      background-position: bottom;
+    }
+  }
+
+  &.btn-jaune {
+    background-image: linear-gradient(to top, $darkblue 50%, $yellow 0);
+    color: $darkblue;
+
+    &:hover {
+      color: $white;
+      background-position: bottom;
+    }
+  }
+}
