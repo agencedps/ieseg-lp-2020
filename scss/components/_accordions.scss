@@ -1,0 +1,63 @@
+/**
+ * Accordions
+ *  contains styling for accordions
+ */
+
+.accordion {
+  margin: 1rem auto;
+  line-height: 1.6;
+
+  &__item {
+    background-color: $whitegrey;
+    margin: 0.5rem 0;
+  }
+
+  &__title {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+
+    &:after {
+      content: "\00d7";
+      transform-origin: center;
+      transform-style: preserve-3d;
+      transform: rotate(-45deg);
+      font-size: 2rem;
+      font-weight: 300;
+      transition: transform .2s ease-out;
+      margin-left: auto;
+    }
+
+    > * {
+      margin: 0;
+    }
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      > * {
+        color: $orange;
+      }
+    }
+
+    .is-expanded & {
+      &:after {
+        transform: rotate(-90deg);
+      }
+
+    }
+  }
+
+  &__content-inner {
+    padding: 0 1rem 0.5rem 1rem;
+  }
+
+  &__content {
+    transition: height 0.2s ease-out;
+    height: 0;
+    overflow: hidden;
+  }
+}

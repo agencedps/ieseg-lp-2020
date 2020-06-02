@@ -207,7 +207,7 @@
       background-color: $white;
       color: $darkblue;
       font-weight: 900;
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 1;
       @include respond-to('wide') {
         margin-left: calc((100vw - 1440px) / 2 - 50vw + 1rem);
@@ -216,9 +216,9 @@
       &::before {
         content: '';
         display: block;
-        width: 2rem;
+        width: 2.5rem;
         height: 2.5rem;
-        background: $darkblue url("../img/pictos/picto_fleche_droite_bg_blanc.svg") no-repeat center/contain;
+        background: $darkblue url("../img/pictos/picto_fleche_bg_blanc.svg") no-repeat left center/50%;
         margin: 0;
         order: -2;
       }
@@ -234,6 +234,13 @@
         border-left: 0.75rem solid transparent;
         order: -1;
       }
+    }
+
+    .player-video {
+      width: 100%;
+      background-color: $grey;
+      padding-bottom: 56.25%;
+      margin: 1rem 0;
     }
   }
 }
@@ -1013,6 +1020,15 @@
         }
       }
     }
+  }
+}
+
+// SECTION RESUME (ACCORDION)
+.resume-container {
+  .resume-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
   }
 }
 
