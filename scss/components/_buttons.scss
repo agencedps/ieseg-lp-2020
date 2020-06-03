@@ -7,13 +7,27 @@
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-size: 1rem;
+  line-height: 1em;
   text-decoration: none;
   display: inline-block;
   background-size: 100% 210%;
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
+  small {
+    font-size: 0.75em;
+  }
   &:hover {
     background-position: bottom;
+  }
+
+  &.btn-transparent {
+    background-image: linear-gradient(to top, $darkblue 50%, transparent 0);
+    color: $darkblue;
+    border: solid 1px $darkblue;
+
+    &:hover {
+      color: $white;
+    }
   }
 
   &.btn-blanc {
@@ -23,7 +37,6 @@
 
     &:hover {
       color: $white;
-      background-position: bottom;
     }
   }
 
@@ -33,7 +46,6 @@
 
     &:hover {
       color: $white;
-      background-position: bottom;
     }
   }
 }

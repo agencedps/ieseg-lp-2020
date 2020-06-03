@@ -659,14 +659,26 @@ html body .container-full {
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-size: 1rem;
+  line-height: 1em;
   text-decoration: none;
   display: inline-block;
   background-size: 100% 210%;
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
 }
+.btn small {
+  font-size: 0.75em;
+}
 .btn:hover {
   background-position: bottom;
+}
+.btn.btn-transparent {
+  background-image: linear-gradient(to top, #001F44 50%, transparent 0);
+  color: #001F44;
+  border: solid 1px #001F44;
+}
+.btn.btn-transparent:hover {
+  color: #FFFFFF;
 }
 .btn.btn-blanc {
   background-image: linear-gradient(to top, #001F44 50%, #FFFFFF 0);
@@ -675,7 +687,6 @@ html body .container-full {
 }
 .btn.btn-blanc:hover {
   color: #FFFFFF;
-  background-position: bottom;
 }
 .btn.btn-jaune {
   background-image: linear-gradient(to top, #001F44 50%, #FFDD00 0);
@@ -683,7 +694,6 @@ html body .container-full {
 }
 .btn.btn-jaune:hover {
   color: #FFFFFF;
-  background-position: bottom;
 }
 
 /**
@@ -903,6 +913,58 @@ html body .container-full {
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .content p.key {
   font-size: 0.75rem;
+}
+
+.inscription-container .inscription-wrapper {
+  background-color: #F4F4F4;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper {
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+}
+.inscription-container .inscription-wrapper .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inscription-container .inscription-wrapper .info p {
+  margin: 0.25rem 0;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper .info p {
+    text-align: left;
+  }
+}
+.inscription-container .inscription-wrapper .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  margin: 0.5rem auto;
+}
+.inscription-container .inscription-wrapper .btn strong {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper .btn {
+    margin: 0.5rem;
+    width: calc(30% - 2rem);
+  }
 }
 
 .content-container .content-wrapper {

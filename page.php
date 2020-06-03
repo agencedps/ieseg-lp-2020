@@ -76,6 +76,18 @@ Template Name: LP par défaut 2020
     </section>
     <!-- KEYFACTS END -->
 
+    <!-- INSCRIPTION BEGIN -->
+    <section class="inscription-container">
+        <div class="inscription-wrapper">
+            <div class="info"><p>Participez à la prochaine réunion d'information le 3 avril à 17h</p></div>
+            <a class="btn btn-transparent" href="lien_mail"><strong>S'inscrire par mail</strong>
+                <small>Sur diplomants@ieseg.fr</small></a>
+            <a class="btn btn-transparent" href="lien_tel"><strong>S'inscrire par tel</strong>
+                <small>Au 01 55 91 98 06</small></a>
+        </div>
+    </section>
+    <!-- INSCRIPTION END -->
+
     <!-- CONTENT BEGIN -->
     <section class="content-container">
         <div class="content-wrapper">
