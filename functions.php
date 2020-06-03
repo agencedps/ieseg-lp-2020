@@ -42,8 +42,10 @@ function ieseg2_scripts()
     // Add all Source Sans Pro.
     wp_enqueue_style( 'ieseg-source-sans', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap', array(), null );
 
+    wp_enqueue_style('slick-css',get_template_directory_uri().'/vendors/node_modules/slick-carousel/slick/slick.css',array(),'1.0');
     wp_enqueue_style('style-ieseg',get_template_directory_uri().'/css/main.css',array(),'1.0');
 
+    wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/vendors/node_modules/slick-carousel/slick/slick.min.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'dps-2020-script', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0', true );
 
 }
