@@ -626,15 +626,15 @@ Template Name: LP par défaut 2020
         <section class="form-container">
             <div class="form-wrapper">
                 <h3 class="titre">Find Out More!</h3>
-                <p class="desc">Receive the brochure with program content, scholarship information &amp; application process.</p>
+                <p class="desc">Receive the brochure with program content, scholarship information &amp; application
+                    process.</p>
 
                 <?php if (function_exists('ninja_forms_display_form')) {
                     ninja_forms_display_form(25);
                 } ?> <!-- CHANGE FORM ID -->
 
             </div>
-    </div>
-    </section>
+        </section>
 
     </div>
 
