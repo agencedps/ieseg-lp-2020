@@ -418,7 +418,7 @@ html {
   color: #001F44;
 }
 
-.content-container a:not(.btn), .link {
+.content-container a:not(.btn):not(.btn-jaune):not(.btn-jaune-to-blanc):not(.btn-blanc):not(.btn-transparent), .link {
   font-size: 1rem;
   text-decoration: underline;
   color: #001F44;
@@ -493,7 +493,7 @@ html body .container-full {
   width: 100%;
   height: auto;
 }
-.header .container .btn {
+.header .container .btn, .header .container .btn-jaune, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
   margin: 0;
   padding: 0;
   flex: 2;
@@ -503,17 +503,17 @@ html body .container-full {
   justify-content: center;
   align-items: center;
 }
-.header .container .btn strong {
+.header .container .btn strong, .header .container .btn-jaune strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
   margin: 0 0.25rem;
 }
 @media (min-width: 768px) {
-  .header .container .btn {
+  .header .container .btn, .header .container .btn-jaune, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
     flex: 0;
     margin: 0.5rem;
     padding: 0.5rem 2rem;
     display: inline-block;
   }
-  .header .container .btn strong {
+  .header .container .btn strong, .header .container .btn-jaune strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
     margin: 0;
   }
 }
@@ -655,7 +655,9 @@ html body .container-full {
  * Buttons
  *  contains styling for buttons
  */
-.btn {
+.btn, .btn-jaune, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .btn-blanc, .btn-transparent {
+  cursor: pointer;
+  border: none;
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-size: 1rem;
@@ -666,36 +668,91 @@ html body .container-full {
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
 }
-.btn small {
+.btn small, .btn-jaune small, .btn-jaune-to-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field small, .btn-blanc small, .btn-transparent small {
   font-size: 0.75em;
 }
-.btn:hover {
+.btn:hover, .btn-jaune:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover, .btn-blanc:hover, .btn-transparent:hover {
   background-position: bottom;
 }
-.btn.btn-transparent {
+
+.btn-transparent {
   background-image: linear-gradient(to top, #001F44 50%, transparent 0);
   color: #001F44;
   border: solid 1px #001F44;
 }
-.btn.btn-transparent:hover {
+.btn-transparent:hover {
   color: #FFFFFF;
 }
-.btn.btn-blanc {
+
+.btn-blanc {
   background-image: linear-gradient(to top, #001F44 50%, #FFFFFF 0);
   color: #001F44;
   border: solid 1px #001F44;
 }
-.btn.btn-blanc:hover {
-  color: #FFFFFF;
-}
-.btn.btn-jaune {
-  background-image: linear-gradient(to top, #001F44 50%, #FFDD00 0);
-  color: #001F44;
-}
-.btn.btn-jaune:hover {
+.btn-blanc:hover {
   color: #FFFFFF;
 }
 
+.btn-jaune, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field {
+  background-image: linear-gradient(to top, #001F44 50%, #FFDD00 0);
+  color: #001F44;
+}
+.btn-jaune:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover {
+  color: #FFFFFF;
+}
+
+.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field {
+  background-image: linear-gradient(to top, #FFFFFF 50%, #FFDD00 0);
+}
+.btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover {
+  color: #001F44;
+}
+
+/**
+ * Forms
+ *  contains styling for forms
+ */
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .ninja-forms-required-items {
+  width: calc(100% - 2rem);
+  margin: 0.5rem;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap {
+  width: calc(100% - 2rem);
+  margin: 0.5rem;
+}
+@media (min-width: 768px) {
+  .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap {
+    width: calc(50% - 2rem);
+  }
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.text-wrap .ninja-forms-field {
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap {
+    justify-content: flex-end;
+  }
+}
 /**
  * Accordions
  *  contains styling for accordions
@@ -947,7 +1004,7 @@ html body .container-full {
     text-align: left;
   }
 }
-.inscription-container .inscription-wrapper .btn {
+.inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -956,12 +1013,12 @@ html body .container-full {
   width: auto;
   margin: 0.5rem auto;
 }
-.inscription-container .inscription-wrapper .btn strong {
+.inscription-container .inscription-wrapper .btn strong, .inscription-container .inscription-wrapper .btn-transparent strong, .inscription-container .inscription-wrapper .btn-blanc strong, .inscription-container .inscription-wrapper .btn-jaune strong, .inscription-container .inscription-wrapper .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field strong {
   font-weight: 700;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper .btn {
+  .inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field {
     margin: 0.5rem;
     width: calc(30% - 2rem);
   }
@@ -1520,7 +1577,7 @@ html body .container-full {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-.campus-container .campus-wrapper .campus .infos .btn {
+.campus-container .campus-wrapper .campus .infos .btn, .campus-container .campus-wrapper .campus .infos .btn-transparent, .campus-container .campus-wrapper .campus .infos .btn-blanc, .campus-container .campus-wrapper .campus .infos .btn-jaune, .campus-container .campus-wrapper .campus .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus .infos .ninja-forms-field {
   margin: 0.5rem 0;
   /*-webkit-transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);*/
@@ -1534,7 +1591,7 @@ html body .container-full {
 .campus-container .campus-wrapper .campus#campus-paris .infos {
   right: 3%;
 }
-.campus-container .campus-wrapper .campus#campus-paris .infos .btn {
+.campus-container .campus-wrapper .campus#campus-paris .infos .btn, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus#campus-paris .infos .ninja-forms-field {
   display: inline-block;
 }
 .campus-container .campus-wrapper .campus#campus-lille {
@@ -1546,7 +1603,7 @@ html body .container-full {
 .campus-container .campus-wrapper .campus#campus-lille .infos {
   left: 3%;
 }
-.campus-container .campus-wrapper .campus#campus-lille .infos .btn {
+.campus-container .campus-wrapper .campus#campus-lille .infos .btn, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus#campus-lille .infos .ninja-forms-field {
   display: none;
 }
 .campus-container .campus-wrapper.onleft {
@@ -1555,7 +1612,7 @@ html body .container-full {
 .campus-container .campus-wrapper.onleft .campus#campus-paris::after {
   opacity: 0;
 }
-.campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn {
+.campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .ninja-forms-field {
   display: inline-block;
 }
 .campus-container .campus-wrapper.onleft .campus#campus-lille::after {
@@ -1565,7 +1622,7 @@ html body .container-full {
   color: #FFFFFF;
   opacity: 0.7;
 }
-.campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn {
+.campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .ninja-forms-field {
   display: none;
 }
 .campus-container .campus-wrapper.onright {
@@ -1578,13 +1635,13 @@ html body .container-full {
   color: #FFFFFF;
   opacity: 0.7;
 }
-.campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn {
+.campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onright .campus#campus-paris .infos .ninja-forms-field {
   display: none;
 }
 .campus-container .campus-wrapper.onright .campus#campus-lille::after {
   opacity: 0;
 }
-.campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn {
+.campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onright .campus#campus-lille .infos .ninja-forms-field {
   display: inline-block;
 }
 
@@ -2071,6 +2128,17 @@ html body .container-full {
 }
 .testis-container .testis-wrapper .see-all {
   align-self: center;
+}
+
+.form-container {
+  background-color: #001F44;
+  color: #FFFFFF;
+  padding: 0.5rem 0;
+}
+.form-container .form-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 /*img, video {

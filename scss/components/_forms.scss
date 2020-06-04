@@ -1,0 +1,66 @@
+/**
+ * Forms
+ *  contains styling for forms
+ */
+
+.ninja-forms-cont {
+  .ninja-forms-form-wrap {
+    .ninja-forms-response-msg {
+    }
+
+    .ninja-forms-form {
+      .ninja-forms-all-fields-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        //align-items: center;
+        @include respond-to('small') {
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+
+        .ninja-forms-required-items {
+          width: calc(100% - 2rem);
+          margin: 0.5rem;
+        }
+
+        .field-wrap {
+          width: calc(100% - 2rem);
+          @include respond-to('small') {
+            width: calc(50% - 2rem);
+          }
+          margin: 0.5rem;
+
+          &.label-inside {
+          }
+
+          &.text-wrap {
+            .ninja-forms-field {
+              background: transparent;
+              border: none;
+              border-bottom: solid 1px $white;
+              color: $white;
+              text-transform: uppercase;
+              font-weight: 700;
+            }
+          }
+
+          &.submit-wrap {
+            display: flex;
+            justify-content: center;
+            @include respond-to('small') {
+              justify-content: flex-end;
+            }
+
+            .ninja-forms-field {
+              @extend .btn-jaune-to-blanc;
+            }
+          }
+
+          .ninja-forms-field-error {
+          }
+        }
+      }
+    }
+  }
+}

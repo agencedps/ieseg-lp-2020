@@ -4,6 +4,8 @@
  */
 
 .btn {
+  cursor: pointer;
+  border: none;
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-size: 1rem;
@@ -13,39 +15,53 @@
   background-size: 100% 210%;
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
+
   small {
     font-size: 0.75em;
   }
+
   &:hover {
     background-position: bottom;
   }
+}
 
-  &.btn-transparent {
-    background-image: linear-gradient(to top, $darkblue 50%, transparent 0);
-    color: $darkblue;
-    border: solid 1px $darkblue;
+.btn-transparent {
+  @extend .btn;
+  background-image: linear-gradient(to top, $darkblue 50%, transparent 0);
+  color: $darkblue;
+  border: solid 1px $darkblue;
 
-    &:hover {
-      color: $white;
-    }
+  &:hover {
+    color: $white;
   }
+}
 
-  &.btn-blanc {
-    background-image: linear-gradient(to top, $darkblue 50%, $white 0);
-    color: $darkblue;
-    border: solid 1px $darkblue;
+.btn-blanc {
+  @extend .btn;
+  background-image: linear-gradient(to top, $darkblue 50%, $white 0);
+  color: $darkblue;
+  border: solid 1px $darkblue;
 
-    &:hover {
-      color: $white;
-    }
+  &:hover {
+    color: $white;
   }
+}
 
-  &.btn-jaune {
-    background-image: linear-gradient(to top, $darkblue 50%, $yellow 0);
+.btn-jaune {
+  @extend .btn;
+  background-image: linear-gradient(to top, $darkblue 50%, $yellow 0);
+  color: $darkblue;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-jaune-to-blanc {
+  @extend .btn-jaune;
+  background-image: linear-gradient(to top, $white 50%, $yellow 0);
+
+  &:hover {
     color: $darkblue;
-
-    &:hover {
-      color: $white;
-    }
   }
 }

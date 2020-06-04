@@ -1532,3 +1532,15 @@
     }
   }
 }
+
+// SECTION FORM
+.form-container {
+  background-color: $darkblue;
+  color: $white;
+  padding: 0.5rem 0;
+  .form-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
