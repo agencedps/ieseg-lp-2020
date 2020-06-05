@@ -9,6 +9,7 @@
   margin: 0;
   padding: 1rem 0;
   font-size: 0.75rem;
+  line-height: 1.5em;
 
   .container {
     display: flex;
@@ -16,7 +17,7 @@
     justify-content: space-between;
 
     .accreditations {
-      margin: 1rem 0;
+      margin: 1rem;
 
       img {
         width: 100%;
@@ -25,18 +26,24 @@
     }
 
     .titre {
-      padding: 0.125rem 0.5rem;
       text-transform: uppercase;
       font-weight: 700;
       color: $darkblue;
-      background-color: $white;
+      span {
+        display: inline-block;
+        padding: 0.125rem 0.5rem;
+        background-color: $white;
+      }
     }
 
     .adresses {
+      border-top: solid 1px $white;
+      padding: 1rem 1rem 0 1rem;
       width: 50%;
-      columns: 2;
-      //column-rule: 1px solid $darkblue;
-      column-gap: 2em;
+      columns: 1;
+      @include respond-to('small') {
+        columns: 2;
+      }
 
       p {
         margin: 0 0 1rem 0;
@@ -48,10 +55,14 @@
     }
 
     .contacts {
+      border-top: solid 1px $white;
+      border-left: solid 1px $white;
+      padding: 1rem 1rem 0 1rem;
       width: 50%;
-      columns: 2;
-      //column-rule: 1px solid $darkblue;
-      column-gap: 2em;
+      columns: 1;
+      @include respond-to('small') {
+        columns: 2;
+      }
 
       p {
         margin: 0 0 1rem 0;
@@ -61,22 +72,34 @@
         }
 
         &.email {
-          i {
-            display: block;
-            background: url("../img/pictos/picto_enveloppe.svg") no-repeat center/contain;
-            height: 0.75rem;
-            width: auto;
-            margin: 0 0.25rem 0 0;
+          a {
+            color: $white;
+            text-decoration: underline;
+            display: flex;
+            align-items: center;
+            &::before {
+              content: '';
+              display: block;
+              background: url("../img/pictos/picto_enveloppe.svg") no-repeat center left/contain;
+              height: 0.75rem;
+              width: 1.5rem;
+            }
           }
         }
 
         &.phone {
-          i {
-            display: block;
-            background: url("../img/pictos/picto_telephone.svg") no-repeat center/contain;
-            height: 0.75rem;
-            width: auto;
-            margin: 0 0.25rem 0 0;
+          a {
+            color: $white;
+            text-decoration: underline;
+            display: flex;
+            align-items: center;
+            &::before {
+              content: '';
+              display: block;
+              background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
+              height: 0.75rem;
+              width: 1.5rem;
+            }
           }
         }
       }

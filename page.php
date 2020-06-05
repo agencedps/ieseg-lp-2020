@@ -165,7 +165,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <h5>A Top International Business School</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_student.svg' ?>" /><h5>A Top International Business School</h5>
         </span>
                         <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab1" data-binding="expand-accordion-container">
@@ -184,7 +184,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab2" tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <h5>Career Services</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_toolhead.svg' ?>" /><h5>Career Services</h5>
         </span>
                         <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab2" data-binding="expand-accordion-container">
@@ -204,7 +204,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab3" tabindex="0" class="accordion__title" aria-controls="panel3" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <h5>CFA Institute University Recognition Program</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_list.svg' ?>" /><h5>CFA Institute University Recognition Program</h5>
         </span>
                         <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab3" data-binding="expand-accordion-container">
@@ -219,7 +219,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab4" tabindex="0" class="accordion__title" aria-controls="panel4" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <h5>Study in the Largest Business District of Europe</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_world.svg' ?>" /><h5>Study in the Largest Business District of Europe</h5>
         </span>
                         <div id="panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab4" data-binding="expand-accordion-container">

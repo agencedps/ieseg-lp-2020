@@ -1,0 +1,16 @@
+/**
+ * shame
+ * intègre tous les hacks, les styles impropres, qu'on a pas eu le temps de corriger ou d'optimiser et classer.
+ */
+
+
+// Hack for development
+/*img, video {
+  width: auto !important;
+  max-width: 100% !important;
+}*/
+
+// Résidus de styles Bootstrap
+.text-center {
+  text-align: center;
+}

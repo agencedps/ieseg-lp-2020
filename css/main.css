@@ -493,7 +493,7 @@ html body .container-full {
   width: 100%;
   height: auto;
 }
-.header .container .btn, .header .container .btn-jaune, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
+.header .container .btn, .header .container .btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
   margin: 0;
   padding: 0;
   flex: 2;
@@ -503,17 +503,17 @@ html body .container-full {
   justify-content: center;
   align-items: center;
 }
-.header .container .btn strong, .header .container .btn-jaune strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
+.header .container .btn strong, .header .container .btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
   margin: 0 0.25rem;
 }
 @media (min-width: 768px) {
-  .header .container .btn, .header .container .btn-jaune, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
+  .header .container .btn, .header .container .btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
     flex: 0;
     margin: 0.5rem;
     padding: 0.5rem 2rem;
     display: inline-block;
   }
-  .header .container .btn strong, .header .container .btn-jaune strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
+  .header .container .btn strong, .header .container .btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
     margin: 0;
   }
 }
@@ -528,6 +528,7 @@ html body .container-full {
   margin: 0;
   padding: 1rem 0;
   font-size: 0.75rem;
+  line-height: 1.5em;
 }
 .footer .container {
   display: flex;
@@ -535,23 +536,32 @@ html body .container-full {
   justify-content: space-between;
 }
 .footer .container .accreditations {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 .footer .container .accreditations img {
   width: 100%;
   max-width: 23rem;
 }
 .footer .container .titre {
-  padding: 0.125rem 0.5rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #001F44;
+}
+.footer .container .titre span {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
   background-color: #FFFFFF;
 }
 .footer .container .adresses {
+  border-top: solid 1px #FFFFFF;
+  padding: 1rem 1rem 0 1rem;
   width: 50%;
-  columns: 2;
-  column-gap: 2em;
+  columns: 1;
+}
+@media (min-width: 768px) {
+  .footer .container .adresses {
+    columns: 2;
+  }
 }
 .footer .container .adresses p {
   margin: 0 0 1rem 0;
@@ -560,9 +570,16 @@ html body .container-full {
   column-span: all;
 }
 .footer .container .contacts {
+  border-top: solid 1px #FFFFFF;
+  border-left: solid 1px #FFFFFF;
+  padding: 1rem 1rem 0 1rem;
   width: 50%;
-  columns: 2;
-  column-gap: 2em;
+  columns: 1;
+}
+@media (min-width: 768px) {
+  .footer .container .contacts {
+    columns: 2;
+  }
 }
 .footer .container .contacts p {
   margin: 0 0 1rem 0;
@@ -570,19 +587,31 @@ html body .container-full {
 .footer .container .contacts p.titre {
   column-span: all;
 }
-.footer .container .contacts p.email i {
-  display: block;
-  background: url("../img/pictos/picto_enveloppe.svg") no-repeat center/contain;
-  height: 0.75rem;
-  width: auto;
-  margin: 0 0.25rem 0 0;
+.footer .container .contacts p.email a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
 }
-.footer .container .contacts p.phone i {
+.footer .container .contacts p.email a::before {
+  content: "";
   display: block;
-  background: url("../img/pictos/picto_telephone.svg") no-repeat center/contain;
+  background: url("../img/pictos/picto_enveloppe.svg") no-repeat center left/contain;
   height: 0.75rem;
-  width: auto;
-  margin: 0 0.25rem 0 0;
+  width: 1.5rem;
+}
+.footer .container .contacts p.phone a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+}
+.footer .container .contacts p.phone a::before {
+  content: "";
+  display: block;
+  background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
+  height: 0.75rem;
+  width: 1.5rem;
 }
 
 /**
@@ -597,7 +626,7 @@ html body .container-full {
  * Buttons
  *  contains styling for buttons
  */
-.btn, .btn-jaune, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .btn-blanc, .btn-transparent {
+.btn, .btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .btn-blanc, .btn-transparent {
   cursor: pointer;
   border: none;
   margin: 0.5rem;
@@ -610,10 +639,10 @@ html body .container-full {
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
 }
-.btn small, .btn-jaune small, .btn-jaune-to-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field small, .btn-blanc small, .btn-transparent small {
+.btn small, .btn-jaune small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc small, .btn-jaune-to-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field small, .btn-blanc small, .btn-transparent small {
   font-size: 0.75em;
 }
-.btn:hover, .btn-jaune:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover, .btn-blanc:hover, .btn-transparent:hover {
+.btn:hover, .btn-jaune:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover, .btn-blanc:hover, .btn-transparent:hover {
   background-position: bottom;
 }
 
@@ -635,11 +664,11 @@ html body .container-full {
   color: #FFFFFF;
 }
 
-.btn-jaune, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field {
+.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field {
   background-image: linear-gradient(to top, #001F44 50%, #FFDD00 0);
   color: #001F44;
 }
-.btn-jaune:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover {
+.btn-jaune:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc:hover, .btn-jaune-to-blanc:hover, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field:hover {
   color: #FFFFFF;
 }
 
@@ -716,13 +745,33 @@ html body .container-full {
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.checkbox-wrap label a {
   color: #FFFFFF;
 }
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg {
+  border: solid 1px #001F44;
+  color: #001F44;
+  padding: 1rem;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap a.ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-response-msg a.ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc {
+  margin: auto;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .text-center {
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #001F44;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg.ninja-forms-error-msg {
+  background-color: #FD9E00;
+}
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg.ninja-forms-success-msg {
+  background-color: #FFFFFF;
+}
+
 /**
  * Accordions
  *  contains styling for accordions
  */
 .accordion {
   margin: 1rem auto;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.25;
 }
 .accordion__item {
   background-color: #F4F4F4;
@@ -734,6 +783,7 @@ html body .container-full {
   justify-content: flex-start;
   align-items: center;
   font-weight: 400;
+  font-size: 1.25em;
 }
 .accordion__title:after {
   content: "×";
@@ -759,7 +809,8 @@ html body .container-full {
   transform: rotate(-90deg);
 }
 .accordion__content-inner {
-  padding: 0 1rem 0.5rem 1rem;
+  background-color: #FFFFFF;
+  padding: 0.5rem 2rem;
 }
 .accordion__content {
   transition: height 0.2s ease-out;
@@ -820,12 +871,14 @@ html body .container-full {
   width: 100%;
   padding-bottom: 75%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 50% 50%;
   background-size: cover;
 }
 @media (min-width: 768px) {
   .hero-container .hero .hero-slide .bg {
     padding-bottom: 33.33%;
+    background-size: cover;
+    background-position: bottom right;
   }
 }
 @media (min-width: 768px) {
@@ -837,13 +890,36 @@ html body .container-full {
   }
 }
 .hero-container .hero .hero-slide .content .titre {
+  position: relative;
   text-transform: uppercase;
   color: #FFDD00;
   font-weight: 900;
   font-size: 2rem;
   line-height: 1;
-  margin: 0.5rem 1rem;
-  padding: 0;
+  margin: 0.5rem 0 0 0;
+  padding: 1rem;
+  border-bottom: solid 5px #FFFFFF;
+}
+.hero-container .hero .hero-slide .content .titre::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 2rem);
+  width: 0;
+  height: 0;
+  border-top: 1rem solid #FFFFFF;
+  border-right: 1.5rem solid transparent;
+  border-left: 1.5rem solid transparent;
+  order: -1;
+}
+@media (min-width: 768px) {
+  .hero-container .hero .hero-slide .content .titre {
+    border-bottom: none;
+  }
+  .hero-container .hero .hero-slide .content .titre::after {
+    display: none;
+  }
 }
 .hero-container .hero .hero-slide .content .cta {
   margin: 0.5rem 1rem;
@@ -907,10 +983,17 @@ html body .container-full {
 .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: auto;
-  height: 50px;
+  width: 25px;
+  height: 25px;
+}
+@media (min-width: 768px) {
+  .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto {
+    justify-content: center;
+    height: 40px;
+    width: auto;
+  }
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto img {
   max-height: 100%;
@@ -967,7 +1050,7 @@ html body .container-full {
     text-align: left;
   }
 }
-.inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field {
+.inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -976,12 +1059,12 @@ html body .container-full {
   width: auto;
   margin: 0.5rem auto;
 }
-.inscription-container .inscription-wrapper .btn strong, .inscription-container .inscription-wrapper .btn-transparent strong, .inscription-container .inscription-wrapper .btn-blanc strong, .inscription-container .inscription-wrapper .btn-jaune strong, .inscription-container .inscription-wrapper .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field strong {
+.inscription-container .inscription-wrapper .btn strong, .inscription-container .inscription-wrapper .btn-transparent strong, .inscription-container .inscription-wrapper .btn-blanc strong, .inscription-container .inscription-wrapper .btn-jaune strong, .inscription-container .inscription-wrapper .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc strong {
   font-weight: 700;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field {
+  .inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc {
     margin: 0.5rem;
     width: calc(30% - 2rem);
   }
@@ -1540,7 +1623,7 @@ html body .container-full {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-.campus-container .campus-wrapper .campus .infos .btn, .campus-container .campus-wrapper .campus .infos .btn-transparent, .campus-container .campus-wrapper .campus .infos .btn-blanc, .campus-container .campus-wrapper .campus .infos .btn-jaune, .campus-container .campus-wrapper .campus .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus .infos .ninja-forms-field {
+.campus-container .campus-wrapper .campus .infos .btn, .campus-container .campus-wrapper .campus .infos .btn-transparent, .campus-container .campus-wrapper .campus .infos .btn-blanc, .campus-container .campus-wrapper .campus .infos .btn-jaune, .campus-container .campus-wrapper .campus .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus .infos .ninja-forms-field, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-transparent, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-jaune, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-jaune-to-blanc {
   margin: 0.5rem 0;
   /*-webkit-transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);*/
@@ -1680,10 +1763,15 @@ html body .container-full {
   color: #001F44;
 }
 
-.resume-container .resume-wrapper {
+.content-container .content-wrapper {
   max-width: 1440px;
   margin: 0 auto;
   padding: 1rem;
+}
+.content-container .content-wrapper .accordion__title img {
+  margin: 0 1rem 0 0;
+  width: auto;
+  height: 1.5rem;
 }
 
 .accred-container {
@@ -2102,6 +2190,18 @@ html body .container-full {
   max-width: 1440px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+/**
+ * shame
+ * intègre tous les hacks, les styles impropres, qu'on a pas eu le temps de corriger ou d'optimiser et classer.
+ */
+/*img, video {
+  width: auto !important;
+  max-width: 100% !important;
+}*/
+.text-center {
+  text-align: center;
 }
 
 /*img, video {

@@ -5,8 +5,6 @@
 
 .ninja-forms-cont {
   .ninja-forms-form-wrap {
-    .ninja-forms-response-msg {
-    }
 
     .ninja-forms-form {
       .ninja-forms-all-fields-wrap {
@@ -24,6 +22,7 @@
         .ninja-forms-req-symbol {
           color: $white;
         }
+
         .ninja-forms-required-items {
           width: calc(100% - 2rem);
           margin: 0.5rem;
@@ -72,8 +71,10 @@
               width: 0.75rem;
               height: 0.75rem;
             }
+
             label {
               font-weight: 300;
+
               a {
                 color: $white;
               }
@@ -83,6 +84,31 @@
           .ninja-forms-field-error {
           }
         }
+      }
+    }
+
+    .ninja-forms-response-msg {
+      border: solid 1px $darkblue;
+      color: $darkblue;
+      padding: 1rem;
+
+      a {
+        &.btn {
+          margin: auto;
+          @extend .btn-jaune;
+        }
+      }
+
+      .text-center {
+        padding-bottom: 1rem;
+          border-bottom: solid 1px $darkblue;
+        }
+      &.ninja-forms-error-msg {
+        background-color: $orange;
+      }
+
+      &.ninja-forms-success-msg {
+        background-color: $white;
       }
     }
   }

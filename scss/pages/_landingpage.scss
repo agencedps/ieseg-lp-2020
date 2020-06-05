@@ -51,10 +51,12 @@
         width: 100%;
         padding-bottom: 75%;
         background-repeat: no-repeat;
-        background-position: bottom right;
+        background-position: 50% 50%;
         background-size: cover;
         @include respond-to('small') {
           padding-bottom: 33.33%;
+          background-size: cover;
+          background-position: bottom right;
         }
       }
 
@@ -67,13 +69,37 @@
         }
 
         .titre {
+          position: relative;
           text-transform: uppercase;
           color: $yellow;
           font-weight: 900;
           font-size: 2rem;
           line-height: 1;
-          margin: 0.5rem 1rem;
-          padding: 0;
+          margin: 0.5rem 0 0 0;
+          padding: 1rem;
+          border-bottom: solid 5px $white;
+
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: calc(50% - 2rem);
+            width: 0;
+            height: 0;
+            border-top: 1rem solid $white;
+            border-right: 1.5rem solid transparent;
+            border-left: 1.5rem solid transparent;
+            order: -1;
+
+          }
+
+          @include respond-to('small') {
+            border-bottom: none;
+            &::after {
+              display: none;
+            }
+          }
         }
 
         .cta {
@@ -139,10 +165,15 @@
         .picto {
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: flex-end;
           align-items: center;
-          width: auto;
-          height: 50px;
+          width: 25px;
+          height: 25px;
+          @include respond-to('small') {
+            justify-content: center;
+            height: 40px;
+            width: auto;
+          }
 
           img {
             max-height: 100%;
@@ -1082,11 +1113,22 @@
 }
 
 // SECTION RESUME (ACCORDION)
-.resume-container {
-  .resume-wrapper {
+.content-container {
+  .content-wrapper {
     max-width: 1440px;
     margin: 0 auto;
     padding: 1rem;
+
+    .accordion {
+      &__title {
+        img {
+          margin: 0 1rem 0 0;
+          width: auto;
+          height: 1.5rem;
+        }
+
+      }
+    }
   }
 }
 
@@ -1538,6 +1580,7 @@
   background-color: $darkblue;
   color: $white;
   padding: 0.5rem 0;
+
   .form-wrapper {
     max-width: 1440px;
     margin: 0 auto;

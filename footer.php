@@ -8,16 +8,17 @@
     </div>
     <div class="container">
         <div class="adresses">
-            <p class="titre">Nos adresses</p>
+            <p class="titre"><span>Nos adresses</span></p>
             <p><strong>LILLE /</strong> 3 rue de la Digue <br> 59000 Lille</p>
             <p><strong>PARIS /</strong> 1 parvis de La Défense <br> 92044 Paris - La Défense Cedex</p>
         </div>
         <div class="contacts">
-            <p class="titre">Nous contacter</p>
-            <p class="email"><strong>PAR MAIL /</strong><br><i></i><a href="mailto:diplomants@ieseg.fr"
+            <p class="titre"><span>Nous contacter</span></p>
+            <p class="email"><strong>PAR MAIL /</strong><br><a href="mailto:diplomants@ieseg.fr"
                                                                       title="diplomants@ieseg.fr">diplomants@ieseg.fr</a>
             </p>
-            <p class="phone"><strong>PAR TÉLÉPHONE /</strong><br><i></i><?php _e('(+33)3.20.54.58.92', 'ieseg2020'); ?>
+            <p class="phone"><strong>PAR TÉLÉPHONE /</strong><br><a href="tel:<?php _e('(+33)3.20.54.58.92', 'ieseg2020'); ?>"
+                                                                    title="<?php _e('(+33)3.20.54.58.92', 'ieseg2020'); ?>"><?php _e('(+33)3.20.54.58.92', 'ieseg2020'); ?></a>
             </p>
         </div>
     </div>
