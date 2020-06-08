@@ -17,15 +17,17 @@ Template Name: LP par défaut 2020
 
         <!-- HERO BEGIN -->
         <section class="hero-container">
-            <div class="hero">
-                <article class="hero-slide">
-                    <div class="bg"
-                         style="background-image: url(<?php echo get_template_directory_uri() . '/img/photos/default_hero.jpg' ?>)"></div>
-                    <div class="content">
-                        <h1 class="titre"> <?php the_title(); ?></h1>
-                        <!--<h1 class="titre">Executive Mastère Spécialisé&reg; Direction Commerciale et Business Development</h1>-->
-                    </div>
-                </article>
+            <div class="hero-wrapper">
+                <div class="hero">
+                    <article class="hero-slide">
+                        <div class="bg"
+                             style="background-image: url(<?php echo get_template_directory_uri() . '/img/photos/default_hero.jpg' ?>)"></div>
+                        <div class="content">
+                            <h1 class="titre"> <?php the_title(); ?></h1>
+                            <!--<h1 class="titre">Executive Mastère Spécialisé&reg; Direction Commerciale et Business Development</h1>-->
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
         <!-- HERO END -->
@@ -102,7 +104,15 @@ Template Name: LP par défaut 2020
         <section class="video-container">
             <div class="video-wrapper">
                 <h2 class="titre">Titre de section</h2>
-                <div class="player-video"></div>
+                <figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                    <div class="wp-block-embed__wrapper">
+                        <iframe title="Campus Channel - Oral Spécial Droit et Management - IÉSEG" width="500"
+                                height="281" src="https://www.youtube.com/embed/zdKm-UXd6AQ?feature=oembed"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen=""></iframe>
+                    </div>
+                </figure>
                 <p align="center"><a class="btn btn-jaune" href="lien_brochure">Je télécharge la
                         <strong>Brochure</strong></a></p>
             </div>
@@ -165,7 +175,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_student.svg' ?>" /><h5>A Top International Business School</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_student.svg' ?>"/><h5>A Top International Business School</h5>
         </span>
                         <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab1" data-binding="expand-accordion-container">
@@ -184,7 +194,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab2" tabindex="0" class="accordion__title" aria-controls="panel2" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_toolhead.svg' ?>" /><h5>Career Services</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_toolhead.svg' ?>"/><h5>Career Services</h5>
         </span>
                         <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab2" data-binding="expand-accordion-container">
@@ -204,7 +214,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab3" tabindex="0" class="accordion__title" aria-controls="panel3" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_list.svg' ?>" /><h5>CFA Institute University Recognition Program</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_list.svg' ?>"/><h5>CFA Institute University Recognition Program</h5>
         </span>
                         <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab3" data-binding="expand-accordion-container">
@@ -219,7 +229,7 @@ Template Name: LP par défaut 2020
                     <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
         <span id="tab4" tabindex="0" class="accordion__title" aria-controls="panel4" role="tab" aria-selected="false"
               aria-expanded="false" data-binding="expand-accordion-trigger">
-          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_world.svg' ?>" /><h5>Study in the Largest Business District of Europe</h5>
+          <img src="<?php echo get_template_directory_uri() . '/img/pictos/picto_world.svg' ?>"/><h5>Study in the Largest Business District of Europe</h5>
         </span>
                         <div id="panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
                              aria-labelledby="tab4" data-binding="expand-accordion-container">
@@ -623,6 +633,7 @@ Template Name: LP par défaut 2020
         <?php } ?>
         <!-- TESTIMONIALS END -->
 
+        <!-- FORM BEGIN -->
         <section class="form-container">
             <div class="form-wrapper">
                 <h3 class="titre">Find Out More!</h3>
@@ -635,6 +646,7 @@ Template Name: LP par défaut 2020
 
             </div>
         </section>
+        <!-- FORM END -->
 
     </div>
 

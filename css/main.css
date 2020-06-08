@@ -447,14 +447,20 @@ html {
  * site
  * contains global styles for basic layout site
  */
-html body .container {
+html body .container, html body .form-container, html body .testis-container, html body .numbers-container, html body .video-container, html body .content-container, html body .inscription-container, html body .keyfacts-container, html body .hero-container, html body .footer .footer-container, .footer html body .footer-container, html body .header .header-container, .header html body .header-container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1920px;
   margin: 0 auto;
 }
-html body .container-full {
-  width: 100%;
-  margin: 0;
+html body .container .wrapper, html body .container .form-container .form-wrapper, .form-container html body .container .form-wrapper, html body .form-container .wrapper, html body .form-container .form-wrapper, html body .container .testis-container .testis-wrapper, html body .form-container .testis-container .testis-wrapper, .testis-container html body .container .testis-wrapper, .testis-container html body .form-container .testis-wrapper, html body .testis-container .wrapper, html body .testis-container .form-container .form-wrapper, .form-container html body .testis-container .form-wrapper, html body .testis-container .testis-wrapper, .numbers-container html body .container .numbers-wrapper, .numbers-container html body .form-container .numbers-wrapper, .numbers-container html body .testis-container .numbers-wrapper, html body .numbers-container .wrapper, html body .numbers-container .form-container .form-wrapper, .form-container html body .numbers-container .form-wrapper, html body .numbers-container .testis-container .testis-wrapper, .testis-container html body .numbers-container .testis-wrapper, html body .numbers-container .numbers-wrapper, .video-container html body .container .video-wrapper, .video-container html body .form-container .video-wrapper, .video-container html body .testis-container .video-wrapper, .video-container html body .numbers-container .video-wrapper, html body .video-container .wrapper, html body .video-container .form-container .form-wrapper, .form-container html body .video-container .form-wrapper, html body .video-container .testis-container .testis-wrapper, .testis-container html body .video-container .testis-wrapper, .numbers-container html body .video-container .numbers-wrapper, html body .video-container .video-wrapper, .content-container html body .container .content-wrapper, .content-container html body .form-container .content-wrapper, .content-container html body .testis-container .content-wrapper, .content-container html body .numbers-container .content-wrapper, .content-container html body .video-container .content-wrapper, html body .content-container .wrapper, html body .content-container .form-container .form-wrapper, .form-container html body .content-container .form-wrapper, html body .content-container .testis-container .testis-wrapper, .testis-container html body .content-container .testis-wrapper, .numbers-container html body .content-container .numbers-wrapper, .video-container html body .content-container .video-wrapper, html body .content-container .content-wrapper, .inscription-container html body .container .inscription-wrapper, .inscription-container html body .form-container .inscription-wrapper, .inscription-container html body .testis-container .inscription-wrapper, .inscription-container html body .numbers-container .inscription-wrapper, .inscription-container html body .video-container .inscription-wrapper, .inscription-container html body .content-container .inscription-wrapper, html body .inscription-container .wrapper, html body .inscription-container .form-container .form-wrapper, .form-container html body .inscription-container .form-wrapper, html body .inscription-container .testis-container .testis-wrapper, .testis-container html body .inscription-container .testis-wrapper, .numbers-container html body .inscription-container .numbers-wrapper, .video-container html body .inscription-container .video-wrapper, .content-container html body .inscription-container .content-wrapper, html body .inscription-container .inscription-wrapper, .keyfacts-container html body .container .keyfacts-wrapper, .keyfacts-container html body .form-container .keyfacts-wrapper, .keyfacts-container html body .testis-container .keyfacts-wrapper, .keyfacts-container html body .numbers-container .keyfacts-wrapper, .keyfacts-container html body .video-container .keyfacts-wrapper, .keyfacts-container html body .content-container .keyfacts-wrapper, .keyfacts-container html body .inscription-container .keyfacts-wrapper, html body .keyfacts-container .wrapper, html body .keyfacts-container .form-container .form-wrapper, .form-container html body .keyfacts-container .form-wrapper, html body .keyfacts-container .testis-container .testis-wrapper, .testis-container html body .keyfacts-container .testis-wrapper, .numbers-container html body .keyfacts-container .numbers-wrapper, .video-container html body .keyfacts-container .video-wrapper, .content-container html body .keyfacts-container .content-wrapper, .inscription-container html body .keyfacts-container .inscription-wrapper, html body .keyfacts-container .keyfacts-wrapper, html body .hero-container .wrapper, html body .hero-container .form-container .form-wrapper, .form-container html body .hero-container .form-wrapper, html body .hero-container .testis-container .testis-wrapper, .testis-container html body .hero-container .testis-wrapper, .numbers-container html body .hero-container .numbers-wrapper, .video-container html body .hero-container .video-wrapper, .content-container html body .hero-container .content-wrapper, .inscription-container html body .hero-container .inscription-wrapper, .keyfacts-container html body .hero-container .keyfacts-wrapper, .footer .footer-container html body .container .footer-wrapper, .footer .footer-container html body .form-container .footer-wrapper, .footer .footer-container html body .testis-container .footer-wrapper, .footer .footer-container html body .numbers-container .footer-wrapper, .footer .footer-container html body .video-container .footer-wrapper, .footer .footer-container html body .content-container .footer-wrapper, .footer .footer-container html body .inscription-container .footer-wrapper, .footer .footer-container html body .keyfacts-container .footer-wrapper, .footer .footer-container html body .hero-container .footer-wrapper, html body .footer .footer-container .wrapper, html body .footer .footer-container .form-container .form-wrapper, .form-container html body .footer .footer-container .form-wrapper, html body .footer .footer-container .testis-container .testis-wrapper, .testis-container html body .footer .footer-container .testis-wrapper, .numbers-container html body .footer .footer-container .numbers-wrapper, .video-container html body .footer .footer-container .video-wrapper, .content-container html body .footer .footer-container .content-wrapper, .inscription-container html body .footer .footer-container .inscription-wrapper, .keyfacts-container html body .footer .footer-container .keyfacts-wrapper, html body .footer .footer-container .footer-wrapper, .footer html body .footer-container .wrapper, .footer html body .footer-container .form-container .form-wrapper, .form-container .footer html body .footer-container .form-wrapper, .footer html body .footer-container .testis-container .testis-wrapper, .testis-container .footer html body .footer-container .testis-wrapper, .numbers-container .footer html body .footer-container .numbers-wrapper, .video-container .footer html body .footer-container .video-wrapper, .content-container .footer html body .footer-container .content-wrapper, .inscription-container .footer html body .footer-container .inscription-wrapper, .keyfacts-container .footer html body .footer-container .keyfacts-wrapper, .footer html body .footer-container .footer-wrapper, .header .header-container html body .container .header-wrapper, .header .header-container html body .form-container .header-wrapper, .header .header-container html body .testis-container .header-wrapper, .header .header-container html body .numbers-container .header-wrapper, .header .header-container html body .video-container .header-wrapper, .header .header-container html body .content-container .header-wrapper, .header .header-container html body .inscription-container .header-wrapper, .header .header-container html body .keyfacts-container .header-wrapper, .header .header-container html body .hero-container .header-wrapper, .header .header-container html body .footer .footer-container .header-wrapper, .footer .header .header-container html body .footer-container .header-wrapper, html body .header .header-container .wrapper, html body .header .header-container .form-container .form-wrapper, .form-container html body .header .header-container .form-wrapper, html body .header .header-container .testis-container .testis-wrapper, .testis-container html body .header .header-container .testis-wrapper, .numbers-container html body .header .header-container .numbers-wrapper, .video-container html body .header .header-container .video-wrapper, .content-container html body .header .header-container .content-wrapper, .inscription-container html body .header .header-container .inscription-wrapper, .keyfacts-container html body .header .header-container .keyfacts-wrapper, .footer .footer-container html body .header .header-container .footer-wrapper, html body .header .header-container .header-wrapper, .header html body .header-container .wrapper, .header html body .header-container .form-container .form-wrapper, .form-container .header html body .header-container .form-wrapper, .header html body .header-container .testis-container .testis-wrapper, .testis-container .header html body .header-container .testis-wrapper, .numbers-container .header html body .header-container .numbers-wrapper, .video-container .header html body .header-container .video-wrapper, .content-container .header html body .header-container .content-wrapper, .inscription-container .header html body .header-container .inscription-wrapper, .keyfacts-container .header html body .header-container .keyfacts-wrapper, .footer .footer-container .header html body .header-container .footer-wrapper, .header html body .header-container .header-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  html body .container .wrapper, html body .container .form-container .form-wrapper, .form-container html body .container .form-wrapper, html body .form-container .wrapper, html body .form-container .form-wrapper, html body .container .testis-container .testis-wrapper, html body .form-container .testis-container .testis-wrapper, .testis-container html body .container .testis-wrapper, .testis-container html body .form-container .testis-wrapper, html body .testis-container .wrapper, html body .testis-container .form-container .form-wrapper, .form-container html body .testis-container .form-wrapper, html body .testis-container .testis-wrapper, .numbers-container html body .container .numbers-wrapper, .numbers-container html body .form-container .numbers-wrapper, .numbers-container html body .testis-container .numbers-wrapper, html body .numbers-container .wrapper, html body .numbers-container .form-container .form-wrapper, .form-container html body .numbers-container .form-wrapper, html body .numbers-container .testis-container .testis-wrapper, .testis-container html body .numbers-container .testis-wrapper, html body .numbers-container .numbers-wrapper, .video-container html body .container .video-wrapper, .video-container html body .form-container .video-wrapper, .video-container html body .testis-container .video-wrapper, .video-container html body .numbers-container .video-wrapper, html body .video-container .wrapper, html body .video-container .form-container .form-wrapper, .form-container html body .video-container .form-wrapper, html body .video-container .testis-container .testis-wrapper, .testis-container html body .video-container .testis-wrapper, .numbers-container html body .video-container .numbers-wrapper, html body .video-container .video-wrapper, .content-container html body .container .content-wrapper, .content-container html body .form-container .content-wrapper, .content-container html body .testis-container .content-wrapper, .content-container html body .numbers-container .content-wrapper, .content-container html body .video-container .content-wrapper, html body .content-container .wrapper, html body .content-container .form-container .form-wrapper, .form-container html body .content-container .form-wrapper, html body .content-container .testis-container .testis-wrapper, .testis-container html body .content-container .testis-wrapper, .numbers-container html body .content-container .numbers-wrapper, .video-container html body .content-container .video-wrapper, html body .content-container .content-wrapper, .inscription-container html body .container .inscription-wrapper, .inscription-container html body .form-container .inscription-wrapper, .inscription-container html body .testis-container .inscription-wrapper, .inscription-container html body .numbers-container .inscription-wrapper, .inscription-container html body .video-container .inscription-wrapper, .inscription-container html body .content-container .inscription-wrapper, html body .inscription-container .wrapper, html body .inscription-container .form-container .form-wrapper, .form-container html body .inscription-container .form-wrapper, html body .inscription-container .testis-container .testis-wrapper, .testis-container html body .inscription-container .testis-wrapper, .numbers-container html body .inscription-container .numbers-wrapper, .video-container html body .inscription-container .video-wrapper, .content-container html body .inscription-container .content-wrapper, html body .inscription-container .inscription-wrapper, .keyfacts-container html body .container .keyfacts-wrapper, .keyfacts-container html body .form-container .keyfacts-wrapper, .keyfacts-container html body .testis-container .keyfacts-wrapper, .keyfacts-container html body .numbers-container .keyfacts-wrapper, .keyfacts-container html body .video-container .keyfacts-wrapper, .keyfacts-container html body .content-container .keyfacts-wrapper, .keyfacts-container html body .inscription-container .keyfacts-wrapper, html body .keyfacts-container .wrapper, html body .keyfacts-container .form-container .form-wrapper, .form-container html body .keyfacts-container .form-wrapper, html body .keyfacts-container .testis-container .testis-wrapper, .testis-container html body .keyfacts-container .testis-wrapper, .numbers-container html body .keyfacts-container .numbers-wrapper, .video-container html body .keyfacts-container .video-wrapper, .content-container html body .keyfacts-container .content-wrapper, .inscription-container html body .keyfacts-container .inscription-wrapper, html body .keyfacts-container .keyfacts-wrapper, html body .hero-container .wrapper, html body .hero-container .form-container .form-wrapper, .form-container html body .hero-container .form-wrapper, html body .hero-container .testis-container .testis-wrapper, .testis-container html body .hero-container .testis-wrapper, .numbers-container html body .hero-container .numbers-wrapper, .video-container html body .hero-container .video-wrapper, .content-container html body .hero-container .content-wrapper, .inscription-container html body .hero-container .inscription-wrapper, .keyfacts-container html body .hero-container .keyfacts-wrapper, .footer .footer-container html body .container .footer-wrapper, .footer .footer-container html body .form-container .footer-wrapper, .footer .footer-container html body .testis-container .footer-wrapper, .footer .footer-container html body .numbers-container .footer-wrapper, .footer .footer-container html body .video-container .footer-wrapper, .footer .footer-container html body .content-container .footer-wrapper, .footer .footer-container html body .inscription-container .footer-wrapper, .footer .footer-container html body .keyfacts-container .footer-wrapper, .footer .footer-container html body .hero-container .footer-wrapper, html body .footer .footer-container .wrapper, html body .footer .footer-container .form-container .form-wrapper, .form-container html body .footer .footer-container .form-wrapper, html body .footer .footer-container .testis-container .testis-wrapper, .testis-container html body .footer .footer-container .testis-wrapper, .numbers-container html body .footer .footer-container .numbers-wrapper, .video-container html body .footer .footer-container .video-wrapper, .content-container html body .footer .footer-container .content-wrapper, .inscription-container html body .footer .footer-container .inscription-wrapper, .keyfacts-container html body .footer .footer-container .keyfacts-wrapper, html body .footer .footer-container .footer-wrapper, .footer html body .footer-container .wrapper, .footer html body .footer-container .form-container .form-wrapper, .form-container .footer html body .footer-container .form-wrapper, .footer html body .footer-container .testis-container .testis-wrapper, .testis-container .footer html body .footer-container .testis-wrapper, .numbers-container .footer html body .footer-container .numbers-wrapper, .video-container .footer html body .footer-container .video-wrapper, .content-container .footer html body .footer-container .content-wrapper, .inscription-container .footer html body .footer-container .inscription-wrapper, .keyfacts-container .footer html body .footer-container .keyfacts-wrapper, .footer html body .footer-container .footer-wrapper, .header .header-container html body .container .header-wrapper, .header .header-container html body .form-container .header-wrapper, .header .header-container html body .testis-container .header-wrapper, .header .header-container html body .numbers-container .header-wrapper, .header .header-container html body .video-container .header-wrapper, .header .header-container html body .content-container .header-wrapper, .header .header-container html body .inscription-container .header-wrapper, .header .header-container html body .keyfacts-container .header-wrapper, .header .header-container html body .hero-container .header-wrapper, .header .header-container html body .footer .footer-container .header-wrapper, .footer .header .header-container html body .footer-container .header-wrapper, html body .header .header-container .wrapper, html body .header .header-container .form-container .form-wrapper, .form-container html body .header .header-container .form-wrapper, html body .header .header-container .testis-container .testis-wrapper, .testis-container html body .header .header-container .testis-wrapper, .numbers-container html body .header .header-container .numbers-wrapper, .video-container html body .header .header-container .video-wrapper, .content-container html body .header .header-container .content-wrapper, .inscription-container html body .header .header-container .inscription-wrapper, .keyfacts-container html body .header .header-container .keyfacts-wrapper, .footer .footer-container html body .header .header-container .footer-wrapper, html body .header .header-container .header-wrapper, .header html body .header-container .wrapper, .header html body .header-container .form-container .form-wrapper, .form-container .header html body .header-container .form-wrapper, .header html body .header-container .testis-container .testis-wrapper, .testis-container .header html body .header-container .testis-wrapper, .numbers-container .header html body .header-container .numbers-wrapper, .video-container .header html body .header-container .video-wrapper, .content-container .header html body .header-container .content-wrapper, .inscription-container .header html body .header-container .inscription-wrapper, .keyfacts-container .header html body .header-container .keyfacts-wrapper, .footer .footer-container .header html body .header-container .footer-wrapper, .header html body .header-container .header-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 
 /**
@@ -465,35 +471,39 @@ html body .container-full {
   position: fixed;
   width: 100%;
   z-index: 1000;
+}
+.header .header-container {
   background-color: #FFFFFF;
 }
-.header .container {
+.header .header-container .header-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 @media (min-width: 768px) {
-  .header .container {
+  .header .header-container .header-wrapper {
+    margin-right: 5%;
+    margin-left: 5%;
     align-items: center;
   }
 }
-.header .container .header-logo {
+.header .header-container .header-wrapper .header-logo {
   flex: 1;
   padding: 0.75rem 0.25rem;
 }
 @media (min-width: 768px) {
-  .header .container .header-logo {
+  .header .header-container .header-wrapper .header-logo {
     flex: auto;
     width: 100%;
     max-width: 333px;
   }
 }
-.header .container .header-logo img {
+.header .header-container .header-wrapper .header-logo img {
   display: block;
   width: 100%;
   height: auto;
 }
-.header .container .btn, .header .container .btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
+.header .header-container .header-wrapper .btn, .header .header-container .header-wrapper .btn-jaune, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-transparent, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-blanc, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-jaune-to-blanc, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .header-container .header-wrapper .ninja-forms-field, .header .header-container .header-wrapper .btn-blanc, .header .header-container .header-wrapper .btn-transparent {
   margin: 0;
   padding: 0;
   flex: 2;
@@ -503,17 +513,17 @@ html body .container-full {
   justify-content: center;
   align-items: center;
 }
-.header .container .btn strong, .header .container .btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
+.header .header-container .header-wrapper .btn strong, .header .header-container .header-wrapper .btn-jaune strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-transparent strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-blanc strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc strong, .header .header-container .header-wrapper .btn-jaune-to-blanc strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .header-container .header-wrapper .ninja-forms-field strong, .header .header-container .header-wrapper .btn-blanc strong, .header .header-container .header-wrapper .btn-transparent strong {
   margin: 0 0.25rem;
 }
 @media (min-width: 768px) {
-  .header .container .btn, .header .container .btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc, .header .container .btn-jaune-to-blanc, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field, .header .container .btn-blanc, .header .container .btn-transparent {
+  .header .header-container .header-wrapper .btn, .header .header-container .header-wrapper .btn-jaune, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-transparent, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-blanc, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-jaune-to-blanc, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .header-container .header-wrapper .ninja-forms-field, .header .header-container .header-wrapper .btn-blanc, .header .header-container .header-wrapper .btn-transparent {
     flex: 0;
     margin: 0.5rem;
     padding: 0.5rem 2rem;
     display: inline-block;
   }
-  .header .container .btn strong, .header .container .btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-transparent strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .container a.btn-jaune-to-blanc strong, .header .container .btn-jaune-to-blanc strong, .header .container .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .container .ninja-forms-field strong, .header .container .btn-blanc strong, .header .container .btn-transparent strong {
+  .header .header-container .header-wrapper .btn strong, .header .header-container .header-wrapper .btn-jaune strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-transparent strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-blanc strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc strong, .header .header-container .header-wrapper .btn-jaune-to-blanc strong, .header .header-container .header-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .header .header-container .header-wrapper .ninja-forms-field strong, .header .header-container .header-wrapper .btn-blanc strong, .header .header-container .header-wrapper .btn-transparent strong {
     margin: 0;
   }
 }
@@ -522,7 +532,7 @@ html body .container-full {
  * footer
  * contains styling for the footer.
  */
-.footer {
+.footer .footer-container {
   background-color: #001F44;
   color: #FFFFFF;
   margin: 0;
@@ -530,46 +540,46 @@ html body .container-full {
   font-size: 0.75rem;
   line-height: 1.5em;
 }
-.footer .container {
+.footer .footer-container .footer-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.footer .container .accreditations {
+.footer .footer-container .footer-wrapper .accreditations {
   margin: 1rem;
 }
-.footer .container .accreditations img {
+.footer .footer-container .footer-wrapper .accreditations img {
   width: 100%;
   max-width: 23rem;
 }
-.footer .container .titre {
+.footer .footer-container .footer-wrapper .titre {
   text-transform: uppercase;
   font-weight: 700;
   color: #001F44;
 }
-.footer .container .titre span {
+.footer .footer-container .footer-wrapper .titre span {
   display: inline-block;
   padding: 0.125rem 0.5rem;
   background-color: #FFFFFF;
 }
-.footer .container .adresses {
+.footer .footer-container .footer-wrapper .adresses {
   border-top: solid 1px #FFFFFF;
   padding: 1rem 1rem 0 1rem;
   width: 50%;
   columns: 1;
 }
 @media (min-width: 768px) {
-  .footer .container .adresses {
+  .footer .footer-container .footer-wrapper .adresses {
     columns: 2;
   }
 }
-.footer .container .adresses p {
+.footer .footer-container .footer-wrapper .adresses p {
   margin: 0 0 1rem 0;
 }
-.footer .container .adresses p.titre {
+.footer .footer-container .footer-wrapper .adresses p.titre {
   column-span: all;
 }
-.footer .container .contacts {
+.footer .footer-container .footer-wrapper .contacts {
   border-top: solid 1px #FFFFFF;
   border-left: solid 1px #FFFFFF;
   padding: 1rem 1rem 0 1rem;
@@ -577,36 +587,36 @@ html body .container-full {
   columns: 1;
 }
 @media (min-width: 768px) {
-  .footer .container .contacts {
+  .footer .footer-container .footer-wrapper .contacts {
     columns: 2;
   }
 }
-.footer .container .contacts p {
+.footer .footer-container .footer-wrapper .contacts p {
   margin: 0 0 1rem 0;
 }
-.footer .container .contacts p.titre {
+.footer .footer-container .footer-wrapper .contacts p.titre {
   column-span: all;
 }
-.footer .container .contacts p.email a {
+.footer .footer-container .footer-wrapper .contacts p.email a {
   color: #FFFFFF;
   text-decoration: underline;
   display: flex;
   align-items: center;
 }
-.footer .container .contacts p.email a::before {
+.footer .footer-container .footer-wrapper .contacts p.email a::before {
   content: "";
   display: block;
   background: url("../img/pictos/picto_enveloppe.svg") no-repeat center left/contain;
   height: 0.75rem;
   width: 1.5rem;
 }
-.footer .container .contacts p.phone a {
+.footer .footer-container .footer-wrapper .contacts p.phone a {
   color: #FFFFFF;
   text-decoration: underline;
   display: flex;
   align-items: center;
 }
-.footer .container .contacts p.phone a::before {
+.footer .footer-container .footer-wrapper .contacts p.phone a::before {
   content: "";
   display: block;
   background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
@@ -826,7 +836,7 @@ html body .container-full {
  * landingpage
  *  contains styling for the default landing page
  */
-.hero-container .hero {
+.hero-container .hero-wrapper .hero {
   position: relative;
   /*.slick-arrow {
     position: absolute;
@@ -863,11 +873,11 @@ html body .container-full {
     }
   }*/
 }
-.hero-container .hero .hero-slide {
+.hero-container .hero-wrapper .hero .hero-slide {
   background-color: #001F44;
   position: relative;
 }
-.hero-container .hero .hero-slide .bg {
+.hero-container .hero-wrapper .hero .hero-slide .bg {
   width: 100%;
   padding-bottom: 75%;
   background-repeat: no-repeat;
@@ -875,21 +885,21 @@ html body .container-full {
   background-size: cover;
 }
 @media (min-width: 768px) {
-  .hero-container .hero .hero-slide .bg {
+  .hero-container .hero-wrapper .hero .hero-slide .bg {
     padding-bottom: 33.33%;
     background-size: cover;
     background-position: bottom right;
   }
 }
 @media (min-width: 768px) {
-  .hero-container .hero .hero-slide .content {
+  .hero-container .hero-wrapper .hero .hero-slide .content {
     position: absolute;
     left: 50%;
     bottom: 2%;
     transform: translateX(-50%);
   }
 }
-.hero-container .hero .hero-slide .content .titre {
+.hero-container .hero-wrapper .hero .hero-slide .content .titre {
   position: relative;
   text-transform: uppercase;
   color: #FFDD00;
@@ -900,7 +910,7 @@ html body .container-full {
   padding: 1rem;
   border-bottom: solid 5px #FFFFFF;
 }
-.hero-container .hero .hero-slide .content .titre::after {
+.hero-container .hero-wrapper .hero .hero-slide .content .titre::after {
   content: "";
   display: block;
   position: absolute;
@@ -914,14 +924,14 @@ html body .container-full {
   order: -1;
 }
 @media (min-width: 768px) {
-  .hero-container .hero .hero-slide .content .titre {
+  .hero-container .hero-wrapper .hero .hero-slide .content .titre {
     border-bottom: none;
   }
-  .hero-container .hero .hero-slide .content .titre::after {
+  .hero-container .hero-wrapper .hero .hero-slide .content .titre::after {
     display: none;
   }
 }
-.hero-container .hero .hero-slide .content .cta {
+.hero-container .hero-wrapper .hero .hero-slide .content .cta {
   margin: 0.5rem 1rem;
   padding: 0;
   display: flex;
@@ -933,11 +943,11 @@ html body .container-full {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  .hero-container .hero .hero-slide .content .cta {
+  .hero-container .hero-wrapper .hero .hero-slide .content .cta {
     color: #001F44;
   }
 }
-.hero-container .hero .hero-slide .content .cta::before {
+.hero-container .hero-wrapper .hero .hero-slide .content .cta::before {
   content: "";
   display: block;
   width: 1rem;
@@ -946,7 +956,7 @@ html body .container-full {
   margin: 0 0.5rem 0 0;
 }
 @media (min-width: 768px) {
-  .hero-container .hero .hero-slide .content .cta::before {
+  .hero-container .hero-wrapper .hero .hero-slide .content .cta::before {
     background: url("../img/pictos/picto_fleche_bleue.svg") no-repeat center/contain;
   }
 }
@@ -956,8 +966,6 @@ html body .container-full {
   color: #FFFFFF;
 }
 .keyfacts-container .keyfacts-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem 0;
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts {
@@ -975,7 +983,7 @@ html body .container-full {
   flex: 0 0 40%;
   display: flex;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact {
     flex: 0 0 20%;
   }
@@ -1020,8 +1028,6 @@ html body .container-full {
 
 .inscription-container .inscription-wrapper {
   background-color: #F4F4F4;
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -1071,8 +1077,6 @@ html body .container-full {
 }
 
 .content-container .content-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem;
 }
 
@@ -1080,8 +1084,6 @@ html body .container-full {
   background-color: #001F44;
 }
 .video-container .video-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem;
 }
 .video-container .video-wrapper > .titre {
@@ -1125,570 +1127,22 @@ html body .container-full {
   border-left: 0.75rem solid transparent;
   order: -1;
 }
-.video-container .video-wrapper .player-video {
+.video-container .video-wrapper > figure {
+  margin: 0;
+}
+.video-container .video-wrapper > figure > .wp-block-embed__wrapper {
+  position: relative;
   width: 100%;
   background-color: #B7BDC8;
   padding-bottom: 56.25%;
   margin: 1rem 0;
 }
-
-.actus-container .actus-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: column;
-}
-.actus-container .actus-wrapper > .titre {
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  color: #001F44;
-  font-weight: 900;
-  font-size: 2rem;
-  line-height: 1;
-  margin: 0.5rem 0 0.5rem 1rem;
-}
-.actus-container .actus-wrapper > .titre::before {
-  content: "";
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  background: url("../img/pictos/picto_actualites.svg") no-repeat center/contain;
-  margin: 0 0.5rem 0 0;
-}
-.actus-container .actus-wrapper .actus {
-  position: relative;
-}
-@media (min-width: 768px) {
-  .actus-container .actus-wrapper .actus {
-    display: flex;
-  }
-}
-.actus-container .actus-wrapper .actus a {
-  text-decoration: none;
-  color: inherit;
-}
-.actus-container .actus-wrapper .actus .slick-arrow {
-  position: absolute;
-  z-index: 1;
-  bottom: 1rem;
-  right: 3rem;
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.actus-container .actus-wrapper .actus .slick-arrow:active, .actus-container .actus-wrapper .actus .slick-arrow:focus {
-  outline: none;
-}
-.actus-container .actus-wrapper .actus .slick-arrow.slick-prev {
-  background: url("../img/pictos/picto_fleche_gauche_bg_bleu.svg") no-repeat center/contain;
-}
-.actus-container .actus-wrapper .actus .slick-arrow.slick-next {
-  background: url("../img/pictos/picto_fleche_droite_bg_blanc.svg") no-repeat center/contain;
-  transform: translate(2rem, 2rem);
-}
-@media (min-width: 768px) {
-  .actus-container .actus-wrapper .actus .actu-slide {
-    width: 33%;
-  }
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu {
-  margin: 1rem;
-  position: relative;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .titre {
-  position: relative;
-  margin: 0;
-  padding-bottom: 38%;
-  background: url("../img/bg_titre_actu.svg") no-repeat center/contain;
-  color: #001F44;
-  font-size: 1rem;
-  font-style: italic;
-  font-weight: 400;
-  z-index: 1;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .titre > span {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 14%;
-  width: 72%;
-  transform: translateY(-50%);
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .thumbnail {
-  position: relative;
-  display: block;
-  width: calc(100% - 1rem);
-  height: auto;
-  margin: -1rem 0 0 1rem;
-  padding: 0;
-  border: solid 1px #001F44;
-  overflow: hidden;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .thumbnail::after {
-  content: "";
-  display: block;
-  background-color: #001F44;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  transition: opacity 0.5s ease;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .thumbnail img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform 0.5s ease;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .infos {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 2%;
-  left: 9%;
-  width: 88%;
-  font-size: 0.75rem;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .infos .date, .actus-container .actus-wrapper .actus .actu-slide .actu .infos .categories {
-  display: inline-block;
-  margin: 0.125rem 0 0 0;
-  padding: 0.125rem 0.25rem;
-  background-color: #001F44;
-  color: #FFFFFF;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu .infos .extrait {
-  color: #FFFFFF;
-  font-size: 0.5rem;
-  line-height: 1.25em;
-  font-weight: 700;
-  display: none;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu:hover .thumbnail::after {
-  opacity: 0.6;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu:hover .thumbnail img {
-  transform: scale(1.25);
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu:hover .infos .date, .actus-container .actus-wrapper .actus .actu-slide .actu:hover .infos .categories {
-  display: none;
-}
-.actus-container .actus-wrapper .actus .actu-slide .actu:hover .infos .extrait {
-  display: inline-block;
-}
-.actus-container .actus-wrapper .see-all {
-  align-self: center;
-}
-
-.events-container {
-  background-color: #F4F4F4;
-  padding: 0.5rem 0;
-}
-.events-container .events-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: column;
-}
-.events-container .events-wrapper > .titre {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin: 0.5rem -50vw;
-  margin-left: calc(1rem - 50vw);
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  background-color: #FFFFFF;
-  color: #001F44;
-  font-weight: 900;
-  font-size: 2rem;
-  line-height: 1;
-}
-@media (min-width: 1440px) {
-  .events-container .events-wrapper > .titre {
-    margin-left: calc((100vw - 1440px) / 2 - 50vw + 1rem);
-  }
-}
-.events-container .events-wrapper > .titre::before {
-  content: "";
-  display: block;
-  width: 2rem;
-  height: 2.5rem;
-  background: #F4F4F4 url("../img/pictos/picto_evenements.svg") no-repeat center/contain;
-  margin: 0;
-  order: -2;
-}
-.events-container .events-wrapper > .titre::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  margin: 0 0.25rem 0 0;
-  background-color: #F4F4F4;
-  border-top: 2.5rem solid #FFFFFF;
-  border-left: 0.75rem solid transparent;
-  order: -1;
-}
-.events-container .events-wrapper .evenements {
-  position: relative;
-  padding-bottom: 1rem;
-}
-@media (min-width: 768px) {
-  .events-container .events-wrapper .evenements {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-.events-container .events-wrapper .evenements a {
-  text-decoration: none;
-  color: inherit;
-}
-.events-container .events-wrapper .evenements .slick-arrow {
-  position: absolute;
-  z-index: 1;
-  bottom: 1rem;
-  right: 3rem;
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.events-container .events-wrapper .evenements .slick-arrow:active, .events-container .events-wrapper .evenements .slick-arrow:focus {
-  outline: none;
-}
-.events-container .events-wrapper .evenements .slick-arrow.slick-prev {
-  background: url("../img/pictos/picto_fleche_gauche_bg_bleu.svg") no-repeat center/contain;
-}
-.events-container .events-wrapper .evenements .slick-arrow.slick-next {
-  background: url("../img/pictos/picto_fleche_droite_bg_blanc.svg") no-repeat center/contain;
-  transform: translate(2rem, 2rem);
-}
-@media (min-width: 768px) {
-  .events-container .events-wrapper .evenements .evenement-slide {
-    width: 33%;
-  }
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement {
-  display: flex;
-  flex-direction: column;
-  background-color: #FFFFFF;
-  margin: 1rem;
-  padding: 0.5rem;
-  position: relative;
-  height: calc(100% - 3rem);
-  box-shadow: 4px 8px 12px -6px rgba(0, 0, 0, 0.3);
-  -webkit-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement::before {
-  content: "";
+.video-container .video-wrapper > figure > .wp-block-embed__wrapper > iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 10px 14px 12px -6px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  z-index: -1;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .header-event {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: solid 1px #FFDD00;
-  font-size: 0.75rem;
-  color: #001F44;
-  text-transform: uppercase;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .header-event .date {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 0.5rem 0 0;
-  border-right: solid 1px #FFDD00;
-  transform-origin: top center;
-  -webkit-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .header-event .infos {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0 0 0 0.5rem;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .header-event .infos .lieu {
-  transform-origin: top center;
-  -webkit-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .header-event .infos .categories {
-  display: inline-block;
-  margin: 0 0 0.125rem 0;
-  padding: 0.125rem 0.25rem;
-  background-color: #001F44;
-  color: #FFFFFF;
-  font-size: 0.75em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement > .titre {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
-  padding: 0.5rem 0;
-  color: #001F44;
-  font-size: 1.5rem;
-  line-height: 1.125em;
-  font-weight: 700;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement > .titre > a {
-  display: block;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement .extrait {
-  display: none;
-  padding: 0.5rem;
-  font-size: 0.75rem;
-  font-weight: bold;
-  color: #001F44;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover {
-  transform: translateY(-2%);
-  background-color: #FFDD00;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover::before {
-  opacity: 1;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .header-event {
-  flex-direction: column;
-  align-items: center;
-  border-bottom: none;
-  margin-bottom: 1rem;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .header-event .date {
-  border: none;
-  align-items: center;
-  text-align: center;
-  padding: 0 0 0.5rem 0;
-  transform: scale(3);
-  line-height: 1;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .header-event .infos {
-  align-items: center;
-  padding: 0;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .header-event .infos .lieu {
-  transform: scale(1.5);
-  border-top: solid 1px #FD9E00;
-  margin-top: 2.5rem;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .header-event .infos .categories {
-  display: none;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .titre {
-  display: none;
-}
-.events-container .events-wrapper .evenements .evenement-slide .evenement:hover .extrait {
-  display: block;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement {
-  background-color: #001F44;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement .header-event {
-  border-bottom: solid 1px #FFFFFF;
-  color: #FFFFFF;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement .header-event .date {
-  border-right: solid 1px #FFFFFF;
-  color: #FFFFFF;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement .header-event .infos .categories {
-  background-color: #FFFFFF;
-  color: #001F44;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement > .titre {
-  color: #FFDD00;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement:hover {
-  background-color: #FFDD00;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement:hover .header-event {
-  border: none;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement:hover .header-event .date {
-  border: none;
-  color: #001F44;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(even) .evenement:hover .header-event .infos .lieu {
-  color: #001F44;
-}
-.events-container .events-wrapper .evenements .evenement-slide:nth-child(3n+2) {
-  transform: translateY(10%);
-}
-.events-container .events-wrapper .see-all {
-  align-self: center;
-}
-
-.campus-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-height: 720px;
-  padding: 2rem 0;
-  overflow: hidden;
-}
-.campus-container .campus-wrapper {
-  width: 200%;
-  height: 100%;
-  max-height: 720px;
-  display: flex;
-  -webkit-transition: transform 0.4s cubic-bezier(0.18, 0.89, 0.52, 1.07);
-  transition: transform 0.4s cubic-bezier(0.18, 0.89, 0.52, 1.07);
-}
-.campus-container .campus-wrapper .campus {
-  margin: 0 0.25%;
-  width: 50%;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  position: relative;
-}
-.campus-container .campus-wrapper .campus img {
-  display: block;
-  transform: skewX(-5deg);
-  width: 100%;
-  height: auto;
-}
-.campus-container .campus-wrapper .campus::after {
-  content: "";
-  display: block;
-  background-color: #001F44;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  transition: opacity 0.5s ease;
-}
-.campus-container .campus-wrapper .campus .infos {
-  -webkit-backface-visibility: hidden;
-  transform: skewX(-5deg);
-  position: absolute;
-  top: 2%;
-  z-index: 1;
-}
-.campus-container .campus-wrapper .campus .infos p {
-  margin: 0;
-  padding: 0;
-}
-.campus-container .campus-wrapper .campus .infos .ecole {
-  font-size: 1.5rem;
-  font-weight: 200;
-  line-height: 1;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-.campus-container .campus-wrapper .campus .infos .ville {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1;
-  color: #001F44;
-  opacity: 0.8;
-  text-transform: uppercase;
-}
-.campus-container .campus-wrapper .campus .infos .lieu {
-  font-size: 1.5rem;
-  font-weight: 200;
-  line-height: 1;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-.campus-container .campus-wrapper .campus .infos .btn, .campus-container .campus-wrapper .campus .infos .btn-transparent, .campus-container .campus-wrapper .campus .infos .btn-blanc, .campus-container .campus-wrapper .campus .infos .btn-jaune, .campus-container .campus-wrapper .campus .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus .infos .ninja-forms-field, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-transparent, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-blanc, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-jaune, .campus-container .campus-wrapper .campus .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .campus-container .campus-wrapper .campus .infos a.btn-jaune-to-blanc {
-  margin: 0.5rem 0;
-  /*-webkit-transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);*/
-}
-.campus-container .campus-wrapper .campus#campus-paris {
-  transform: skewX(5deg) translate(0, 2%);
-}
-.campus-container .campus-wrapper .campus#campus-paris img {
-  margin: 0 -4% 0 auto;
-}
-.campus-container .campus-wrapper .campus#campus-paris .infos {
-  right: 3%;
-}
-.campus-container .campus-wrapper .campus#campus-paris .infos .btn, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus#campus-paris .infos .ninja-forms-field {
-  display: inline-block;
-}
-.campus-container .campus-wrapper .campus#campus-lille {
-  transform: skewX(5deg) translate(0, -2%);
-}
-.campus-container .campus-wrapper .campus#campus-lille img {
-  margin: 0 auto 0 -4%;
-}
-.campus-container .campus-wrapper .campus#campus-lille .infos {
-  left: 3%;
-}
-.campus-container .campus-wrapper .campus#campus-lille .infos .btn, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper .campus#campus-lille .infos .ninja-forms-field {
-  display: none;
-}
-.campus-container .campus-wrapper.onleft {
-  transform: translateX(10%);
-}
-.campus-container .campus-wrapper.onleft .campus#campus-paris::after {
-  opacity: 0;
-}
-.campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onleft .campus#campus-paris .infos .ninja-forms-field {
-  display: inline-block;
-}
-.campus-container .campus-wrapper.onleft .campus#campus-lille::after {
-  opacity: 0.5;
-}
-.campus-container .campus-wrapper.onleft .campus#campus-lille .infos .ville {
-  color: #FFFFFF;
-  opacity: 0.7;
-}
-.campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onleft .campus#campus-lille .infos .ninja-forms-field {
-  display: none;
-}
-.campus-container .campus-wrapper.onright {
-  transform: translateX(-10%);
-}
-.campus-container .campus-wrapper.onright .campus#campus-paris::after {
-  opacity: 0.5;
-}
-.campus-container .campus-wrapper.onright .campus#campus-paris .infos .ville {
-  color: #FFFFFF;
-  opacity: 0.7;
-}
-.campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-transparent, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-blanc, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-jaune, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onright .campus#campus-paris .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onright .campus#campus-paris .infos .ninja-forms-field {
-  display: none;
-}
-.campus-container .campus-wrapper.onright .campus#campus-lille::after {
-  opacity: 0;
-}
-.campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-transparent, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-blanc, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-jaune, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .btn-jaune-to-blanc, .campus-container .campus-wrapper.onright .campus#campus-lille .infos .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .campus-container .campus-wrapper.onright .campus#campus-lille .infos .ninja-forms-field {
-  display: inline-block;
 }
 
 .numbers-container {
@@ -1696,8 +1150,8 @@ html body .container-full {
   padding: 0.5rem 0;
 }
 .numbers-container .numbers-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -1764,8 +1218,6 @@ html body .container-full {
 }
 
 .content-container .content-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem;
 }
 .content-container .content-wrapper .accordion__title img {
@@ -1774,272 +1226,7 @@ html body .container-full {
   height: 1.5rem;
 }
 
-.accred-container {
-  padding: 0.5rem 0;
-}
-.accred-container ul, .accred-container li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.accred-container .accred-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  .accred-container .accred-wrapper {
-    flex-direction: row;
-    align-items: flex-end;
-  }
-}
-.accred-container .accred-wrapper .accreditations {
-  width: 90%;
-  position: relative;
-  transform: translate(0, -5%);
-}
-@media (min-width: 768px) {
-  .accred-container .accred-wrapper .accreditations {
-    width: 33%;
-  }
-}
-.accred-container .accred-wrapper .accreditations .content {
-  clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0 100%);
-  background-color: #001F44;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 50px 1rem 0;
-}
-.accred-container .accred-wrapper .accreditations .content .pictos img {
-  width: 100%;
-  height: auto;
-}
-.accred-container .accred-wrapper .accreditations .content .link {
-  color: #FFFFFF;
-}
-.accred-container .accred-wrapper .rankings {
-  width: 80%;
-  position: relative;
-}
-@media (min-width: 768px) {
-  .accred-container .accred-wrapper .rankings {
-    width: 66%;
-  }
-}
-.accred-container .accred-wrapper .rankings .titre2 {
-  margin-left: calc(1.5rem + 50px);
-}
-.accred-container .accred-wrapper .rankings .content {
-  position: relative;
-  background-color: #001F44;
-  clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 0 1rem 50px;
-  margin-left: -40px;
-}
-.accred-container .accred-wrapper .rankings .content::before {
-  content: "";
-  width: calc(100% - 2px);
-  height: calc(100% - 2px);
-  clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%);
-  background-color: #FFFFFF;
-  display: block;
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  z-index: -1;
-}
-.accred-container .accred-wrapper .rankings .content > ul {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-@media (min-width: 768px) {
-  .accred-container .accred-wrapper .rankings .content > ul {
-    flex-direction: row;
-  }
-}
-.accred-container .accred-wrapper .rankings .content > ul > li {
-  padding: 0.5rem;
-}
-.accred-container .accred-wrapper .rankings .content > ul > li h3 {
-  margin: 0.125rem 0 0.25rem 0;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 1em;
-  color: #001F44;
-  text-decoration: underline;
-}
-.accred-container .accred-wrapper .rankings .content > ul > li ul li {
-  padding: 0.125rem 0;
-  font-size: 0.75rem;
-  line-height: 1em;
-}
-
-.profile-container {
-  position: relative;
-}
-.profile-container .profile {
-  position: relative;
-}
-.profile-container .profile .profile-slide {
-  background-color: #001F44;
-  position: relative;
-}
-.profile-container .profile .profile-slide::after {
-  content: "";
-  display: block;
-  background-color: #001F44;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-}
-.profile-container .profile .profile-slide .bg {
-  width: 100%;
-  padding-bottom: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-@media (min-width: 768px) {
-  .profile-container .profile .profile-slide .bg {
-    padding-bottom: 26.25%;
-  }
-}
-@media (min-width: 768px) {
-  .profile-container .profile .profile-slide .content {
-    position: absolute;
-    left: 50%;
-    bottom: 2%;
-    transform: translateX(-50%);
-  }
-}
-.profile-container .profile .profile-slide .content .titre {
-  text-transform: uppercase;
-  color: #FFDD00;
-  font-weight: 900;
-  font-size: 2rem;
-  line-height: 1;
-  margin: 0.5rem 0;
-}
-.profile-container .profile .profile-slide .content .cta {
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-@media (min-width: 768px) {
-  .profile-container .profile .profile-slide .content .cta {
-    color: #001F44;
-  }
-}
-.profile-container .profile .profile-slide .content .cta::before {
-  content: "";
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  background: url("../img/pictos/picto_fleche_blanche.svg") no-repeat center/contain;
-  margin: 0 0.5rem 0 0;
-}
-@media (min-width: 768px) {
-  .profile-container .profile .profile-slide .content .cta::before {
-    background: url("../img/pictos/picto_fleche_bleue.svg") no-repeat center/contain;
-  }
-}
-.profile-container .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: calc(100% - 2rem);
-  margin: 0;
-  padding: 1rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.profile-container .content .titre {
-  padding: 1rem 0;
-  margin: 0;
-  color: #FFFFFF;
-  font-size: 2.5rem;
-  line-height: 1em;
-  text-transform: uppercase;
-  text-align: center;
-}
-.profile-container .content .profile-dots {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-@media (min-width: 768px) {
-  .profile-container .content .profile-dots {
-    flex-direction: row;
-  }
-}
-.profile-container .content .profile-dots > li {
-  margin: 0;
-  padding: 0;
-}
-.profile-container .content .profile-dots > li a {
-  display: block;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-  color: #FFFFFF;
-  font-size: 2rem;
-  line-height: 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-@media (min-width: 768px) {
-  .profile-container .content .profile-dots > li a {
-    font-size: 1.5rem;
-  }
-}
-.profile-container .content .profile-dots > li a:hover {
-  color: #FFDD00;
-}
-
-.programs-container .programs-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
-  padding: 1rem;
-}
-.programs-container .programs-wrapper .content {
-  columns: 250px 3;
-  column-gap: 3em;
-}
-.programs-container .programs-wrapper .content .titre2 {
-  column-span: all;
-}
-.programs-container .programs-wrapper .content p {
-  margin: 0 0 1rem 0;
-  padding: 0;
-}
-
 .testis-container .testis-wrapper {
-  max-width: 1440px;
-  margin: 1rem auto;
   display: flex;
   flex-direction: column;
 }
@@ -2187,8 +1374,6 @@ html body .container-full {
   padding: 0.5rem 0;
 }
 .form-container .form-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 1rem;
 }
 

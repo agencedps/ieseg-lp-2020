@@ -8,13 +8,16 @@ html {
   body {
     .container {
       width: 100%;
-      max-width: 1600px;
+      max-width: 1920px;
       margin: 0 auto;
-    }
-
-    .container-full {
-      width: 100%;
-      margin: 0;
+      .wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        @include respond-to('small') {
+          margin-right: 12.5%;
+          margin-left: 12.5%;
+        }
+      }
     }
   }
 }

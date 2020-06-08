@@ -4,101 +4,109 @@
  */
 
 .footer {
-  background-color: $darkblue;
-  color: $white;
-  margin: 0;
-  padding: 1rem 0;
-  font-size: 0.75rem;
-  line-height: 1.5em;
 
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .footer-container {
+    @extend .container;
+    background-color: $darkblue;
+    color: $white;
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 0.75rem;
+    line-height: 1.5em;
 
-    .accreditations {
-      margin: 1rem;
+    .footer-wrapper {
+      @extend .wrapper;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
-      img {
-        width: 100%;
-        max-width: 23rem;
-      }
-    }
+      .accreditations {
+        margin: 1rem;
 
-    .titre {
-      text-transform: uppercase;
-      font-weight: 700;
-      color: $darkblue;
-      span {
-        display: inline-block;
-        padding: 0.125rem 0.5rem;
-        background-color: $white;
-      }
-    }
-
-    .adresses {
-      border-top: solid 1px $white;
-      padding: 1rem 1rem 0 1rem;
-      width: 50%;
-      columns: 1;
-      @include respond-to('small') {
-        columns: 2;
-      }
-
-      p {
-        margin: 0 0 1rem 0;
-
-        &.titre {
-          column-span: all;
+        img {
+          width: 100%;
+          max-width: 23rem;
         }
       }
-    }
 
-    .contacts {
-      border-top: solid 1px $white;
-      border-left: solid 1px $white;
-      padding: 1rem 1rem 0 1rem;
-      width: 50%;
-      columns: 1;
-      @include respond-to('small') {
-        columns: 2;
+      .titre {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $darkblue;
+
+        span {
+          display: inline-block;
+          padding: 0.125rem 0.5rem;
+          background-color: $white;
+        }
       }
 
-      p {
-        margin: 0 0 1rem 0;
-
-        &.titre {
-          column-span: all;
+      .adresses {
+        border-top: solid 1px $white;
+        padding: 1rem 1rem 0 1rem;
+        width: 50%;
+        columns: 1;
+        @include respond-to('small') {
+          columns: 2;
         }
 
-        &.email {
-          a {
-            color: $white;
-            text-decoration: underline;
-            display: flex;
-            align-items: center;
-            &::before {
-              content: '';
-              display: block;
-              background: url("../img/pictos/picto_enveloppe.svg") no-repeat center left/contain;
-              height: 0.75rem;
-              width: 1.5rem;
-            }
+        p {
+          margin: 0 0 1rem 0;
+
+          &.titre {
+            column-span: all;
           }
         }
+      }
 
-        &.phone {
-          a {
-            color: $white;
-            text-decoration: underline;
-            display: flex;
-            align-items: center;
-            &::before {
-              content: '';
-              display: block;
-              background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
-              height: 0.75rem;
-              width: 1.5rem;
+      .contacts {
+        border-top: solid 1px $white;
+        border-left: solid 1px $white;
+        padding: 1rem 1rem 0 1rem;
+        width: 50%;
+        columns: 1;
+        @include respond-to('small') {
+          columns: 2;
+        }
+
+        p {
+          margin: 0 0 1rem 0;
+
+          &.titre {
+            column-span: all;
+          }
+
+          &.email {
+            a {
+              color: $white;
+              text-decoration: underline;
+              display: flex;
+              align-items: center;
+
+              &::before {
+                content: '';
+                display: block;
+                background: url("../img/pictos/picto_enveloppe.svg") no-repeat center left/contain;
+                height: 0.75rem;
+                width: 1.5rem;
+              }
+            }
+          }
+
+          &.phone {
+            a {
+              color: $white;
+              text-decoration: underline;
+              display: flex;
+              align-items: center;
+
+              &::before {
+                content: '';
+                display: block;
+                background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
+                height: 0.75rem;
+                width: 1.5rem;
+              }
             }
           }
         }
