@@ -6,7 +6,7 @@
 .footer {
 
   .footer-container {
-    @extend .container;
+    @include container-width();
     background-color: $darkblue;
     color: $white;
     margin: 0;
@@ -15,7 +15,7 @@
     line-height: 1.5em;
 
     .footer-wrapper {
-      @extend .wrapper;
+      @include wrapper-width();
       display: flex;
       flex-direction: row;
       justify-content: space-between;

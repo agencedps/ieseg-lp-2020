@@ -447,22 +447,6 @@ html {
  * site
  * contains global styles for basic layout site
  */
-html body .container, html body .form-container, html body .testis-container, html body .numbers-container, html body .video-container, html body .content-container, html body .inscription-container, html body .keyfacts-container, html body .hero-container, html body .footer .footer-container, .footer html body .footer-container, html body .header .header-container, .header html body .header-container {
-  width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
-}
-html body .container .wrapper, html body .container .form-container .form-wrapper, .form-container html body .container .form-wrapper, html body .form-container .wrapper, html body .form-container .form-wrapper, html body .container .testis-container .testis-wrapper, html body .form-container .testis-container .testis-wrapper, .testis-container html body .container .testis-wrapper, .testis-container html body .form-container .testis-wrapper, html body .testis-container .wrapper, html body .testis-container .form-container .form-wrapper, .form-container html body .testis-container .form-wrapper, html body .testis-container .testis-wrapper, .numbers-container html body .container .numbers-wrapper, .numbers-container html body .form-container .numbers-wrapper, .numbers-container html body .testis-container .numbers-wrapper, html body .numbers-container .wrapper, html body .numbers-container .form-container .form-wrapper, .form-container html body .numbers-container .form-wrapper, html body .numbers-container .testis-container .testis-wrapper, .testis-container html body .numbers-container .testis-wrapper, html body .numbers-container .numbers-wrapper, .video-container html body .container .video-wrapper, .video-container html body .form-container .video-wrapper, .video-container html body .testis-container .video-wrapper, .video-container html body .numbers-container .video-wrapper, html body .video-container .wrapper, html body .video-container .form-container .form-wrapper, .form-container html body .video-container .form-wrapper, html body .video-container .testis-container .testis-wrapper, .testis-container html body .video-container .testis-wrapper, .numbers-container html body .video-container .numbers-wrapper, html body .video-container .video-wrapper, .content-container html body .container .content-wrapper, .content-container html body .form-container .content-wrapper, .content-container html body .testis-container .content-wrapper, .content-container html body .numbers-container .content-wrapper, .content-container html body .video-container .content-wrapper, html body .content-container .wrapper, html body .content-container .form-container .form-wrapper, .form-container html body .content-container .form-wrapper, html body .content-container .testis-container .testis-wrapper, .testis-container html body .content-container .testis-wrapper, .numbers-container html body .content-container .numbers-wrapper, .video-container html body .content-container .video-wrapper, html body .content-container .content-wrapper, .inscription-container html body .container .inscription-wrapper, .inscription-container html body .form-container .inscription-wrapper, .inscription-container html body .testis-container .inscription-wrapper, .inscription-container html body .numbers-container .inscription-wrapper, .inscription-container html body .video-container .inscription-wrapper, .inscription-container html body .content-container .inscription-wrapper, html body .inscription-container .wrapper, html body .inscription-container .form-container .form-wrapper, .form-container html body .inscription-container .form-wrapper, html body .inscription-container .testis-container .testis-wrapper, .testis-container html body .inscription-container .testis-wrapper, .numbers-container html body .inscription-container .numbers-wrapper, .video-container html body .inscription-container .video-wrapper, .content-container html body .inscription-container .content-wrapper, html body .inscription-container .inscription-wrapper, .keyfacts-container html body .container .keyfacts-wrapper, .keyfacts-container html body .form-container .keyfacts-wrapper, .keyfacts-container html body .testis-container .keyfacts-wrapper, .keyfacts-container html body .numbers-container .keyfacts-wrapper, .keyfacts-container html body .video-container .keyfacts-wrapper, .keyfacts-container html body .content-container .keyfacts-wrapper, .keyfacts-container html body .inscription-container .keyfacts-wrapper, html body .keyfacts-container .wrapper, html body .keyfacts-container .form-container .form-wrapper, .form-container html body .keyfacts-container .form-wrapper, html body .keyfacts-container .testis-container .testis-wrapper, .testis-container html body .keyfacts-container .testis-wrapper, .numbers-container html body .keyfacts-container .numbers-wrapper, .video-container html body .keyfacts-container .video-wrapper, .content-container html body .keyfacts-container .content-wrapper, .inscription-container html body .keyfacts-container .inscription-wrapper, html body .keyfacts-container .keyfacts-wrapper, html body .hero-container .wrapper, html body .hero-container .form-container .form-wrapper, .form-container html body .hero-container .form-wrapper, html body .hero-container .testis-container .testis-wrapper, .testis-container html body .hero-container .testis-wrapper, .numbers-container html body .hero-container .numbers-wrapper, .video-container html body .hero-container .video-wrapper, .content-container html body .hero-container .content-wrapper, .inscription-container html body .hero-container .inscription-wrapper, .keyfacts-container html body .hero-container .keyfacts-wrapper, .footer .footer-container html body .container .footer-wrapper, .footer .footer-container html body .form-container .footer-wrapper, .footer .footer-container html body .testis-container .footer-wrapper, .footer .footer-container html body .numbers-container .footer-wrapper, .footer .footer-container html body .video-container .footer-wrapper, .footer .footer-container html body .content-container .footer-wrapper, .footer .footer-container html body .inscription-container .footer-wrapper, .footer .footer-container html body .keyfacts-container .footer-wrapper, .footer .footer-container html body .hero-container .footer-wrapper, html body .footer .footer-container .wrapper, html body .footer .footer-container .form-container .form-wrapper, .form-container html body .footer .footer-container .form-wrapper, html body .footer .footer-container .testis-container .testis-wrapper, .testis-container html body .footer .footer-container .testis-wrapper, .numbers-container html body .footer .footer-container .numbers-wrapper, .video-container html body .footer .footer-container .video-wrapper, .content-container html body .footer .footer-container .content-wrapper, .inscription-container html body .footer .footer-container .inscription-wrapper, .keyfacts-container html body .footer .footer-container .keyfacts-wrapper, html body .footer .footer-container .footer-wrapper, .footer html body .footer-container .wrapper, .footer html body .footer-container .form-container .form-wrapper, .form-container .footer html body .footer-container .form-wrapper, .footer html body .footer-container .testis-container .testis-wrapper, .testis-container .footer html body .footer-container .testis-wrapper, .numbers-container .footer html body .footer-container .numbers-wrapper, .video-container .footer html body .footer-container .video-wrapper, .content-container .footer html body .footer-container .content-wrapper, .inscription-container .footer html body .footer-container .inscription-wrapper, .keyfacts-container .footer html body .footer-container .keyfacts-wrapper, .footer html body .footer-container .footer-wrapper, .header .header-container html body .container .header-wrapper, .header .header-container html body .form-container .header-wrapper, .header .header-container html body .testis-container .header-wrapper, .header .header-container html body .numbers-container .header-wrapper, .header .header-container html body .video-container .header-wrapper, .header .header-container html body .content-container .header-wrapper, .header .header-container html body .inscription-container .header-wrapper, .header .header-container html body .keyfacts-container .header-wrapper, .header .header-container html body .hero-container .header-wrapper, .header .header-container html body .footer .footer-container .header-wrapper, .footer .header .header-container html body .footer-container .header-wrapper, html body .header .header-container .wrapper, html body .header .header-container .form-container .form-wrapper, .form-container html body .header .header-container .form-wrapper, html body .header .header-container .testis-container .testis-wrapper, .testis-container html body .header .header-container .testis-wrapper, .numbers-container html body .header .header-container .numbers-wrapper, .video-container html body .header .header-container .video-wrapper, .content-container html body .header .header-container .content-wrapper, .inscription-container html body .header .header-container .inscription-wrapper, .keyfacts-container html body .header .header-container .keyfacts-wrapper, .footer .footer-container html body .header .header-container .footer-wrapper, html body .header .header-container .header-wrapper, .header html body .header-container .wrapper, .header html body .header-container .form-container .form-wrapper, .form-container .header html body .header-container .form-wrapper, .header html body .header-container .testis-container .testis-wrapper, .testis-container .header html body .header-container .testis-wrapper, .numbers-container .header html body .header-container .numbers-wrapper, .video-container .header html body .header-container .video-wrapper, .content-container .header html body .header-container .content-wrapper, .inscription-container .header html body .header-container .inscription-wrapper, .keyfacts-container .header html body .header-container .keyfacts-wrapper, .footer .footer-container .header html body .header-container .footer-wrapper, .header html body .header-container .header-wrapper {
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  html body .container .wrapper, html body .container .form-container .form-wrapper, .form-container html body .container .form-wrapper, html body .form-container .wrapper, html body .form-container .form-wrapper, html body .container .testis-container .testis-wrapper, html body .form-container .testis-container .testis-wrapper, .testis-container html body .container .testis-wrapper, .testis-container html body .form-container .testis-wrapper, html body .testis-container .wrapper, html body .testis-container .form-container .form-wrapper, .form-container html body .testis-container .form-wrapper, html body .testis-container .testis-wrapper, .numbers-container html body .container .numbers-wrapper, .numbers-container html body .form-container .numbers-wrapper, .numbers-container html body .testis-container .numbers-wrapper, html body .numbers-container .wrapper, html body .numbers-container .form-container .form-wrapper, .form-container html body .numbers-container .form-wrapper, html body .numbers-container .testis-container .testis-wrapper, .testis-container html body .numbers-container .testis-wrapper, html body .numbers-container .numbers-wrapper, .video-container html body .container .video-wrapper, .video-container html body .form-container .video-wrapper, .video-container html body .testis-container .video-wrapper, .video-container html body .numbers-container .video-wrapper, html body .video-container .wrapper, html body .video-container .form-container .form-wrapper, .form-container html body .video-container .form-wrapper, html body .video-container .testis-container .testis-wrapper, .testis-container html body .video-container .testis-wrapper, .numbers-container html body .video-container .numbers-wrapper, html body .video-container .video-wrapper, .content-container html body .container .content-wrapper, .content-container html body .form-container .content-wrapper, .content-container html body .testis-container .content-wrapper, .content-container html body .numbers-container .content-wrapper, .content-container html body .video-container .content-wrapper, html body .content-container .wrapper, html body .content-container .form-container .form-wrapper, .form-container html body .content-container .form-wrapper, html body .content-container .testis-container .testis-wrapper, .testis-container html body .content-container .testis-wrapper, .numbers-container html body .content-container .numbers-wrapper, .video-container html body .content-container .video-wrapper, html body .content-container .content-wrapper, .inscription-container html body .container .inscription-wrapper, .inscription-container html body .form-container .inscription-wrapper, .inscription-container html body .testis-container .inscription-wrapper, .inscription-container html body .numbers-container .inscription-wrapper, .inscription-container html body .video-container .inscription-wrapper, .inscription-container html body .content-container .inscription-wrapper, html body .inscription-container .wrapper, html body .inscription-container .form-container .form-wrapper, .form-container html body .inscription-container .form-wrapper, html body .inscription-container .testis-container .testis-wrapper, .testis-container html body .inscription-container .testis-wrapper, .numbers-container html body .inscription-container .numbers-wrapper, .video-container html body .inscription-container .video-wrapper, .content-container html body .inscription-container .content-wrapper, html body .inscription-container .inscription-wrapper, .keyfacts-container html body .container .keyfacts-wrapper, .keyfacts-container html body .form-container .keyfacts-wrapper, .keyfacts-container html body .testis-container .keyfacts-wrapper, .keyfacts-container html body .numbers-container .keyfacts-wrapper, .keyfacts-container html body .video-container .keyfacts-wrapper, .keyfacts-container html body .content-container .keyfacts-wrapper, .keyfacts-container html body .inscription-container .keyfacts-wrapper, html body .keyfacts-container .wrapper, html body .keyfacts-container .form-container .form-wrapper, .form-container html body .keyfacts-container .form-wrapper, html body .keyfacts-container .testis-container .testis-wrapper, .testis-container html body .keyfacts-container .testis-wrapper, .numbers-container html body .keyfacts-container .numbers-wrapper, .video-container html body .keyfacts-container .video-wrapper, .content-container html body .keyfacts-container .content-wrapper, .inscription-container html body .keyfacts-container .inscription-wrapper, html body .keyfacts-container .keyfacts-wrapper, html body .hero-container .wrapper, html body .hero-container .form-container .form-wrapper, .form-container html body .hero-container .form-wrapper, html body .hero-container .testis-container .testis-wrapper, .testis-container html body .hero-container .testis-wrapper, .numbers-container html body .hero-container .numbers-wrapper, .video-container html body .hero-container .video-wrapper, .content-container html body .hero-container .content-wrapper, .inscription-container html body .hero-container .inscription-wrapper, .keyfacts-container html body .hero-container .keyfacts-wrapper, .footer .footer-container html body .container .footer-wrapper, .footer .footer-container html body .form-container .footer-wrapper, .footer .footer-container html body .testis-container .footer-wrapper, .footer .footer-container html body .numbers-container .footer-wrapper, .footer .footer-container html body .video-container .footer-wrapper, .footer .footer-container html body .content-container .footer-wrapper, .footer .footer-container html body .inscription-container .footer-wrapper, .footer .footer-container html body .keyfacts-container .footer-wrapper, .footer .footer-container html body .hero-container .footer-wrapper, html body .footer .footer-container .wrapper, html body .footer .footer-container .form-container .form-wrapper, .form-container html body .footer .footer-container .form-wrapper, html body .footer .footer-container .testis-container .testis-wrapper, .testis-container html body .footer .footer-container .testis-wrapper, .numbers-container html body .footer .footer-container .numbers-wrapper, .video-container html body .footer .footer-container .video-wrapper, .content-container html body .footer .footer-container .content-wrapper, .inscription-container html body .footer .footer-container .inscription-wrapper, .keyfacts-container html body .footer .footer-container .keyfacts-wrapper, html body .footer .footer-container .footer-wrapper, .footer html body .footer-container .wrapper, .footer html body .footer-container .form-container .form-wrapper, .form-container .footer html body .footer-container .form-wrapper, .footer html body .footer-container .testis-container .testis-wrapper, .testis-container .footer html body .footer-container .testis-wrapper, .numbers-container .footer html body .footer-container .numbers-wrapper, .video-container .footer html body .footer-container .video-wrapper, .content-container .footer html body .footer-container .content-wrapper, .inscription-container .footer html body .footer-container .inscription-wrapper, .keyfacts-container .footer html body .footer-container .keyfacts-wrapper, .footer html body .footer-container .footer-wrapper, .header .header-container html body .container .header-wrapper, .header .header-container html body .form-container .header-wrapper, .header .header-container html body .testis-container .header-wrapper, .header .header-container html body .numbers-container .header-wrapper, .header .header-container html body .video-container .header-wrapper, .header .header-container html body .content-container .header-wrapper, .header .header-container html body .inscription-container .header-wrapper, .header .header-container html body .keyfacts-container .header-wrapper, .header .header-container html body .hero-container .header-wrapper, .header .header-container html body .footer .footer-container .header-wrapper, .footer .header .header-container html body .footer-container .header-wrapper, html body .header .header-container .wrapper, html body .header .header-container .form-container .form-wrapper, .form-container html body .header .header-container .form-wrapper, html body .header .header-container .testis-container .testis-wrapper, .testis-container html body .header .header-container .testis-wrapper, .numbers-container html body .header .header-container .numbers-wrapper, .video-container html body .header .header-container .video-wrapper, .content-container html body .header .header-container .content-wrapper, .inscription-container html body .header .header-container .inscription-wrapper, .keyfacts-container html body .header .header-container .keyfacts-wrapper, .footer .footer-container html body .header .header-container .footer-wrapper, html body .header .header-container .header-wrapper, .header html body .header-container .wrapper, .header html body .header-container .form-container .form-wrapper, .form-container .header html body .header-container .form-wrapper, .header html body .header-container .testis-container .testis-wrapper, .testis-container .header html body .header-container .testis-wrapper, .numbers-container .header html body .header-container .numbers-wrapper, .video-container .header html body .header-container .video-wrapper, .content-container .header html body .header-container .content-wrapper, .inscription-container .header html body .header-container .inscription-wrapper, .keyfacts-container .header html body .header-container .keyfacts-wrapper, .footer .footer-container .header html body .header-container .footer-wrapper, .header html body .header-container .header-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
-  }
-}
-
 /**
  * header
  * contains styling for the header.
@@ -473,9 +457,14 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   z-index: 1000;
 }
 .header .header-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #FFFFFF;
 }
 .header .header-container .header-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -484,6 +473,10 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   .header .header-container .header-wrapper {
     margin-right: 5%;
     margin-left: 5%;
+  }
+}
+@media (min-width: 768px) {
+  .header .header-container .header-wrapper {
     align-items: center;
   }
 }
@@ -533,6 +526,9 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
  * contains styling for the footer.
  */
 .footer .footer-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
   margin: 0;
@@ -541,9 +537,17 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   line-height: 1.5em;
 }
 .footer .footer-container .footer-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .footer .footer-container .footer-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 .footer .footer-container .footer-wrapper .accreditations {
   margin: 1rem;
@@ -836,6 +840,11 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
  * landingpage
  *  contains styling for the default landing page
  */
+.hero-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .hero-container .hero-wrapper .hero {
   position: relative;
   /*.slick-arrow {
@@ -962,11 +971,22 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
 }
 
 .keyfacts-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
 }
 .keyfacts-container .keyfacts-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .keyfacts-container .keyfacts-wrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts {
   list-style-type: none;
@@ -1026,12 +1046,25 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   font-size: 0.75rem;
 }
 
+.inscription-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .inscription-container .inscription-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   background-color: #F4F4F4;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
 @media (min-width: 768px) {
   .inscription-container .inscription-wrapper {
@@ -1076,15 +1109,39 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   }
 }
 
+.content-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .content-container .content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem;
+}
+@media (min-width: 768px) {
+  .content-container .content-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 
 .video-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #001F44;
 }
 .video-container .video-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem;
+}
+@media (min-width: 768px) {
+  .video-container .video-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 .video-container .video-wrapper > .titre {
   width: 100vw;
@@ -1146,16 +1203,27 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
 }
 
 .numbers-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #F4F4F4;
   padding: 0.5rem 0;
 }
 .numbers-container .numbers-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 .numbers-container .numbers-wrapper .titre2 {
   align-self: flex-start;
@@ -1217,8 +1285,21 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   color: #001F44;
 }
 
+.content-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .content-container .content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem;
+}
+@media (min-width: 768px) {
+  .content-container .content-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 .content-container .content-wrapper .accordion__title img {
   margin: 0 1rem 0 0;
@@ -1226,9 +1307,22 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
   height: 1.5rem;
 }
 
+.testis-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .testis-container .testis-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 768px) {
+  .testis-container .testis-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 .testis-container .testis-wrapper > .titre {
   display: flex;
@@ -1369,12 +1463,23 @@ html body .container .wrapper, html body .container .form-container .form-wrappe
 }
 
 .form-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
   padding: 0.5rem 0;
 }
 .form-container .form-wrapper {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem;
+}
+@media (min-width: 768px) {
+  .form-container .form-wrapper {
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
 }
 
 /**

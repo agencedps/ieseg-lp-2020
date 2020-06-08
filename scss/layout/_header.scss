@@ -9,17 +9,15 @@
   z-index: 1000;
 
   .header-container {
+    @include container-width();
     background-color: $white;
-    @extend .container;
 
     .header-wrapper {
-      @extend .wrapper;
+      @include wrapper-width(5%);
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       @include respond-to('small') {
-        margin-right: 5%;
-        margin-left: 5%;
         align-items: center;
       }
 

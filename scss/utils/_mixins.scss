@@ -35,7 +35,7 @@
   @return $number;
 }
 
-/// Mixin to manage responsive breakpoints
+/// MIXIN TO MANAGE RESPONSIVE BREAKPOINTS
 /// @author Hugo Giraudel
 /// @param {String} $breakpoint - Breakpoint name
 /// @require $breakpoints (in _variable.scss)
@@ -51,5 +51,27 @@
   @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
         + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+/// CONTAINERS WIDTH
+/// mixins to manage the containers width.
+/// @param max-width
+@mixin container-width($maxwidth: 1920px) {
+  width: 100%;
+  max-width: $maxwidth;
+  margin: 0 auto;
+}
+
+/// WRAPPERS WIDTH
+/// mixins to manage the wrappers width.
+/// @param margin left and right (equal)
+/// @require respond-to
+@mixin wrapper-width($margin: 12.5%) {
+  margin-right: auto;
+  margin-left: auto;
+  @include respond-to('small') {
+    margin-right: $margin;
+    margin-left: $margin;
   }
 }

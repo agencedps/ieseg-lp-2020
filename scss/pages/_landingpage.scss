@@ -5,7 +5,7 @@
 
 // SECTION HERO
 .hero-container {
-  @extend .container;
+  @include container-width();
   .hero-wrapper {
     .hero {
       position: relative;
@@ -139,12 +139,12 @@
 
 // SECTION KEYFACTS
 .keyfacts-container {
-  @extend .container;
+  @include container-width();
   background-color: $darkblue;
   color: $white;
 
   .keyfacts-wrapper {
-    @extend .wrapper;
+    @include wrapper-width(10%);
     padding: 1rem 0;
 
     .keyfacts {
@@ -212,10 +212,10 @@
 
 // SECTION INSCRIPTION
 .inscription-container {
-  @extend .container;
+  @include container-width();
 
   .inscription-wrapper {
-    @extend .wrapper;
+    @include wrapper-width(10%);
     background-color: $whitegrey;
     padding: 1rem;
     display: flex;
@@ -268,21 +268,21 @@
 
 // SECTION CONTENT
 .content-container {
-  @extend .container;
+  @include container-width();
 
   .content-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     padding: 1rem;
   }
 }
 
 // SECTION VIDEO
 .video-container {
-  @extend .container;
+  @include container-width();
   background-color: $darkblue;
 
   .video-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     padding: 1rem;
 
     > .titre {
@@ -351,12 +351,12 @@
 
 // SECTION NUMBERS
 .numbers-container {
-  @extend .container;
+  @include container-width();
   background-color: $whitegrey;
   padding: 0.5rem 0;
 
   .numbers-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 0 1rem;
@@ -434,10 +434,10 @@
 
 // SECTION RESUME (ACCORDION)
 .content-container {
-  @extend .container;
+  @include container-width();
 
   .content-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     padding: 1rem;
 
     .accordion {
@@ -455,10 +455,10 @@
 
 // SECTION TESTIMONIALS
 .testis-container {
-  @extend .container;
+  @include container-width();
 
   .testis-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     display: flex;
     flex-direction: column;
 
@@ -612,13 +612,13 @@
 
 // SECTION FORM
 .form-container {
-  @extend .container;
+  @include container-width();
   background-color: $darkblue;
   color: $white;
   padding: 0.5rem 0;
 
   .form-wrapper {
-    @extend .wrapper;
+    @include wrapper-width();
     padding: 1rem;
   }
 }
