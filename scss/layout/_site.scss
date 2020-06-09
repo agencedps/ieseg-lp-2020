@@ -6,5 +6,8 @@
 html {
 
   body {
+    .main-container {
+      overflow-x: hidden; // for section titles
+    }
   }
 }

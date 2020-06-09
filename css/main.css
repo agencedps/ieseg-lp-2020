@@ -447,6 +447,10 @@ html {
  * site
  * contains global styles for basic layout site
  */
+html body .main-container {
+  overflow-x: hidden;
+}
+
 /**
  * header
  * contains styling for the header.
@@ -531,7 +535,6 @@ html {
   margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
-  margin: 0;
   padding: 1rem 0;
   font-size: 0.75rem;
   line-height: 1.5em;

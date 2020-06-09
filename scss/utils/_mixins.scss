@@ -57,7 +57,7 @@
 /// CONTAINERS WIDTH
 /// mixins to manage the containers width.
 /// @param max-width
-@mixin container-width($maxwidth: 1920px) {
+@mixin container-width($maxwidth: $maxsitewidth) {
   width: 100%;
   max-width: $maxwidth;
   margin: 0 auto;
@@ -67,7 +67,7 @@
 /// mixins to manage the wrappers width.
 /// @param margin left and right (equal)
 /// @require respond-to
-@mixin wrapper-width($margin: 12.5%) {
+@mixin wrapper-width($margin: $defaultmargin) {
   margin-right: auto;
   margin-left: auto;
   @include respond-to('small') {

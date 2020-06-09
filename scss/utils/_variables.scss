@@ -3,6 +3,13 @@
  * contains variables for the graphic design.
  */
 
+// FULL SITE MAX WIDTH :
+//$maxsitewidth: 100%;
+$maxsitewidth: 1920px;
+
+// DEFAULT WRAPPER MARGINS :
+$defaultmargin: 12.5%;
+
 // BREAKPOINTS :
 $breakpoints: (
         'small': (min-width: 768px),
