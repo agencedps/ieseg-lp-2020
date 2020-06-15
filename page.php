@@ -42,7 +42,7 @@ Template Name: LP par défaut 2020
                         </div>
                         <div class="content">
                             <p class="fact">Format</p>
-                            <p class="key">1 year (3terms),<br>
+                            <p class="key">1 year (3 terms),<br>
                                 full time</p>
                         </div>
                     </li>
@@ -93,7 +93,9 @@ Template Name: LP par défaut 2020
         <!-- CONTENT BEGIN -->
         <section class="content-container">
             <div class="content-wrapper">
+            <div class="editor-content">
                 <?php the_content(); ?>
+            </div>
                 <p align="center"><a class="btn btn-jaune" href="lien_brochure">Je télécharge la
                         <strong>Brochure</strong></a></p>
             </div>
@@ -636,7 +638,7 @@ Template Name: LP par défaut 2020
         <!-- FORM BEGIN -->
         <section class="form-container">
             <div class="form-wrapper">
-                <h3 class="titre">Find Out More!</h3>
+                <h2 class="titre">Find Out More!</h2>
                 <p class="desc">Receive the brochure with program content, scholarship information &amp; application
                     process.</p>
 

@@ -55,11 +55,16 @@
             display: flex;
             justify-content: center;
             @include respond-to('small') {
+              width: calc(100% - 1rem);
               justify-content: flex-end;
+              margin-right: 0;
             }
 
             .ninja-forms-field {
               @extend .btn-jaune-to-blanc;
+              @include respond-to('small') {
+                margin-right: 0;
+              }
             }
           }
 
@@ -70,6 +75,8 @@
             input[type=checkbox] {
               width: 0.75rem;
               height: 0.75rem;
+              margin-right: 0;
+              margin-left: 8px;
             }
 
             label {
@@ -84,13 +91,18 @@
           .ninja-forms-field-error {
           }
         }
+
+        .nf-desc {
+          width: calc(100% - 1.5rem);
+          @include respond-to('small') {
+            width: calc(100% - 0.5rem);
+          }
+        }
       }
     }
 
     .ninja-forms-response-msg {
-      border: solid 1px $darkblue;
       color: $darkblue;
-      padding: 1rem;
 
       a {
         &.btn {
@@ -101,13 +113,18 @@
 
       .text-center {
         padding-bottom: 1rem;
-          border-bottom: solid 1px $darkblue;
-        }
+        border-bottom: solid 1px $darkblue;
+      }
+
       &.ninja-forms-error-msg {
+        border: solid 1px $orange;
+        padding: 1rem;
         background-color: $orange;
       }
 
       &.ninja-forms-success-msg {
+        border: solid 1px $darkblue;
+        padding: 1rem;
         background-color: $white;
       }
     }

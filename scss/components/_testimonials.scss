@@ -1,0 +1,164 @@
+/**
+ * Testimonials
+ *  contains styling for testimonials
+ */
+
+.testimonials {
+  position: relative;
+
+  .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    bottom: 1.5rem;
+    right: 3.5rem;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    @include respond-to('small') {
+      right: 5.5rem;
+    }
+
+    &:active, &:focus {
+      outline: none;
+    }
+
+    &.slick-prev {
+      background: url('../img/pictos/picto_fleche_gauche_bg_bleu.svg') no-repeat center/contain;
+
+      &:hover {
+        background: url('../img/pictos/picto_fleche_gauche_bg_jaune.svg') no-repeat center/contain;
+      }
+    }
+
+    &.slick-next {
+      background: url('../img/pictos/picto_fleche_droite_contours_bleus.svg') no-repeat center/contain;
+      transform: translate(2rem, 2rem);
+
+      &:hover {
+        background: url('../img/pictos/picto_fleche_droite_contours_jaunes.svg') no-repeat center/contain;
+      }
+    }
+  }
+
+  .testi-slide {
+
+    .testimonial {
+      margin: 1rem 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      @include respond-to('small') {
+        margin: 1rem 2rem 1rem 0;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      .thumbnail {
+        position: relative;
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        @include respond-to('small') {
+          width: 30%;
+        }
+
+        img {
+          display: block;
+          background-color: $lightgrey;
+          background-image: radial-gradient($whitegrey 0%, $lightgrey 100%);
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .infos {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        &.nothumbnail {
+          top: 0.65rem;
+          left: 1rem;
+        }
+
+        @include respond-to('small') {
+          top: 1rem;
+          left: calc(30% - 0.5rem);
+          &.nothumbnail {
+            left: -0.5rem;
+          }
+        }
+
+        .titre {
+          display: inline-block;
+          margin: 0;
+          padding: 0.25rem 0.5rem;
+          background-color: $yellow;
+          color: $darkblue;
+          font-size: 1rem;
+          font-weight: 700;
+          text-transform: uppercase;
+
+          > a {
+            text-decoration: none;
+
+            &:hover {
+              color: $darkblue;
+            }
+          }
+        }
+
+        .meta {
+          display: inline-block;
+          margin: -0.35rem 0.5rem 0 0.5rem;
+          padding: 0.125rem 0.5rem 0.25rem 0.5rem;
+          background-color: $yellow;
+          color: $darkblue;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+      }
+
+      .testi-excerpt {
+        margin: -2rem 1.5rem 0.5rem 1.5rem;
+        padding: 3.5rem 1rem 2rem 1rem;
+        background-color: $whitegrey;
+        font-style: italic;
+
+        &.nothumbnail {
+          margin: 2rem 1.5rem 0.5rem 1.5rem;
+        }
+
+        @include respond-to('small') {
+          margin: 2.1rem 1.5rem 0.5rem -3rem;
+          padding: 2.5rem 3rem 2.5rem 6rem;
+          font-size: 1rem;
+          flex: 1;
+          &.nothumbnail {
+            margin-left: 0;
+          }
+        }
+
+        > a {
+          text-decoration: none;
+
+          &:hover {
+            color: $darkblue;
+          }
+        }
+      }
+    }
+  }
+}

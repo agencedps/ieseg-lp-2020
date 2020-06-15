@@ -24,7 +24,7 @@
     &:after {
       content: '\00d7';
       transform-origin: center;
-      transform-style: preserve-3d;
+      //transform-style: preserve-3d;
       transform: rotate(-45deg);
       font-size: 2rem;
       font-weight: 300;
@@ -40,6 +40,7 @@
     &:focus {
       cursor: pointer;
       outline: none;
+
       > * {
         color: $orange;
       }
