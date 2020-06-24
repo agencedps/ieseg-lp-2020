@@ -64,7 +64,6 @@
         prevArrow: '<button type="button" class="slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-next"></button>',
         infinite: true,
-        adaptiveHeight: true,
         slidesToShow: 1,
         slidesToScroll: 1
     };

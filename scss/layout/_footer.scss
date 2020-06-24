@@ -9,18 +9,18 @@
     @include container-width();
     background-color: $darkblue;
     color: $white;
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
     font-size: 0.75rem;
     line-height: 1.5em;
 
     .footer-wrapper {
-      @include wrapper-width();
+      @include wrapper-margins();
       display: flex;
       flex-direction: row;
       justify-content: space-between;
 
       .accreditations {
-        margin: 1rem;
+        margin: 0;
 
         img {
           width: 100%;
@@ -47,12 +47,19 @@
         columns: 1;
         @include respond-to('small') {
           columns: 2;
+          padding: 1rem 1rem 0 0;
         }
 
         p {
           margin: 0 0 1rem 0;
+          font-weight: 200;
+
+          strong {
+            font-weight: 700;
+          }
 
           &.titre {
+            font-weight: 700;
             column-span: all;
           }
         }

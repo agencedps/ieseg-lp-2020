@@ -11,10 +11,213 @@
  * variables
  * contains variables for the graphic design.
  */
+/*$min_font: 14px;
+$max_font: 28px;*/
 /**
  * mixins
  * contains mixins to powerup the styles.
  */
+.angle--top-left {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%);
+}
+@supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%)) {
+  .angle--top-left::before, .angle--top-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-left::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--top-right {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%);
+}
+@supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%)) {
+  .angle--top-right::before, .angle--top-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-right::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--bottom-left {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+}
+@supports not (clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw))) {
+  .angle--bottom-left::before, .angle--bottom-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--bottom-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--bottom-right {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%);
+}
+@supports not (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%)) {
+  .angle--bottom-right::before, .angle--bottom-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--bottom-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-left-left {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw));
+}
+@supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw))) {
+  .angle--both-left-left::before, .angle--both-left-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-left-left::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-left-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-right-right {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%);
+}
+@supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%)) {
+  .angle--both-right-right::before, .angle--both-right-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-right-right::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-right-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-left-right {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%);
+}
+@supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%)) {
+  .angle--both-left-right::before, .angle--both-left-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-left-right::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-left-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-right-left {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw));
+}
+@supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw))) {
+  .angle--both-right-left::before, .angle--both-right-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-right-left::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-right-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle__content {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.angle--colour {
+  color: #fff;
+  background-color: #2196F3;
+  text-align: center;
+  padding: 10% 0;
+}
+
 /**
  * base
  * contains global styles, such as resets, typography, colors, etc.
@@ -364,17 +567,17 @@ template {
  */
 html {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #001F44;
 }
 @media (min-width: 320px) {
   html {
-    font-size: calc(14px + 14 * (100vw - 320px) / 1600);
+    font-size: calc(12px + 6 * (100vw - 320px) / 1046);
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1366px) {
   html {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 
@@ -390,7 +593,7 @@ p {
 h2, .titre2 {
   margin: 0.5rem 0 1rem 1.5rem;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1em;
   font-weight: 900;
   color: #001F44;
@@ -402,14 +605,14 @@ h2::before, .titre2::before {
   display: inline-block;
   margin-right: 0.5rem;
   background: url("../img/pictos/picto_fleche_bg_bleu.svg") no-repeat center/contain;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 h3, .titre3 {
   margin: 0.25rem 0 0.5rem 0;
   padding: 0;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1em;
   font-weight: 700;
   color: #001F44;
@@ -418,7 +621,7 @@ h3, .titre3 {
 h4, .titre4 {
   margin: 0.125rem 0 0.25rem 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1em;
   color: #001F44;
 }
@@ -484,7 +687,7 @@ html body .main-container {
 }
 .header .header-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #FFFFFF;
 }
@@ -497,8 +700,8 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .header .header-container .header-wrapper {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
 @media (min-width: 768px) {
@@ -514,7 +717,7 @@ html body .main-container {
   .header .header-container .header-wrapper .header-logo {
     flex: auto;
     width: 100%;
-    max-width: 333px;
+    max-width: 220px;
   }
 }
 .header .header-container .header-wrapper .header-logo img {
@@ -553,11 +756,11 @@ html body .main-container {
  */
 .footer .footer-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
   font-size: 0.75rem;
   line-height: 1.5em;
 }
@@ -570,12 +773,12 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .footer .footer-container .footer-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
 .footer .footer-container .footer-wrapper .accreditations {
-  margin: 1rem;
+  margin: 0;
 }
 .footer .footer-container .footer-wrapper .accreditations img {
   width: 100%;
@@ -600,12 +803,18 @@ html body .main-container {
 @media (min-width: 768px) {
   .footer .footer-container .footer-wrapper .adresses {
     columns: 2;
+    padding: 1rem 1rem 0 0;
   }
 }
 .footer .footer-container .footer-wrapper .adresses p {
   margin: 0 0 1rem 0;
+  font-weight: 200;
+}
+.footer .footer-container .footer-wrapper .adresses p strong {
+  font-weight: 700;
 }
 .footer .footer-container .footer-wrapper .adresses p.titre {
+  font-weight: 700;
   column-span: all;
 }
 .footer .footer-container .footer-wrapper .contacts {
@@ -669,14 +878,21 @@ html body .main-container {
   cursor: pointer;
   border: none;
   margin: 0.5rem;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 0;
   font-size: 1rem;
   line-height: 1em;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   background-size: 100% 210%;
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
+  width: 200px;
+}
+@media (min-width: 768px) {
+  .btn, .btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .btn-blanc, .btn-transparent {
+    width: 280px;
+  }
 }
 .btn small, .btn-jaune small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc small, .btn-jaune-to-blanc small, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field small, .btn-blanc small, .btn-transparent small {
   font-size: 0.75em;
@@ -742,6 +958,7 @@ html body .main-container {
   width: calc(100% - 2rem);
   margin: 0.5rem;
   font-style: italic;
+  display: none;
 }
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap {
   width: calc(100% - 2rem);
@@ -793,6 +1010,10 @@ html body .main-container {
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.checkbox-wrap label a {
   color: #FFFFFF;
 }
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.hidden-wrap {
+  height: 0;
+  margin: 0;
+}
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .nf-desc {
   width: calc(100% - 1.5rem);
 }
@@ -827,9 +1048,8 @@ html body .main-container {
  *  contains styling for accordions
  */
 .accordion {
-  margin: 1rem auto;
-  font-size: 1rem;
-  line-height: 1.25;
+  margin: 2rem auto;
+  line-height: 1.6;
 }
 .accordion__item {
   background-color: #F4F4F4;
@@ -841,11 +1061,11 @@ html body .main-container {
   justify-content: flex-start;
   align-items: center;
   font-weight: 400;
-  font-size: 1.25em;
 }
 .accordion__title:after {
   content: "×";
   transform-origin: center;
+  transform-style: preserve-3d;
   transform: rotate(-45deg);
   font-size: 2rem;
   font-weight: 300;
@@ -866,8 +1086,7 @@ html body .main-container {
   transform: rotate(-90deg);
 }
 .accordion__content-inner {
-  background-color: #FFFFFF;
-  padding: 0.5rem 2rem;
+  padding: 0 2rem 0.5rem 3.5rem;
 }
 .accordion__content {
   transition: height 0.2s ease-out;
@@ -1035,10 +1254,10 @@ html body .main-container {
  */
 .hero-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
 }
-.hero-container .hero-wrapper .hero {
+.hero-container .hero-wrapper .hero-inner .hero {
   position: relative;
   /*.slick-arrow {
     position: absolute;
@@ -1075,11 +1294,11 @@ html body .main-container {
     }
   }*/
 }
-.hero-container .hero-wrapper .hero .hero-slide {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide {
   background-color: #001F44;
   position: relative;
 }
-.hero-container .hero-wrapper .hero .hero-slide .bg {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide .bg {
   width: 100%;
   padding-bottom: 75%;
   background-repeat: no-repeat;
@@ -1087,21 +1306,21 @@ html body .main-container {
   background-size: cover;
 }
 @media (min-width: 768px) {
-  .hero-container .hero-wrapper .hero .hero-slide .bg {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .bg {
     padding-bottom: 33.33%;
     background-size: cover;
     background-position: bottom right;
   }
 }
 @media (min-width: 768px) {
-  .hero-container .hero-wrapper .hero .hero-slide .content {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content {
     position: absolute;
     left: 50%;
     bottom: 2%;
     transform: translateX(-50%);
   }
 }
-.hero-container .hero-wrapper .hero .hero-slide .content .titre {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre {
   position: relative;
   text-transform: uppercase;
   color: #FFDD00;
@@ -1110,9 +1329,9 @@ html body .main-container {
   line-height: 1;
   margin: 0.5rem 0 0 0;
   padding: 1rem;
-  border-bottom: solid 5px #FFFFFF;
+  border-bottom: solid 5px #FFDD00;
 }
-.hero-container .hero-wrapper .hero .hero-slide .content .titre::after {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre::after {
   content: "";
   display: block;
   position: absolute;
@@ -1120,20 +1339,20 @@ html body .main-container {
   left: calc(50% - 2rem);
   width: 0;
   height: 0;
-  border-top: 1rem solid #FFFFFF;
+  border-top: 1rem solid #FFDD00;
   border-right: 1.5rem solid transparent;
   border-left: 1.5rem solid transparent;
   order: -1;
 }
 @media (min-width: 768px) {
-  .hero-container .hero-wrapper .hero .hero-slide .content .titre {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre {
     border-bottom: none;
   }
-  .hero-container .hero-wrapper .hero .hero-slide .content .titre::after {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre::after {
     display: none;
   }
 }
-.hero-container .hero-wrapper .hero .hero-slide .content .cta {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta {
   margin: 0.5rem 1rem;
   padding: 0;
   display: flex;
@@ -1145,11 +1364,11 @@ html body .main-container {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  .hero-container .hero-wrapper .hero .hero-slide .content .cta {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta {
     color: #001F44;
   }
 }
-.hero-container .hero-wrapper .hero .hero-slide .content .cta::before {
+.hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta::before {
   content: "";
   display: block;
   width: 1rem;
@@ -1158,30 +1377,30 @@ html body .main-container {
   margin: 0 0.5rem 0 0;
 }
 @media (min-width: 768px) {
-  .hero-container .hero-wrapper .hero .hero-slide .content .cta::before {
+  .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta::before {
     background: url("../img/pictos/picto_fleche_bleue.svg") no-repeat center/contain;
   }
 }
 
 .keyfacts-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
 }
-.keyfacts-container .keyfacts-wrapper {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner {
   margin-right: auto;
   margin-left: auto;
   padding: 1rem 0 0 0;
 }
 @media (min-width: 768px) {
-  .keyfacts-container .keyfacts-wrapper {
+  .keyfacts-container .keyfacts-wrapper .keyfacts-inner {
     margin-right: 10%;
     margin-left: 10%;
   }
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -1190,18 +1409,18 @@ html body .main-container {
   justify-content: space-around;
   align-items: flex-start;
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact {
-  margin: 0.5rem;
-  padding: 0;
-  flex: 0 0 40%;
-  display: flex;
-}
-@media (min-width: 992px) {
-  .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact {
-    flex: 0 0 20%;
+@media (min-width: 768px) {
+  .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts {
+    justify-content: space-between;
   }
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact {
+  margin: 0.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -1210,67 +1429,83 @@ html body .main-container {
   height: 25px;
 }
 @media (min-width: 768px) {
-  .keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto {
+  .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto {
     justify-content: center;
     height: 40px;
     width: auto;
   }
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .picto img {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto img {
   max-height: 100%;
   width: auto;
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .content {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content {
   margin: 0.125rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .content p {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p {
   margin: 0;
   padding: 0;
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .content p.fact {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.fact {
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.keyfacts-container .keyfacts-wrapper .keyfacts .keyfact .content p.key {
+.keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.key {
   font-size: 0.75rem;
 }
 
 .inscription-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 .inscription-container .inscription-wrapper {
   margin-right: auto;
   margin-left: auto;
   background-color: #F4F4F4;
+}
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper {
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+}
+.inscription-container .inscription-wrapper .inscription-inner {
+  margin-right: auto;
+  margin-left: auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper {
-    margin-right: 10%;
-    margin-left: 10%;
+  .inscription-container .inscription-wrapper .inscription-inner {
+    margin-right: 2%;
+    margin-left: 2%;
   }
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper {
+  .inscription-container .inscription-wrapper .inscription-inner {
     margin-top: 2rem;
     flex-direction: row;
   }
 }
-.inscription-container .inscription-wrapper .info {
+.inscription-container .inscription-wrapper .inscription-inner .info {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
-.inscription-container .inscription-wrapper .info p {
+@media (min-width: 768px) {
+  .inscription-container .inscription-wrapper .inscription-inner .info {
+    flex: 2;
+  }
+}
+.inscription-container .inscription-wrapper .inscription-inner .info p {
   margin: 0.25rem 0;
   padding: 0;
   font-size: 1.25rem;
@@ -1278,25 +1513,27 @@ html body .main-container {
   text-align: center;
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper .info p {
+  .inscription-container .inscription-wrapper .inscription-inner .info p {
     text-align: left;
+    padding-right: 1rem;
   }
 }
-.inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc {
+.inscription-container .inscription-wrapper .inscription-inner .btn, .inscription-container .inscription-wrapper .inscription-inner .btn-transparent, .inscription-container .inscription-wrapper .inscription-inner .btn-blanc, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-field, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-transparent, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-blanc, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune-to-blanc {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: auto;
   margin: 0.5rem auto;
+  padding: 0.5rem 0;
+  flex: 1;
 }
-.inscription-container .inscription-wrapper .btn strong, .inscription-container .inscription-wrapper .btn-transparent strong, .inscription-container .inscription-wrapper .btn-blanc strong, .inscription-container .inscription-wrapper .btn-jaune strong, .inscription-container .inscription-wrapper .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune strong, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc strong {
+.inscription-container .inscription-wrapper .inscription-inner .btn strong, .inscription-container .inscription-wrapper .inscription-inner .btn-transparent strong, .inscription-container .inscription-wrapper .inscription-inner .btn-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune strong, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-field strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-transparent strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune strong, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc strong, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune-to-blanc strong {
   font-weight: 700;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
-  .inscription-container .inscription-wrapper .btn, .inscription-container .inscription-wrapper .btn-transparent, .inscription-container .inscription-wrapper .btn-blanc, .inscription-container .inscription-wrapper .btn-jaune, .inscription-container .inscription-wrapper .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .ninja-forms-field, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-transparent, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-blanc, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune, .inscription-container .inscription-wrapper .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper a.btn-jaune-to-blanc {
+  .inscription-container .inscription-wrapper .inscription-inner .btn, .inscription-container .inscription-wrapper .inscription-inner .btn-transparent, .inscription-container .inscription-wrapper .inscription-inner .btn-blanc, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune-to-blanc, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .ninja-forms-field, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.submit-wrap .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-field, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-transparent, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-transparent, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-blanc, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune, .inscription-container .inscription-wrapper .inscription-inner .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg a.btn-jaune-to-blanc, .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune-to-blanc {
     margin: 0.5rem;
     width: calc(30% - 2rem);
   }
@@ -1304,45 +1541,37 @@ html body .main-container {
 
 .content-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
 }
-.content-container .content-wrapper {
-  margin-right: auto;
-  margin-left: auto;
+.content-container .content-wrapper .content-inner {
   padding: 1rem;
-}
-@media (min-width: 768px) {
-  .content-container .content-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
-  }
 }
 
 .video-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #001F44;
 }
-.video-container .video-wrapper {
+.video-container .video-wrapper .video-inner {
   margin-right: auto;
   margin-left: auto;
-  padding: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 @media (min-width: 768px) {
-  .video-container .video-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+  .video-container .video-wrapper .video-inner {
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
-.video-container .video-wrapper > .titre {
+.video-container .video-wrapper .video-inner > .titre {
   width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
   margin: 0.5rem -50vw;
-  margin-left: calc(1rem - 50vw);
+  margin-left: calc(1rem - 50vw + 1rem);
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -1354,46 +1583,63 @@ html body .main-container {
   text-indent: 0;
 }
 @media (min-width: 768px) {
-  .video-container .video-wrapper > .titre {
-    margin-left: calc(3rem - 50vw + 12.5%);
+  .video-container .video-wrapper .video-inner > .titre {
+    font-size: 2rem;
+    margin-left: calc(1.75rem - 50vw + 11% + 2rem);
   }
 }
-@media (min-width: 1920px) {
-  .video-container .video-wrapper > .titre {
-    margin-left: calc((100vw - 1920px) / 2 - 50vw + 3rem + 12.5%);
+@media (min-width: 1066px) {
+  .video-container .video-wrapper .video-inner > .titre {
+    margin-left: calc(1.75rem - 50vw + 11% + 2.5rem);
   }
 }
-.video-container .video-wrapper > .titre::before {
+@media (min-width: 1366px) {
+  .video-container .video-wrapper .video-inner > .titre {
+    margin-left: calc((100vw - 1066px) / 2 - 50vw + 2rem);
+  }
+}
+.video-container .video-wrapper .video-inner > .titre::before {
   content: "";
   display: block;
   width: 2.5rem;
-  height: 2.5rem;
-  background: #001F44 url("../img/pictos/picto_fleche_bg_blanc.svg") no-repeat left center/50%;
+  height: 3rem;
+  background: #001F44 url("../img/pictos/picto_fleche_bg_blanc.svg") no-repeat left center/1.5rem;
   margin: 0;
   order: -2;
 }
-.video-container .video-wrapper > .titre::after {
+@media (min-width: 768px) {
+  .video-container .video-wrapper .video-inner > .titre::before {
+    width: 2rem;
+    height: 2.5rem;
+  }
+}
+.video-container .video-wrapper .video-inner > .titre::after {
   content: "";
   display: block;
   width: 0;
   height: 0;
   margin: 0 0.25rem 0 0;
   background-color: #001F44;
-  border-top: 2.5rem solid #FFFFFF;
+  border-top: 3rem solid #FFFFFF;
   border-left: 0.75rem solid transparent;
   order: -1;
 }
-.video-container .video-wrapper > figure {
+@media (min-width: 768px) {
+  .video-container .video-wrapper .video-inner > .titre::after {
+    border-top: 2.5rem solid #FFFFFF;
+  }
+}
+.video-container .video-wrapper .video-inner > figure {
   margin: 0;
 }
-.video-container .video-wrapper > figure > .wp-block-embed__wrapper {
+.video-container .video-wrapper .video-inner > figure > .wp-block-embed__wrapper {
   position: relative;
   width: 100%;
   background-color: #B7BDC8;
   padding-bottom: 56.25%;
   margin: 1rem 0;
 }
-.video-container .video-wrapper > figure > .wp-block-embed__wrapper > iframe {
+.video-container .video-wrapper .video-inner > figure > .wp-block-embed__wrapper > iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -1401,71 +1647,84 @@ html body .main-container {
   height: 100%;
 }
 
-.numbers-container {
-  width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
+.numbers-container .numbers-wrapper {
   background-color: #F4F4F4;
   padding: 0.5rem 0;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
 }
-.numbers-container .numbers-wrapper {
+.numbers-container .numbers-wrapper .numbers-inner {
   margin-right: auto;
   margin-left: auto;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media (min-width: 768px) {
-  .numbers-container .numbers-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+  .numbers-container .numbers-wrapper .numbers-inner {
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
-.numbers-container .numbers-wrapper .titre2 {
+.numbers-container .numbers-wrapper .numbers-inner .titre2 {
   align-self: flex-start;
+  font-size: 2rem;
 }
-.numbers-container .numbers-wrapper .numbers {
+.numbers-container .numbers-wrapper .numbers-inner .numbers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  margin-bottom: 1rem;
-}
-.numbers-container .numbers-wrapper .numbers .number {
-  margin: 0.5rem 0;
-  padding: 0 0.5rem;
-  flex: 0 0 40%;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
-  .numbers-container .numbers-wrapper .numbers .number {
-    flex: 0 0 20%;
+  .numbers-container .numbers-wrapper .numbers-inner .numbers {
+    justify-content: space-between;
+    padding: 0;
   }
 }
-.numbers-container .numbers-wrapper .numbers .number a {
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number {
+  margin: 0.5rem 0;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner .numbers .number {
+    width: 20%;
+  }
+}
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number a {
   text-decoration: none;
 }
-.numbers-container .numbers-wrapper .numbers .number .picto {
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number .picto {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
   width: auto;
-  height: 100px;
+  height: 50px;
 }
-.numbers-container .numbers-wrapper .numbers .number .picto img {
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner .numbers .number .picto {
+    height: 70px;
+  }
+}
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number .picto img {
   max-height: 100%;
   width: auto;
 }
-.numbers-container .numbers-wrapper .numbers .number .value {
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number .value {
   position: relative;
   display: inline-block;
   font-size: 3rem;
   font-weight: 900;
+  white-space: nowrap;
   color: #B7BDC8;
   overflow: hidden;
   background: linear-gradient(to top, #001F44, #001F44 50%, #B7BDC8 50%) no-repeat 0 0;
@@ -1475,10 +1734,16 @@ html body .main-container {
   background-size: 100% 200%;
   transition: background-position 275ms ease;
 }
-.numbers-container .numbers-wrapper .numbers .number .value:hover {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  .numbers-container .numbers-wrapper .numbers-inner .numbers .number .value {
+    /* IE10+ specific styles go here */
+    background: none;
+  }
+}
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number .value:hover {
   background-position: 0 100%;
 }
-.numbers-container .numbers-wrapper .numbers .number .unit {
+.numbers-container .numbers-wrapper .numbers-inner .numbers .number .unit {
   font-size: 1rem;
   font-weight: 600;
   color: #001F44;
@@ -1486,21 +1751,21 @@ html body .main-container {
 
 .content-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
 }
-.content-container .content-wrapper {
+.content-container .content-wrapper .content-inner {
   margin-right: auto;
   margin-left: auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 @media (min-width: 768px) {
-  .content-container .content-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+  .content-container .content-wrapper .content-inner {
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
-.content-container .content-wrapper .accordion__title img {
+.content-container .content-wrapper .content-inner .accordion__title img {
   margin: 0 1rem 0 0;
   width: auto;
   height: 1.5rem;
@@ -1508,47 +1773,38 @@ html body .main-container {
 
 .testis-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 .testis-container .testis-wrapper {
+  background-color: #F4F4F4;
+}
+.testis-container .testis-wrapper .testis-inner {
   margin-right: auto;
   margin-left: auto;
+  padding: 2rem 0 4rem 0;
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 768px) {
-  .testis-container .testis-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+  .testis-container .testis-wrapper .testis-inner {
+    margin-right: 11%;
+    margin-left: 11%;
   }
 }
-.testis-container .testis-wrapper > .titre {
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  color: #001F44;
-  font-weight: 900;
-  font-size: 2rem;
-  line-height: 1;
-  text-indent: 0;
-  margin: 0.5rem 0 0.5rem 1rem;
+.testis-container .testis-wrapper .testis-inner > .titre {
+  margin: 0.5rem 0 0.5rem 3.5rem;
 }
-.testis-container .testis-wrapper > .titre::before {
-  content: "";
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  background: url("../img/pictos/picto_temoignages.svg") no-repeat center/contain;
-  margin: 0 0.5rem 0 0;
+.testis-container .testis-wrapper .testis-inner .testimonials .testimonial .testi-excerpt {
+  background-color: #FFFFFF;
 }
-.testis-container .testis-wrapper .see-all {
+.testis-container .testis-wrapper .testis-inner .see-all {
   align-self: center;
 }
 
 .form-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #001F44;
   color: #FFFFFF;
@@ -1561,8 +1817,13 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .form-container .form-wrapper {
-    margin-right: 12.5%;
-    margin-left: 12.5%;
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+}
+@media (min-width: 768px) {
+  .form-container .form-wrapper {
+    padding: 1rem 0 0 0;
   }
 }
 .form-container .form-wrapper .titre {

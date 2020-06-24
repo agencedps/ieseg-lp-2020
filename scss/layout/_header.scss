@@ -13,7 +13,7 @@
     background-color: $white;
 
     .header-wrapper {
-      @include wrapper-width(5%);
+      @include wrapper-margins();
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -27,7 +27,7 @@
         @include respond-to('small') {
           flex: auto;
           width: 100%;
-          max-width: 333px;
+          max-width: 220px;
         }
 
         img {

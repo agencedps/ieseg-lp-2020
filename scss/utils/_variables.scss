@@ -3,22 +3,32 @@
  * contains variables for the graphic design.
  */
 
-// FULL SITE MAX WIDTH :
-//$maxsitewidth: 100%;
-$maxsitewidth: 1920px;
+// SITE WIDTHS :
+$full_width: 100%;
+$min_width: 320px;
+$max_width: 1366px; // 1366px
+$max_content_width: 1066px; // 1066px
+$max_margin: 150px; // ($max_width - $max_content_width ) / 2
 
-// DEFAULT WRAPPER MARGINS :
-$defaultmargin: 12.5%;
+// SITE FONT SIZES :
+/*$min_font: 14px;
+$max_font: 28px;*/
+$min_font: 12px;
+$max_font: 18px;
 
+// DEFAULT WRAPPER MARGINS (between contairers and wrappers):
+$defaultmargin: 11%; // ($max_margin / $max_width) * 100%
 
 // THUMBNAILS ASPECT RATIO :
-$aspectratio: 45%;  // ratio de 2.1 pour 1
+//$aspectratio: 45%;  // ratio de 2.1 pour 1 (ratio actuel ieseg 2015)
+$aspectratio: 70%;
 
 // BREAKPOINTS :
 $breakpoints: (
         'small': (min-width: 768px),
-        'medium': (min-width: 992px),
-        'large': (min-width: 1200px),
+        'small-medium': (min-width: 992px),
+        'medium': (min-width: $max_content_width),
+        'large': (min-width: $max_width),
         'wide': (min-width: 1440px),
         'huge': (min-width: 1920px)
 ) !default;

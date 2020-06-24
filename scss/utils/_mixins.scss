@@ -55,23 +55,218 @@
 }
 
 /// CONTAINERS WIDTH
-/// mixins to manage the containers width.
+/// mixin to manage the containers width.
 /// @param max-width
-@mixin container-width($maxwidth: $maxsitewidth) {
+@mixin container-width($maxwidth: $max_width) {
   width: 100%;
   max-width: $maxwidth;
   margin: 0 auto;
 }
 
-/// WRAPPERS WIDTH
-/// mixins to manage the wrappers width.
-/// @param margin left and right (equal)
+/// WRAPPERS margins
+/// mixin to manage the wrappers both margins left and right (equal).
+/// @param margin
+/// @param bp : breakpoint for margins
 /// @require respond-to
-@mixin wrapper-width($margin: $defaultmargin) {
+@mixin wrapper-margins($margin: $defaultmargin, $bp: 'small') {
   margin-right: auto;
   margin-left: auto;
-  @include respond-to('small') {
+  @include respond-to($bp) {
     margin-right: $margin;
     margin-left: $margin;
+  }
+}
+
+/// ANGLE-EDGE
+/// mixin to add a consistent angled edge to a full width element.
+/// @author Nigel O Toole
+/// https://nigelotoole.github.io/angled-edges/
+/// $angle: The angle in degrees: 1 - 45
+/// $angle-position-y: The Y position of the angle: top | bottom | both
+/// $angle-position-x: The X position of the angle: left | right
+/// $angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
+/// $fallback: Create a fallback for older browsers: true | false
+/// $fallback-color: Fallback colour for older browsers: Hex color
+@mixin angle-edge($angle, $angle-position-y, $angle-position-x, $angle-position-bottom-x: '', $fallback: true, $fallback-color: #fff) {
+
+  position: relative;
+  overflow: hidden;
+
+  // Converts degrees to VW, 100vw = 45deg using this technique
+  @if $angle > 45 {
+    $angle: 0;
+    @error 'Invalid angle, it must be between 1-45';
+  }
+  @if $angle < 46 {
+    $angle: convertDegToVW($angle);
+  }
+
+  @if $angle-position-bottom-x == '' {
+    $angle-position-bottom-x: $angle-position-x;
+  }
+
+  $angle-calc-top: calc(0% + #{$angle}vw);
+  $angle-calc-bottom: calc(100% - #{$angle}vw);
+
+  $clip-path-top: 0 0, 100% 0;
+  $clip-path-bottom: 100% 100%, 0 100%;
+
+  $border-width-top: '';
+  $border-width-bottom: '';
+  $border-color-top: '';
+  $border-color-bottom: '';
+
+  @if $angle-position-y == 'top' or $angle-position-y == 'both' {
+    @if $angle-position-x == 'left' {
+      $clip-path-top: 0 $angle-calc-top, 100% 0;
+      $border-width-top: #{$angle + 1}vw 100vw 0 0;
+    }
+    @if $angle-position-x == 'right' {
+      $clip-path-top: 0 0, 100% $angle-calc-top;
+      $border-width-top: #{$angle + 1}vw 0 0 100vw;
+    }
+    $border-color-top: $fallback-color transparent transparent transparent;
+  }
+
+  @if $angle-position-y == 'bottom' or $angle-position-y == 'both' {
+    @if $angle-position-y == 'both' and $angle-position-x != $angle-position-bottom-x {
+      $angle-position-x: $angle-position-bottom-x;
+    }
+    @if $angle-position-x == 'left' {
+      $clip-path-bottom: 100% 100%, 0 $angle-calc-bottom;
+      $border-width-bottom: 0 100vw #{$angle + 1}vw 0;
+    }
+    @if $angle-position-x == 'right' {
+      $clip-path-bottom: 100% $angle-calc-bottom, 0 100%;
+      $border-width-bottom: 0 0 #{$angle + 1}vw 100vw;
+    }
+    $border-color-bottom: transparent transparent $fallback-color transparent;
+  }
+
+  $clip-path: polygon($clip-path-top, $clip-path-bottom);
+  clip-path: $clip-path;
+
+  // Fallback for clip-path with solid colours
+  @if $fallback {
+    @supports not (clip-path: $clip-path) {
+      &::before, &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        z-index: 10;
+        display: block;
+        border-style: solid;
+      }
+      @if $angle-position-y == 'top' or $angle-position-y == 'both' {
+        &::before {
+          top: 0;
+          border-width: $border-width-top;
+          border-color: $border-color-top;
+        }
+      }
+      @if $angle-position-y == 'bottom' or $angle-position-y == 'both' {
+        &::after {
+          bottom: 0;
+          border-width: $border-width-bottom;
+          border-color: $border-color-bottom;
+        }
+      }
+    }
+  }
+}
+
+/// Converts degrees to VW, 100vw = 45deg using this technique
+@function convertDegToVW($angle) {
+  @return round($angle*2.22);
+}
+/// Classes
+.angle--top-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'top', $angle-position-x: 'left');
+}
+.angle--top-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'top', $angle-position-x: 'right');
+}
+.angle--bottom-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'bottom', $angle-position-x: 'left');
+}
+.angle--bottom-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'bottom', $angle-position-x: 'right');
+}
+.angle--both-left-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'left');
+}
+.angle--both-right-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'right');
+}
+.angle--both-left-right {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'left', $angle-position-bottom-x: 'right');
+}
+.angle--both-right-left {
+  @include angle-edge($angle: 3, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left');
+}
+.angle__content {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.angle--colour {
+  color: #fff;
+  background-color: #2196F3;
+  text-align: center;
+  padding: 10% 0;
+}
+
+/// Returns the opposite direction of each direction in a list
+/// @author Hugo Giraudel
+/// @param {List} $directions - List of initial directions
+/// @return {List} - List of opposite directions
+@function opposite-direction($directions) {
+  $opposite-directions: ();
+  $direction-map: (
+          'top':    'bottom',
+          'right':  'left',
+          'bottom': 'top',
+          'left':   'right',
+          'center': 'center',
+          'ltr':    'rtl',
+          'rtl':    'ltr'
+  );
+
+  @each $direction in $directions {
+    $direction: to-lower-case($direction);
+
+    @if map-has-key($direction-map, $direction) {
+      $opposite-directions: append($opposite-directions, unquote(map-get($direction-map, $direction)));
+    } @else {
+      @warn "No opposite direction can be found for `#{$direction}`. Direction omitted.";
+    }
+  }
+
+  @return $opposite-directions;
+}
+
+/// Triangle helper mixin
+/// @param {Direction} $direction - Triangle direction, either `top`, `right`, `bottom` or `left`
+/// @param {Color} $color [currentcolor] - Triangle color
+/// @param {Length} $size [1em] - Triangle size
+@mixin triangle($direction, $color: currentcolor, $size: 1em) {
+  @if not index(top right bottom left, $direction) {
+    @error "Direction must be either `top`, `right`, `bottom` or `left`.";
+  }
+
+  width: 0;
+  height: 0;
+  content: '';
+  z-index: 2;
+  border-#{opposite-direction($direction)}: ($size * 1.5) solid $color;
+
+  $perpendicular-borders: $size solid transparent;
+
+  @if $direction == top or $direction == bottom {
+    border-left:   $perpendicular-borders;
+    border-right:  $perpendicular-borders;
+  } @else if $direction == right or $direction == left {
+    border-bottom: $perpendicular-borders;
+    border-top:    $perpendicular-borders;
   }
 }

@@ -27,6 +27,7 @@
           width: calc(100% - 2rem);
           margin: 0.5rem;
           font-style: italic;
+          display: none;
         }
 
         .field-wrap {
@@ -89,6 +90,11 @@
           }
 
           .ninja-forms-field-error {
+          }
+
+          &.hidden-wrap {
+            height: 0;
+            margin: 0;
           }
         }
 

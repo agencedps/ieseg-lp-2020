@@ -4,9 +4,8 @@
  */
 
 .accordion {
-  margin: 1rem auto;
-  font-size: 1rem;
-  line-height: 1.25;
+  margin: 2rem auto;
+  line-height: 1.6;
 
   &__item {
     background-color: $whitegrey;
@@ -19,12 +18,11 @@
     justify-content: flex-start;
     align-items: center;
     font-weight: 400;
-    font-size: 1.25em;
 
     &:after {
-      content: '\00d7';
+      content: "\00d7";
       transform-origin: center;
-      //transform-style: preserve-3d;
+      transform-style: preserve-3d;
       transform: rotate(-45deg);
       font-size: 2rem;
       font-weight: 300;
@@ -55,8 +53,7 @@
   }
 
   &__content-inner {
-    background-color: $white;
-    padding: 0.5rem 2rem;
+    padding: 0 2rem 0.5rem 3.5rem;
   }
 
   &__content {

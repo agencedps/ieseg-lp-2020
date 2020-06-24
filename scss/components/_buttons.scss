@@ -7,14 +7,20 @@
   cursor: pointer;
   border: none;
   margin: 0.5rem;
-  padding: 0.75rem 2rem;
+  //padding: 0.75rem 2rem;
+  padding: 0.75rem 0;
   font-size: 1rem;
   line-height: 1em;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   background-size: 100% 210%;
   transition: background-position 0.2s cubic-bezier(0, 0, 0, 1);
   background-position: top;
+  width: 200px;
+  @include respond-to('small') {
+    width: 280px;
+  }
 
   small {
     font-size: 0.75em;
@@ -65,3 +71,4 @@
     color: $darkblue;
   }
 }
+
