@@ -61,14 +61,14 @@
             @include respond-to('small') {
               padding-bottom: 33.33%;
               background-size: cover;
-              background-position: bottom right;
+              background-position: top right;
             }
           }
 
           .content {
             @include respond-to('small') {
               position: absolute;
-              left: 50%;
+              left: 55%;
               bottom: 2%;
               transform: translateX(-50%);
             }

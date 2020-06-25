@@ -8,6 +8,10 @@ html {
   body {
     .main-container {
       overflow-x: hidden; // for section titles
+      margin-top: 36px;
+      @include respond-to('small') {
+        margin-top: 72px;
+      }
     }
   }
 }

@@ -674,6 +674,12 @@ ul li {
  */
 html body .main-container {
   overflow-x: hidden;
+  margin-top: 36px;
+}
+@media (min-width: 768px) {
+  html body .main-container {
+    margin-top: 72px;
+  }
 }
 
 /**
@@ -682,6 +688,7 @@ html body .main-container {
  */
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -1019,8 +1026,7 @@ html body .main-container {
 }
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.list-dropdown-wrap .ninja-forms-field option {
   color: #001F44;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.75rem;
 }
 @media (min-width: 768px) {
   .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.list-dropdown-wrap .ninja-forms-field {
@@ -1373,13 +1379,13 @@ html body .main-container {
   .hero-container .hero-wrapper .hero-inner .hero .hero-slide .bg {
     padding-bottom: 33.33%;
     background-size: cover;
-    background-position: bottom right;
+    background-position: top right;
   }
 }
 @media (min-width: 768px) {
   .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content {
     position: absolute;
-    left: 50%;
+    left: 55%;
     bottom: 2%;
     transform: translateX(-50%);
   }
