@@ -35,9 +35,10 @@
 
     > * {
       margin: 1rem 0 0.5rem 0;
-      padding: 0 0.5rem 0 0;
+      padding: 0 0.5rem;
       font-size: 1.667rem;
       @include respond-to('small') {
+        padding: 0 0.5rem 0 0;
       }
     }
 

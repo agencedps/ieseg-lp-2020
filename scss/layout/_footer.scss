@@ -14,7 +14,7 @@
     @include container-width();
     color: $white;
     padding: 0.5rem 0;
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1.5em;
     & + .footer-container {
       padding-bottom: 2rem;
@@ -37,7 +37,7 @@
 
         img {
           width: 100%;
-          max-width: 23rem;
+          max-width: 300px;
         }
       }
 
@@ -55,7 +55,7 @@
 
       .adresses {
         border-top: solid 1px $white;
-        padding: 2rem 2rem 0 2rem;
+        padding: 2rem 1rem 0 2rem;
         columns: 2;
         @include respond-to('small') {
           width: 50%;
@@ -78,7 +78,7 @@
       }
 
       .contacts {
-        padding: 1rem 2rem 0 2rem;
+        padding: 1rem 1rem 0 2rem;
         columns: 2;
         @include respond-to('small') {
           width: 50%;

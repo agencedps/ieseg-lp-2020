@@ -12,8 +12,8 @@
         <div class="footer-wrapper">
             <div class="adresses">
                 <p class="titre"><span>Nos adresses</span></p>
-                <p><strong>LILLE /</strong> 3 rue de la Digue <br> 59000 Lille</p>
-                <p><strong>PARIS /</strong> 1 parvis de La Défense <br> 92044 Paris - La Défense Cedex</p>
+                <p><strong>LILLE /</strong> 3 rue de la Digue <br> 59000 Lille <br> <br></p>
+                <p><strong>PARIS /</strong> 1 parvis de La Défense <br> 92044 Paris - La Défense</p>
             </div>
             <div class="contacts">
                 <p class="titre"><span>Nous contacter</span></p>

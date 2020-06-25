@@ -118,6 +118,8 @@
           }
 
           .ninja-forms-field-error {
+            color: $orange;
+            padding-right: 0.5rem;
           }
 
           &.hidden-wrap {
@@ -151,9 +153,10 @@
       }
 
       &.ninja-forms-error-msg {
-        border: solid 1px $orange;
-        padding: 1rem;
-        background-color: $orange;
+        border: solid 1px $yellow;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        background-color: $yellow;
+        text-align: center;
       }
 
       &.ninja-forms-success-msg {

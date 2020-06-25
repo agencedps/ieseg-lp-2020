@@ -777,7 +777,7 @@ html body .main-container {
   margin: 0 auto;
   color: #FFFFFF;
   padding: 0.5rem 0;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1.5em;
 }
 .footer .footer-container + .footer-container {
@@ -811,7 +811,7 @@ html body .main-container {
 }
 .footer .footer-container .footer-wrapper .accreditations img {
   width: 100%;
-  max-width: 23rem;
+  max-width: 300px;
 }
 .footer .footer-container .footer-wrapper .titre {
   text-transform: uppercase;
@@ -825,7 +825,7 @@ html body .main-container {
 }
 .footer .footer-container .footer-wrapper .adresses {
   border-top: solid 1px #FFFFFF;
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 1rem 0 2rem;
   columns: 2;
 }
 @media (min-width: 768px) {
@@ -846,7 +846,7 @@ html body .main-container {
   column-span: all;
 }
 .footer .footer-container .footer-wrapper .contacts {
-  padding: 1rem 2rem 0 2rem;
+  padding: 1rem 1rem 0 2rem;
   columns: 2;
 }
 @media (min-width: 768px) {
@@ -1065,6 +1065,10 @@ html body .main-container {
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.checkbox-wrap label a {
   color: #FFFFFF;
 }
+.ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap .ninja-forms-field-error {
+  color: #FD9E00;
+  padding-right: 0.5rem;
+}
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-form .ninja-forms-all-fields-wrap .field-wrap.hidden-wrap {
   height: 0;
   margin: 0;
@@ -1088,9 +1092,10 @@ html body .main-container {
   border-bottom: solid 1px #001F44;
 }
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg.ninja-forms-error-msg {
-  border: solid 1px #FD9E00;
-  padding: 1rem;
-  background-color: #FD9E00;
+  border: solid 1px #FFDD00;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  background-color: #FFDD00;
+  text-align: center;
 }
 .ninja-forms-cont .ninja-forms-form-wrap .ninja-forms-response-msg.ninja-forms-success-msg {
   border: solid 1px #001F44;
@@ -1134,8 +1139,13 @@ html body .main-container {
 }
 .accordion__title > * {
   margin: 1rem 0 0.5rem 0;
-  padding: 0 0.5rem 0 0;
+  padding: 0 0.5rem;
   font-size: 1.667rem;
+}
+@media (min-width: 768px) {
+  .accordion__title > * {
+    padding: 0 0.5rem 0 0;
+  }
 }
 .accordion__title:hover, .accordion__title:focus {
   cursor: pointer;
@@ -1267,9 +1277,14 @@ html body .main-container {
   padding: 0.25rem 0.5rem;
   background-color: #FFDD00;
   color: #001F44;
-  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 1.167rem;
+}
+@media (min-width: 768px) {
+  .testimonials .testi-slide .testimonial .infos .titre {
+    font-size: 1rem;
+  }
 }
 .testimonials .testi-slide .testimonial .infos .titre > a {
   text-decoration: none;
@@ -1283,15 +1298,21 @@ html body .main-container {
   padding: 0.125rem 0.5rem 0.25rem 0.5rem;
   background-color: #FFDD00;
   color: #001F44;
-  font-size: 0.75rem;
+  font-size: 0.833rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .testimonials .testi-slide .testimonial .infos .meta {
+    font-size: 0.75rem;
+  }
 }
 .testimonials .testi-slide .testimonial .testi-excerpt {
   margin: -2rem 1.5rem 0.5rem 1.5rem;
   padding: 3.5rem 1rem 2rem 1rem;
   background-color: #F4F4F4;
   font-style: italic;
+  font-size: 1.167rem;
 }
 .testimonials .testi-slide .testimonial .testi-excerpt.nothumbnail {
   margin: 2rem 1.5rem 0.5rem 1.5rem;
@@ -1399,7 +1420,7 @@ html body .main-container {
   line-height: 1;
   margin: 0.5rem 0 0 0;
   padding: 1rem;
-  border-bottom: solid 5px #FFDD00;
+  border-bottom: solid 5px #FFFFFF;
 }
 .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre::after {
   content: "";
@@ -1409,7 +1430,7 @@ html body .main-container {
   left: calc(50% - 2rem);
   width: 0;
   height: 0;
-  border-top: 1rem solid #FFDD00;
+  border-top: 1rem solid #FFFFFF;
   border-right: 1.5rem solid transparent;
   border-left: 1.5rem solid transparent;
   order: -1;
@@ -1509,8 +1530,8 @@ html body .main-container {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 @media (min-width: 768px) {
   .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto {
@@ -1534,12 +1555,22 @@ html body .main-container {
   padding: 0;
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.fact {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
+@media (min-width: 768px) {
+  .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.fact {
+    font-size: 1.25rem;
+  }
+}
 .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.key {
-  font-size: 0.75rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.key {
+    font-size: 0.75rem;
+  }
 }
 
 .inscription-container {
@@ -1742,7 +1773,7 @@ html body .main-container {
   margin-left: auto;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  padding: 1rem 0 0 2rem;
+  padding: 1rem 0 0 0;
   display: flex;
   flex-direction: column;
 }
@@ -1752,9 +1783,20 @@ html body .main-container {
     margin-left: 11%;
   }
 }
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner {
+    padding: 1rem 0 0 2rem;
+  }
+}
 .numbers-container .numbers-wrapper .numbers-inner .titre2 {
   align-self: flex-start;
   font-size: 2rem;
+  margin-left: 3.5rem;
+}
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner .titre2 {
+    margin-left: 1.5rem;
+  }
 }
 .numbers-container .numbers-wrapper .numbers-inner .numbers {
   display: flex;
@@ -1783,9 +1825,15 @@ html body .main-container {
 }
 .numbers-container .numbers-wrapper .numbers-inner .numbers .number a {
   margin: auto;
-  padding: 0 1rem;
+  padding: 0;
   text-decoration: none;
-  max-width: calc(160px - 2rem);
+  max-width: 110px;
+}
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner .numbers .number a {
+    padding: 0 1rem;
+    max-width: calc(160px - 2rem);
+  }
 }
 .numbers-container .numbers-wrapper .numbers-inner .numbers .number .picto {
   display: flex;

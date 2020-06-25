@@ -106,9 +106,12 @@
           padding: 0.25rem 0.5rem;
           background-color: $yellow;
           color: $darkblue;
-          font-size: 1rem;
           font-weight: 700;
           text-transform: uppercase;
+          font-size: 1.167rem;
+          @include respond-to('small') {
+            font-size: 1rem;
+          }
 
           > a {
             text-decoration: none;
@@ -125,9 +128,12 @@
           padding: 0.125rem 0.5rem 0.25rem 0.5rem;
           background-color: $yellow;
           color: $darkblue;
-          font-size: 0.75rem;
+          font-size: 0.833rem;
           font-weight: 600;
           text-transform: uppercase;
+          @include respond-to('small') {
+            font-size: 0.75rem;
+          }
         }
       }
 
@@ -136,6 +142,7 @@
         padding: 3.5rem 1rem 2rem 1rem;
         background-color: $whitegrey;
         font-style: italic;
+        font-size: 1.167rem;
 
         &.nothumbnail {
           margin: 2rem 1.5rem 0.5rem 1.5rem;

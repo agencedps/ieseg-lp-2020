@@ -163,8 +163,8 @@ add_action('init', 'my_add_excerpts_to_pages');
 
 //Fonction a appeller pour une longueur d'excerpt differente
 // Parametres : 1 longueur souhaitée, 2. caractères de troncature
-function custom_excerpt($new_length = 20, $new_more = '...')
-{
+function custom_excerpt($new_length = 20, $new_more = '...') {
+    $new_more = '<span class="troncat">' . $new_more . '</span>';
     add_filter('excerpt_length', function () use ($new_length) {
         return $new_length;
     }, 999);
