@@ -195,13 +195,15 @@ Template Name: LP par défaut 2020
                             <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
                                  aria-labelledby="tab1" data-binding="expand-accordion-container">
                                 <div class="accordion__content-inner">
-                                    <p>Quasi. Consectetur curabitur penatibus? Itaque natus potenti ipsum ligula
-                                        fermentum
-                                        semper recusandae. Doloribus cubilia cras, nostrud alias harum, accusamus saepe?
-                                        Vero leo curabitur vulputate. Incididunt.</p>
-                                    <p>Adipisci nesciunt ea quis sunt assumenda senectus vero pariatur dictum. Diamlorem
-                                        quis. Quisque, morbi qui architecto eiusmod facilisi ad dolorem, condimentum?
-                                        Facilisi labore? Cupiditate elementum.</p>
+                                    <p>Accréditée EQUIS, AACSB et AMBA (1% des écoles de commerce mondiale), l’IÉSEG
+                                        School of Management est reconnue par le Financial Times comme <strong>l’une des
+                                            meilleures écoles de commerce au monde</strong> et est classée, dans le top
+                                        10 des écoles
+                                        de commerce en France*.</p>
+                                    <p>Le campus de l’IÉSEG est idéalement situé au cœur du 1er quartier d’affaires
+                                        européen&nbsp;:
+                                        </strong>La Défense</strong>.</p>
+                                    <p>*Classement Masters en Management, 2019</p>
                                 </div>
                             </div>
 

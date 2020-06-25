@@ -31,11 +31,11 @@
         }
 
         .field-wrap {
+          margin: 1rem 0.5rem;
           width: calc(100% - 2rem);
           @include respond-to('small') {
             width: calc(50% - 2rem);
           }
-          margin: 0.5rem;
 
           &.label-inside {
           }
@@ -47,9 +47,37 @@
               border-bottom: solid 1px $white;
               color: $white;
               text-transform: uppercase;
-              font-size: 1rem;
+              font-size: 1.5rem;
               font-weight: 700;
+              padding-bottom: 1.5rem;
+              @include respond-to('small') {
+                padding-bottom: 0;
+              }
             }
+          }
+
+          &.list-dropdown-wrap {
+            .ninja-forms-field {
+              background: transparent;
+              border: none;
+              border-bottom: solid 1px $white;
+              color: $white;
+              text-transform: uppercase;
+              font-size: 1.5rem;
+              font-weight: 700;
+              padding-bottom: 1.5rem;
+              width: 100%;
+
+              option {
+                color: $darkblue;
+                font-size: 1rem;
+                font-weight: 700;
+              }
+              @include respond-to('small') {
+                padding-bottom: 0;
+              }
+            }
+
           }
 
           &.submit-wrap {

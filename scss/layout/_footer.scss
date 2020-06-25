@@ -4,23 +4,36 @@
  */
 
 .footer {
+  border-top: solid 1px $white;
+  @include respond-to('small') {
+    border-top: none;
+  }
 
   .footer-container {
-    @include container-width();
     background-color: $darkblue;
+    @include container-width();
     color: $white;
-    padding: 0 0 1rem 0;
+    padding: 0.5rem 0;
     font-size: 0.75rem;
     line-height: 1.5em;
+    & + .footer-container {
+      padding-bottom: 2rem;
+    }
 
     .footer-wrapper {
       @include wrapper-margins();
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
+      @include respond-to('small') {
+        flex-direction: row;
+      }
 
       .accreditations {
-        margin: 0;
+        margin: 0.5rem auto 0 auto;
+        @include respond-to('small') {
+          margin: 0;
+        }
 
         img {
           width: 100%;
@@ -42,12 +55,11 @@
 
       .adresses {
         border-top: solid 1px $white;
-        padding: 1rem 1rem 0 1rem;
-        width: 50%;
-        columns: 1;
+        padding: 2rem 2rem 0 2rem;
+        columns: 2;
         @include respond-to('small') {
-          columns: 2;
-          padding: 1rem 1rem 0 0;
+          width: 50%;
+          padding: 2rem 1rem 0 0;
         }
 
         p {
@@ -66,13 +78,13 @@
       }
 
       .contacts {
-        border-top: solid 1px $white;
-        border-left: solid 1px $white;
-        padding: 1rem 1rem 0 1rem;
-        width: 50%;
-        columns: 1;
+        padding: 1rem 2rem 0 2rem;
+        columns: 2;
         @include respond-to('small') {
-          columns: 2;
+          width: 50%;
+          border-top: solid 1px $white;
+          border-left: solid 1px $white;
+          padding: 2rem 1rem 0 2rem;
         }
 
         p {
