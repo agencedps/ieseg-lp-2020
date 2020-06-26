@@ -90,7 +90,7 @@
             }
 
             .ninja-forms-field {
-              @extend .btn-jaune-to-blanc;
+              @extend .btn-jaune-to-border-white;
               @include respond-to('small') {
                 margin-right: 0;
               }
@@ -163,6 +163,34 @@
         border: solid 1px $darkblue;
         padding: 1rem;
         background-color: $white;
+
+        /* pour simuler une popin */
+        /*position: fixed;
+        z-index: 1;
+        right: 11%;
+        bottom: 11%;
+        left: 11%;
+        -webkit-box-shadow: 0 5px 15px 5px rgba(0,0,0,0.5);
+        box-shadow: 0 5px 15px 5px rgba(0,0,0,0.5);*/
+
+        /*.close-message {
+          display: block;
+          background: none;
+          border: none;
+          outline: none;
+          position: absolute;
+          top: 1%;
+          right: 1%;
+          width: 3rem;
+          height: 3rem;
+          font-size: 3rem;
+          line-height: 1em;
+          color: $white;
+        }*/
+
+        a {
+          margin: 3rem 0;
+        }
       }
     }
   }

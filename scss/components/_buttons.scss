@@ -63,6 +63,17 @@
     color: $white;
   }
 }
+.btn-jaune-to-border-white {
+  @extend .btn;
+  background-image: linear-gradient(to top, $darkblue 50%, $yellow 0);
+  color: $darkblue;
+  border: solid 1px $darkblue;
+
+  &:hover {
+    border: solid 1px $white;
+    color: $white;
+  }
+}
 
 .btn-jaune-to-blanc {
   @extend .btn-jaune;

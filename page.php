@@ -103,7 +103,7 @@ Template Name: LP par défaut 2020
                     <div class="editor-content">
                         <?php the_content(); ?>
                     </div>
-                    <p align="center"><a class="btn btn-jaune" href="lien_brochure">Je télécharge la
+                    <p align="center"><a class="btn btn-jaune" href="#form-container">Je télécharge la
                             <strong>Brochure</strong></a></p>
                 </div>
             </div>
@@ -124,7 +124,7 @@ Template Name: LP par défaut 2020
                                     allowfullscreen=""></iframe>
                         </div>
                     </figure>
-                    <p align="center"><a class="btn btn-jaune" href="lien_brochure">Je télécharge la
+                    <p align="center"><a class="btn btn-jaune-to-border-white" href="#form-container">Je télécharge la
                             <strong>Brochure</strong></a></p>
                 </div>
             </div>
@@ -666,11 +666,11 @@ Template Name: LP par défaut 2020
         <!-- TESTIMONIALS END -->
 
         <!-- FORM BEGIN -->
-        <section class="form-container">
+        <section id="form-container" class="form-container">
             <div class="form-wrapper">
                 <div class="form-inner">
                     <h2 class="titre">Plus d'informations</h2>
-                    <p class="desc">Remplissez le formulaire pour télécharger la bruchure de l'Exec MBA</p>
+                    <p class="desc">Remplissez le formulaire pour télécharger la brochure de l'Exec MBA</p>
 
                     <?php if (function_exists('ninja_forms_display_form')) {
                         ninja_forms_display_form(25);

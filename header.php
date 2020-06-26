@@ -85,7 +85,7 @@
                 <a class="header-logo" href="<?php echo get_home_url(); ?>" title="IÉSEG School Of Management"
                    id="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/logos/logo_ieseg.png' ?>"
                                          alt="IÉSEG School Of Management"></a>
-                <a class="btn-jaune" href="lien_brochure">Je télécharge la <strong>Brochure</strong></a>
+                <a class="btn-jaune" href="#form-container">Je télécharge la <strong>Brochure</strong></a>
             </div>
         </div>
     </header>
