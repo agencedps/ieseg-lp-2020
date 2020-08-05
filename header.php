@@ -82,9 +82,8 @@
     <header class="header">
         <div class="header-container">
             <div class="header-wrapper">
-                <a class="header-logo" href="<?php echo get_home_url(); ?>" title="IÉSEG School Of Management"
-                   id="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/logos/logo_ieseg.png' ?>"
-                                         alt="IÉSEG School Of Management"></a>
+                <div class="header-logo" id="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/logos/logo_ieseg.png' ?>"
+                                         alt="IÉSEG School Of Management"></div>
                 <a class="btn-jaune" href="#form-container">Je télécharge la <strong>Brochure</strong></a>
             </div>
         </div>

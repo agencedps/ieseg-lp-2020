@@ -28,6 +28,21 @@
         </div>
     </div>
 
+    <div class="footer-container">
+        <div class="footer-wrapper">
+            <div class="footer-signature">
+                <a class="footer-logo" href="<?php echo get_home_url(); ?>" title="IÉSEG School Of Management"
+                   id="footer-logo">
+                    <img src="<?php echo get_template_directory_uri() . '/img/logos/logo_ieseg_footer.svg' ?>"
+                         alt="IÉSEG School Of Management"></a>
+                <p class="footer-baseline">
+                    <img src="<?php echo get_template_directory_uri() . '/img/logos/baseline_footer.svg' ?>"
+                         alt="Empowering changemakers for a better society">
+                </p>
+            </div>
+        </div>
+    </div>
+
 </footer>
 
 <?php wp_footer(); ?>

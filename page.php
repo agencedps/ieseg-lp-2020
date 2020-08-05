@@ -89,7 +89,7 @@ Template Name: LP par défaut 2020
                     <div class="info"><p>Participez à la prochaine réunion d'information le 3 avril à 17h</p></div>
                     <a class="btn btn-transparent" href="lien_mail"><strong>S'inscrire par mail</strong>
                         <small>Sur diplomants@ieseg.fr</small></a>
-                    <a class="btn btn-transparent" href="lien_tel"><strong>S'inscrire par tel</strong>
+                    <a class="btn btn-transparent" href="lien_tel"><strong>S'inscrire par tel.</strong>
                         <small>Au 01 55 91 98 06</small></a>
                 </div>
             </div>
@@ -280,49 +280,44 @@ Template Name: LP par défaut 2020
                         <div class="testimonials">
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                       title="Yeonhae (Ann) Lee" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2015/07/yeonhae-lee-fashion-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Yeonhae (Ann) Lee">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                             title="Yeonhae (Ann) Lee" tabindex="-1">Yeonhae (Ann)
-                                                Lee</a>
-                                        </h3>
+                                        <h3 class="titre">Yeonhae (Ann) Lee</h3>
                                         <p class="meta">MSc in Fashion Management, 2014</p>
                                     </div>
                                     <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                                  title="Yeonhae (Ann) Lee" tabindex="-1">J’ai vécu chaque minute passée à l’IÉSEG à cent à
-                                        l’heure,
-                                        avec
-                                        son lot de nouvelles expériences et de découvertes. L’année à l’IÉSEG à Paris a
-                                        été
-                                        une
-                                        expérience enrichissante qui m’a permis d’acquérir des connaissances
-                                        fondamentales
-                                        approfondies que j’applique encore aujourd’hui.
+                                                                  title="Yeonhae (Ann) Lee" tabindex="-1">J’ai vécu
+                                            chaque minute passée à l’IÉSEG à cent à
+                                            l’heure,
+                                            avec
+                                            son lot de nouvelles expériences et de découvertes. L’année à l’IÉSEG à
+                                            Paris a
+                                            été
+                                            une
+                                            expérience enrichissante qui m’a permis d’acquérir des connaissances
+                                            fondamentales
+                                            approfondies que j’applique encore aujourd’hui.
 
-                                        Cela m’a aidée à mieux comprendre les éléments nécessaires pour réussir dans un
-                                            environnement commerci <span class="troncat">...</span> </a>
+                                            Cela m’a aidée à mieux comprendre les éléments nécessaires pour réussir dans
+                                            un
+                                            environnement commerci  </a>
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                       title="Anne-Lise Miart" tabindex="0">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/miart-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Anne-Lise Miart">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                                             title="Anne-Lise Miart" tabindex="0">Anne-Lise Miart</a>
-                                        </h3>
+                                        <h3 class="titre">Anne-Lise Miart</h3>
                                         <p class="meta">Programme Grande École, 2012</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                                                  title="Anne-Lise Miart" tabindex="0">Anne-Lise Miart est entrée à l’IÉSEG en 2006 et elle
+                                    <div class="testi-excerpt">Anne-Lise Miart est entrée à l’IÉSEG en 2006 et elle
                                         prend
                                         rapidement la décision de partir en échange au Chili pour sa deuxième année. De
                                         retour à
@@ -333,25 +328,23 @@ Template Name: LP par défaut 2020
 
                                         Pour son stage opérationnel, elle intègre « Al Campo » en tant qu’Assistante
                                         Chef de
-                                        Rayon en Espagne. Puis, persuadée que l’audit est fait pour <span class="troncat">...</span> </a>
+                                        Rayon en Espagne. Puis, persuadée que l’audit est fait pour <span
+                                                class="troncat">...</span>
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/warren-henricus/"
-                                       title="Warren Henricus" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2015/08/bac_henricus-warren-e1440435498433-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Warren Henricus">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/warren-henricus/"
-                                                             title="Warren Henricus" tabindex="-1">Warren Henricus</a>
+                                        <h3 class="titre">Warren Henricus
                                         </h3>
                                         <p class="meta">MSc in Business Analysis &amp; Consulting, 2015</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/warren-henricus/"
-                                                                  title="Warren Henricus" tabindex="-1">Avant de rejoindre l’IÉSEG, j’ai obtenu un Bachelor en
+                                    <div class="testi-excerpt">Avant de rejoindre l’IÉSEG, j’ai obtenu un Bachelor en
                                         Génie
                                         Mécanique à l’Université des Sciences et Technologies de Hong Kong. Je voulais
                                         poursuivre mes études au sein d’un établissement qui me permettrait d’établir un
@@ -362,25 +355,22 @@ Template Name: LP par défaut 2020
                                         J’ai été attiré par le Master of Science in Business Analysis &amp; Consulting
                                         et
                                         par le
-                                        fait  <span class="troncat">...</span> </a>
+                                        fait
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/brittany-hasden/"
-                                       title="Brittany Hasden" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="" class="testimonials-home-photo img-responsive"
                                              alt="Brittany Hasden">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/brittany-hasden/"
-                                                             title="Brittany Hasden" tabindex="-1">Brittany Hasden</a>
+                                        <h3 class="titre">Brittany Hasden
                                         </h3>
                                         <p class="meta">International MBA, 2016</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/brittany-hasden/"
-                                                                  title="Brittany Hasden" tabindex="-1">Pour moi, l’expérience culturelle ainsi que la chance
+                                    <div class="testi-excerpt">Pour moi, l’expérience culturelle ainsi que la chance
                                         d’étudier à
                                         l’IÉSEG&nbsp; ont été très épanouissants.
 
@@ -393,26 +383,23 @@ Template Name: LP par défaut 2020
                                         important d’avoir une valeur ajoutée pour pouvoir se différencier des autres.
                                         C'est
                                         ce
-                                        que permet un MBA  <span class="troncat">...</span> </a>
+                                        que permet un MBA
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                       title="Raphaëlle Dessein" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/raphaelle-dessein-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Raphaëlle Dessein">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                                             title="Raphaëlle Dessein" tabindex="-1">Raphaëlle
-                                                Dessein</a>
+                                        <h3 class="titre">Raphaëlle
+                                            Dessein
                                         </h3>
                                         <p class="meta">Programme Grande École, 2013</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                                                  title="Raphaëlle Dessein" tabindex="-1">Après l’obtention de mon bac ES à Lille, j’ai su
+                                    <div class="testi-excerpt">Après l’obtention de mon bac ES à Lille, j’ai su
                                         immédiatement
                                         que le commerce serait ma voie. Je désirais avant tout une formation qui me
                                         permette
@@ -422,24 +409,21 @@ Template Name: LP par défaut 2020
                                         J’ai donc opté pour un DUT en Gestion des Entreprises et des Administrations à
                                         l’Université Lille 1. Mon diplôme en poche, j’ai ensuite intégré l’IÉSEG pour
                                         ses
-                                        valeurs mais également pour le Master « à l <span class="troncat">...</span> </a>
+                                        valeurs mais également pour le Master « à l
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/vincent-labis/"
-                                       title="Vincent Labis" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2016/01/labis-1-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Vincent Labis">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/vincent-labis/"
-                                                             title="Vincent Labis" tabindex="-1">Vincent Labis</a></h3>
+                                        <h3 class="titre">Vincent Labis</h3>
                                         <p class="meta">Programme Grande Ecole, 1991</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/vincent-labis/"
-                                                                  title="Vincent Labis" tabindex="-1">Mon premier emploi fut celui de collaborateur de Maître
+                                    <div class="testi-excerpt">Mon premier emploi fut celui de collaborateur de Maître
                                         BECQUET,
                                         Administrateur Judiciaire sur la métropole lilloise. Je connaissais assez peu le
                                         métier
@@ -449,26 +433,23 @@ Template Name: LP par défaut 2020
 
                                         En 2000, j’ai intégré le département Corporate Finance de EY (Ernst &amp; Young
                                         à
-                                        l’époque) où je fus chargé de crée <span class="troncat">...</span> </a>
+                                        l’époque) où je fus chargé de crée
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                       title="Yeonhae (Ann) Lee" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2015/07/yeonhae-lee-fashion-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Yeonhae (Ann) Lee">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                             title="Yeonhae (Ann) Lee" tabindex="-1">Yeonhae (Ann)
-                                                Lee</a>
+                                        <h3 class="titre">Yeonhae (Ann)
+                                            Lee
                                         </h3>
                                         <p class="meta">MSc in Fashion Management, 2014</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                                  title="Yeonhae (Ann) Lee" tabindex="-1">J’ai vécu chaque minute passée à l’IÉSEG à cent à
+                                    <div class="testi-excerpt">J’ai vécu chaque minute passée à l’IÉSEG à cent à
                                         l’heure,
                                         avec
                                         son lot de nouvelles expériences et de découvertes. L’année à l’IÉSEG à Paris a
@@ -479,25 +460,22 @@ Template Name: LP par défaut 2020
                                         approfondies que j’applique encore aujourd’hui.
 
                                         Cela m’a aidée à mieux comprendre les éléments nécessaires pour réussir dans un
-                                        environnement commerci  <span class="troncat">...</span> </a>
+                                        environnement commerci
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                       title="Anne-Lise Miart" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/miart-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Anne-Lise Miart">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                                             title="Anne-Lise Miart" tabindex="-1">Anne-Lise Miart</a>
+                                        <h3 class="titre">Anne-Lise Miart
                                         </h3>
                                         <p class="meta">Programme Grande École, 2012</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/anne-lise-miart/"
-                                                                  title="Anne-Lise Miart" tabindex="-1">Anne-Lise Miart est entrée à l’IÉSEG en 2006 et elle
+                                    <div class="testi-excerpt">Anne-Lise Miart est entrée à l’IÉSEG en 2006 et elle
                                         prend
                                         rapidement la décision de partir en échange au Chili pour sa deuxième année. De
                                         retour à
@@ -508,25 +486,23 @@ Template Name: LP par défaut 2020
 
                                         Pour son stage opérationnel, elle intègre « Al Campo » en tant qu’Assistante
                                         Chef de
-                                        Rayon en Espagne. Puis, persuadée que l’audit est fait pour  <span class="troncat">...</span> </a>
+                                        Rayon en Espagne. Puis, persuadée que l’audit est fait pour <span
+                                                class="troncat">...</span>
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/warren-henricus/"
-                                       title="Warren Henricus" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2015/08/bac_henricus-warren-e1440435498433-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Warren Henricus">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/warren-henricus/"
-                                                             title="Warren Henricus" tabindex="-1">Warren Henricus</a>
+                                        <h3 class="titre">Warren Henricus
                                         </h3>
                                         <p class="meta">MSc in Business Analysis &amp; Consulting, 2015</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/warren-henricus/"
-                                                                  title="Warren Henricus" tabindex="-1">Avant de rejoindre l’IÉSEG, j’ai obtenu un Bachelor en
+                                    <div class="testi-excerpt">Avant de rejoindre l’IÉSEG, j’ai obtenu un Bachelor en
                                         Génie
                                         Mécanique à l’Université des Sciences et Technologies de Hong Kong. Je voulais
                                         poursuivre mes études au sein d’un établissement qui me permettrait d’établir un
@@ -537,25 +513,22 @@ Template Name: LP par défaut 2020
                                         J’ai été attiré par le Master of Science in Business Analysis &amp; Consulting
                                         et
                                         par le
-                                        fait  <span class="troncat">...</span> </a>
+                                        fait
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/brittany-hasden/"
-                                       title="Brittany Hasden" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="" class="testimonials-home-photo img-responsive"
                                              alt="Brittany Hasden">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/brittany-hasden/"
-                                                             title="Brittany Hasden" tabindex="-1">Brittany Hasden</a>
+                                        <h3 class="titre">Brittany Hasden
                                         </h3>
                                         <p class="meta">International MBA, 2016</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/brittany-hasden/"
-                                                                  title="Brittany Hasden" tabindex="-1">Pour moi, l’expérience culturelle ainsi que la chance
+                                    <div class="testi-excerpt">Pour moi, l’expérience culturelle ainsi que la chance
                                         d’étudier à
                                         l’IÉSEG&nbsp; ont été très épanouissants.
 
@@ -568,26 +541,23 @@ Template Name: LP par défaut 2020
                                         important d’avoir une valeur ajoutée pour pouvoir se différencier des autres.
                                         C'est
                                         ce
-                                        que permet un MBA  <span class="troncat">...</span> </a>
+                                        que permet un MBA
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                       title="Raphaëlle Dessein" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/raphaelle-dessein-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Raphaëlle Dessein">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                                             title="Raphaëlle Dessein" tabindex="-1">Raphaëlle
-                                                Dessein</a>
+                                        <h3 class="titre">Raphaëlle
+                                            Dessein
                                         </h3>
                                         <p class="meta">Programme Grande École, 2013</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/raphaelle-dessein/"
-                                                                  title="Raphaëlle Dessein" tabindex="-1">Après l’obtention de mon bac ES à Lille, j’ai su
+                                    <div class="testi-excerpt">Après l’obtention de mon bac ES à Lille, j’ai su
                                         immédiatement
                                         que le commerce serait ma voie. Je désirais avant tout une formation qui me
                                         permette
@@ -597,24 +567,21 @@ Template Name: LP par défaut 2020
                                         J’ai donc opté pour un DUT en Gestion des Entreprises et des Administrations à
                                         l’Université Lille 1. Mon diplôme en poche, j’ai ensuite intégré l’IÉSEG pour
                                         ses
-                                        valeurs mais également pour le Master « à l <span class="troncat">...</span> </a>
+                                        valeurs mais également pour le Master « à l
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/vincent-labis/"
-                                       title="Vincent Labis" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2016/01/labis-1-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Vincent Labis">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/vincent-labis/"
-                                                             title="Vincent Labis" tabindex="-1">Vincent Labis</a></h3>
+                                        <h3 class="titre">Vincent Labis</h3>
                                         <p class="meta">Programme Grande Ecole, 1991</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/vincent-labis/"
-                                                                  title="Vincent Labis" tabindex="-1">Mon premier emploi fut celui de collaborateur de Maître
+                                    <div class="testi-excerpt">Mon premier emploi fut celui de collaborateur de Maître
                                         BECQUET,
                                         Administrateur Judiciaire sur la métropole lilloise. Je connaissais assez peu le
                                         métier
@@ -624,26 +591,23 @@ Template Name: LP par défaut 2020
 
                                         En 2000, j’ai intégré le département Corporate Finance de EY (Ernst &amp; Young
                                         à
-                                        l’époque) où je fus chargé de crée <span class="troncat">...</span> </a>
+                                        l’époque) où je fus chargé de crée
                                     </div>
                                 </article>
                             </div>
                             <div class="testi-slide">
                                 <article class="testimonial">
-                                    <a class="thumbnail" href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                       title="Yeonhae (Ann) Lee" tabindex="-1">
+                                    <div class="thumbnail">
                                         <img src="http://ieseg.test/wp-content/uploads/2015/07/yeonhae-lee-fashion-420x385.png"
                                              class="testimonials-home-photo img-responsive" alt="Yeonhae (Ann) Lee">
-                                    </a>
+                                    </div>
                                     <div class="infos">
-                                        <h3 class="titre"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                             title="Yeonhae (Ann) Lee" tabindex="-1">Yeonhae (Ann)
-                                                Lee</a>
+                                        <h3 class="titre">Yeonhae (Ann)
+                                            Lee
                                         </h3>
                                         <p class="meta">MSc in Fashion Management, 2014</p>
                                     </div>
-                                    <div class="testi-excerpt"><a href="http://ieseg.test/testimonial/yeonhae-ann-lee/"
-                                                                  title="Yeonhae (Ann) Lee" tabindex="-1">J’ai vécu chaque minute passée à l’IÉSEG à cent à
+                                    <div class="testi-excerpt">J’ai vécu chaque minute passée à l’IÉSEG à cent à
                                         l’heure,
                                         avec
                                         son lot de nouvelles expériences et de découvertes. L’année à l’IÉSEG à Paris a
@@ -654,7 +618,7 @@ Template Name: LP par défaut 2020
                                         approfondies que j’applique encore aujourd’hui.
 
                                         Cela m’a aidée à mieux comprendre les éléments nécessaires pour réussir dans un
-                                        environnement commerci  <span class="troncat">...</span> </a>
+                                        environnement commerci
                                     </div>
                                 </article>
                             </div>

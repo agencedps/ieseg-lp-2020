@@ -714,6 +714,7 @@ html body .main-container {
 @media (min-width: 768px) {
   .header .header-container .header-wrapper {
     align-items: center;
+    padding: 1rem 0;
   }
 }
 .header .header-container .header-wrapper .header-logo {
@@ -736,7 +737,7 @@ html body .main-container {
 .header .header-container .header-wrapper .btn, .header .header-container .header-wrapper .btn-jaune-to-border-white, .header .header-container .header-wrapper .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element, .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .header .header-container .header-wrapper .nf-element, .header .header-container .header-wrapper .btn-jaune, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-transparent, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-transparent, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-blanc, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-blanc, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune-to-border-white, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune-to-border-white, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune-to-blanc, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-blanc, .header .header-container .header-wrapper .btn-transparent {
   margin: 0;
   padding: 0;
-  flex: 2;
+  flex: 2 0 200px;
   white-space: nowrap;
   text-align: center;
   display: flex;
@@ -748,7 +749,7 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .header .header-container .header-wrapper .btn, .header .header-container .header-wrapper .btn-jaune-to-border-white, .header .header-container .header-wrapper .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element, .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .header .header-container .header-wrapper .nf-element, .header .header-container .header-wrapper .btn-jaune, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-transparent, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-transparent, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-blanc, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-blanc, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune-to-border-white, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune-to-border-white, .header .header-container .header-wrapper .nf-form-cont .nf-response-msg a.btn-jaune-to-blanc, .nf-form-cont .nf-response-msg .header .header-container .header-wrapper a.btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-jaune-to-blanc, .header .header-container .header-wrapper .btn-blanc, .header .header-container .header-wrapper .btn-transparent {
-    flex: 0;
+    flex: 0 0 200px;
     margin: 0.5rem;
     padding: 0.5rem 2rem;
     display: inline-block;
@@ -811,7 +812,7 @@ html body .main-container {
 }
 .footer .footer-container .footer-wrapper .accreditations img {
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
 }
 .footer .footer-container .footer-wrapper .titre {
   text-transform: uppercase;
@@ -888,6 +889,55 @@ html body .main-container {
   background: url("../img/pictos/picto_telephone.svg") no-repeat center left/contain;
   height: 0.75rem;
   width: 1.5rem;
+}
+.footer .footer-container .footer-wrapper .footer-signature {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem 0 2.5rem;
+  border-top: solid 1px #FFFFFF;
+}
+@media (min-width: 768px) {
+  .footer .footer-container .footer-wrapper .footer-signature {
+    width: 100%;
+    padding: 1rem 0 0 0;
+  }
+}
+.footer .footer-container .footer-wrapper .footer-signature .footer-logo {
+  width: 20%;
+}
+@media (min-width: 768px) {
+  .footer .footer-container .footer-wrapper .footer-signature .footer-logo {
+    width: 12%;
+  }
+}
+@media (min-width: 1366px) {
+  .footer .footer-container .footer-wrapper .footer-signature .footer-logo {
+    width: 128px;
+  }
+}
+.footer .footer-container .footer-wrapper .footer-signature .footer-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.footer .footer-container .footer-wrapper .footer-signature .footer-baseline {
+  width: 80%;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .footer .footer-container .footer-wrapper .footer-signature .footer-baseline {
+    width: 66%;
+  }
+}
+@media (min-width: 1366px) {
+  .footer .footer-container .footer-wrapper .footer-signature .footer-baseline {
+    width: 704px;
+  }
+}
+.footer .footer-container .footer-wrapper .footer-signature .footer-baseline img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /**
@@ -981,10 +1031,16 @@ html body .main-container {
   margin: 0 -1rem;
   padding: 1rem 0 0 0;
 }
+.nf-form-cont .nf-form-layout .nf-form-content {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
 .nf-form-cont .nf-field-container {
   margin: 1rem;
 }
 .nf-form-cont .nf-field-container.textbox-container .nf-element, .nf-form-cont .nf-field-container.email-container .nf-element {
+  border-radius: 0;
   background: transparent;
   border: none;
   border-bottom: solid 1px #FFFFFF;
@@ -992,15 +1048,36 @@ html body .main-container {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 1.5rem;
+  padding: 0 0 1.5rem 0;
 }
 @media (min-width: 768px) {
   .nf-form-cont .nf-field-container.textbox-container .nf-element, .nf-form-cont .nf-field-container.email-container .nf-element {
-    padding-bottom: 0;
+    padding: 0;
   }
+}
+.nf-form-cont .nf-field-container.textbox-container .nf-element::-webkit-input-placeholder, .nf-form-cont .nf-field-container.email-container .nf-element::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #FFFFFF;
+  opacity: 1;
+}
+.nf-form-cont .nf-field-container.textbox-container .nf-element::-moz-placeholder, .nf-form-cont .nf-field-container.email-container .nf-element::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #FFFFFF;
+  opacity: 1;
+}
+.nf-form-cont .nf-field-container.textbox-container .nf-element:-ms-input-placeholder, .nf-form-cont .nf-field-container.email-container .nf-element:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #FFFFFF;
+  opacity: 1;
+}
+.nf-form-cont .nf-field-container.textbox-container .nf-element:-moz-placeholder, .nf-form-cont .nf-field-container.email-container .nf-element:-moz-placeholder {
+  /* Firefox 18- */
+  color: #FFFFFF;
+  opacity: 1;
 }
 .nf-form-cont .nf-field-container.textbox-container .nf-element::placeholder, .nf-form-cont .nf-field-container.email-container .nf-element::placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 .nf-form-cont .nf-field-container.textbox-container .nf-element:focus, .nf-form-cont .nf-field-container.email-container .nf-element:focus {
   outline: none;
@@ -1009,7 +1086,7 @@ html body .main-container {
   margin-top: calc(1rem - 4px);
 }
 .nf-form-cont .nf-field-container.listselect-container .nf-element {
-  background: transparent;
+  border-radius: 0;
   border: none;
   border-bottom: solid 1px #FFFFFF;
   color: #FFFFFF;
@@ -1018,8 +1095,15 @@ html body .main-container {
   font-weight: 700;
   padding-bottom: 1.5rem;
   width: 100%;
+  background: transparent url("../img/pictos/picto_chevron_bas_blanc.svg") no-repeat right center/1.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
 }
 .nf-form-cont .nf-field-container.listselect-container .nf-element option {
+  background-color: #FFFFFF;
   color: #001F44;
   font-size: 0.75rem;
 }
@@ -1039,6 +1123,7 @@ html body .main-container {
 .nf-form-cont .nf-field-container.checkbox-container .field-wrap.checkbox-wrap .nf-field-label {
   display: block;
   margin-right: 0.5rem;
+  width: auto;
 }
 .nf-form-cont .nf-field-container.checkbox-container .field-wrap.checkbox-wrap .nf-field-label label {
   font-weight: 300;
@@ -1056,6 +1141,7 @@ html body .main-container {
   }
 }
 .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element {
+  border-radius: 0;
   font-weight: 400;
   text-transform: none;
 }
@@ -1150,6 +1236,7 @@ html body .main-container {
   justify-content: flex-start;
   align-items: center;
   font-weight: 400;
+  transition: background-color 0.4s ease-out;
 }
 @media (min-width: 768px) {
   .accordion__title {
@@ -1176,12 +1263,15 @@ html body .main-container {
     padding: 0 0.5rem 0 0;
   }
 }
-.accordion__title:hover, .accordion__title:focus {
+.accordion__title:hover {
   cursor: pointer;
+  background-color: #FFDD00;
+}
+.accordion__title:focus {
   outline: none;
 }
-.accordion__title:hover > *, .accordion__title:focus > * {
-  color: #FD9E00;
+.is-expanded .accordion__title {
+  background-color: #FFDD00;
 }
 .is-expanded .accordion__title:after {
   transform: rotate(-90deg);
@@ -1256,6 +1346,7 @@ html body .main-container {
     margin: 1rem 2rem 1rem 0;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 1px;
   }
 }
 .testimonials .testi-slide .testimonial .thumbnail {
@@ -1435,7 +1526,7 @@ html body .main-container {
 @media (min-width: 768px) {
   .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content {
     position: absolute;
-    left: 55%;
+    left: 60%;
     bottom: 2%;
     transform: translateX(-50%);
   }
@@ -1598,7 +1689,7 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .content p.key {
-    font-size: 0.75rem;
+    font-size: 0.855rem;
   }
 }
 
@@ -1669,7 +1760,7 @@ html body .main-container {
   align-items: center;
   text-align: center;
   margin: 1rem auto;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   flex: 1;
 }
 .inscription-container .inscription-wrapper .inscription-inner .btn strong, .inscription-container .inscription-wrapper .inscription-inner .btn-transparent strong, .inscription-container .inscription-wrapper .inscription-inner .btn-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune strong, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune-to-border-white strong, .inscription-container .inscription-wrapper .inscription-inner .btn-jaune-to-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element strong, .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .inscription-container .inscription-wrapper .inscription-inner .nf-element strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn-transparent strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-transparent strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn-blanc strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-blanc strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn-jaune strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn-jaune-to-border-white strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune-to-border-white strong, .inscription-container .inscription-wrapper .inscription-inner .nf-form-cont .nf-response-msg a.btn-jaune-to-blanc strong, .nf-form-cont .nf-response-msg .inscription-container .inscription-wrapper .inscription-inner a.btn-jaune-to-blanc strong {
@@ -1690,6 +1781,14 @@ html body .main-container {
 }
 .content-container .content-wrapper .content-inner {
   padding: 1rem;
+}
+.content-container .content-wrapper .content-inner .editor-content {
+  font-size: 1.167rem;
+}
+@media (min-width: 768px) {
+  .content-container .content-wrapper .content-inner .editor-content {
+    font-size: 1rem;
+  }
 }
 
 .video-container {
@@ -1842,7 +1941,7 @@ html body .main-container {
   }
 }
 .numbers-container .numbers-wrapper .numbers-inner .numbers .number {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   flex: 0 0 50%;
   display: flex;
   flex-direction: column;
@@ -1906,9 +2005,14 @@ html body .main-container {
   background-position: 0 100%;
 }
 .numbers-container .numbers-wrapper .numbers-inner .numbers .number .unit {
-  font-size: 1rem;
   font-weight: 600;
   color: #001F44;
+  font-size: 1.167rem;
+}
+@media (min-width: 768px) {
+  .numbers-container .numbers-wrapper .numbers-inner .numbers .number .unit {
+    font-size: 1rem;
+  }
 }
 
 .content-container {

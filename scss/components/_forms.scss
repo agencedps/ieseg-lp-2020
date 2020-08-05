@@ -7,11 +7,20 @@
   margin: 0 -1rem;
   padding: 1rem 0 0 0;
 
+  .nf-form-layout {
+    .nf-form-content {
+      max-width: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
   .nf-field-container {
     margin: 1rem;
 
     &.textbox-container, &.email-container {
       .nf-element {
+        border-radius: 0;
         background: transparent;
         border: none;
         border-bottom: solid 1px $white;
@@ -19,13 +28,30 @@
         text-transform: uppercase;
         font-size: 1.5rem;
         font-weight: 700;
-        padding-bottom: 1.5rem;
+        padding: 0 0 1.5rem 0;
         @include respond-to('small') {
-          padding-bottom: 0;
+          padding: 0;
         }
 
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: $white;
+          opacity: 1;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: $white;
+          opacity: 1;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: $white;
+          opacity: 1;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: $white;
+          opacity: 1;
+        }
         &::placeholder {
           color: $white;
+          opacity: 1;
         }
 
         &:focus {
@@ -38,7 +64,7 @@
       margin-top: calc(1rem - 4px);
 
       .nf-element {
-        background: transparent;
+        border-radius: 0;
         border: none;
         border-bottom: solid 1px $white;
         color: $white;
@@ -47,8 +73,15 @@
         font-weight: 700;
         padding-bottom: 1.5rem;
         width: 100%;
+        background: transparent url('../img/pictos/picto_chevron_bas_blanc.svg') no-repeat right center/1.5rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        outline: none;
 
         option {
+          background-color: $white;
           color: $darkblue;
           font-size: 0.75rem;
           //font-weight: 700;
@@ -74,6 +107,7 @@
           .nf-field-label {
             display: block;
             margin-right: 0.5rem;
+            width: auto;
 
             label {
               font-weight: 300;
@@ -96,6 +130,7 @@
         }
 
         .nf-element {
+          border-radius: 0;
           font-weight: 400;
           text-transform: none;
           @extend .btn-jaune-to-border-white;

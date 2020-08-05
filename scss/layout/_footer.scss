@@ -37,7 +37,7 @@
 
         img {
           width: 100%;
-          max-width: 300px;
+          max-width: 450px;
         }
       }
 
@@ -126,6 +126,53 @@
                 width: 1.5rem;
               }
             }
+          }
+        }
+      }
+
+      .footer-signature {
+        display: flex;
+        align-items: center;
+        padding: 1rem 2.5rem 0 2.5rem;
+        border-top: solid 1px $white;
+
+        @include respond-to('small') {
+          width: 100%;
+          padding: 1rem 0 0 0;
+        }
+
+        .footer-logo {
+          width: 20%;
+          @include respond-to('small') {
+            width: 12%;
+          }
+          @include respond-to('large') {
+            width: 128px;
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .footer-baseline {
+          width: 80%;
+          margin: 0;
+          @include respond-to('small') {
+            width: 66%;
+            //margin: 0 0 0 4rem;
+          }
+          @include respond-to('large') {
+            width: 704px;
+            //margin: 0 0 0 4rem;
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
           }
         }
       }

@@ -106,6 +106,7 @@
     let $testi_settings = {
         prevArrow: '<button type="button" class="slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-next"></button>',
+        autoplay: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1
