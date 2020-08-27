@@ -45,14 +45,14 @@
 
     &:hover {
       cursor: pointer;
-      background-color: #FFDD00;
+      background-color: $yellow;
     }
     &:focus {
       outline: none;
     }
 
     .is-expanded & {
-      background-color: #FFDD00;
+      background-color: $yellow;
       &:after {
         transform: rotate(-90deg);
       }

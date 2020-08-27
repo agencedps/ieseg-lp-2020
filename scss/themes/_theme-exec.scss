@@ -1,0 +1,312 @@
+/**
+ * theme exec
+ * particulars styles for exec pages
+ */
+
+// new color variables
+$orange-exec: #F7A600;
+$black-exec: #000000;
+
+// CONTENEUR PRINCIPAL AVEC LA CLASSE 'EXEC'
+#container-global {
+  &.exec {
+    color: $black-exec;
+
+    // TITRES
+    h2, .titre2,
+    h3, .titre3,
+    h4, .titre4 {
+      color: $black-exec;
+    }
+    h2, .titre2 {
+
+      &::before {
+        background: url('../img/pictos/picto_fleche_bg_noir.svg') no-repeat center/contain;
+      }
+    }
+    // LIENS
+    a, .link {
+
+      &:hover {
+        color: $orange-exec;
+      }
+
+      &.troncat {
+        color: $orange-exec;
+      }
+    }
+
+    // LISTES
+    ul {
+      li {
+        .editor-content &::before {
+          color: $orange-exec;
+        }
+      }
+    }
+
+    // HELPER CLASSES
+    .troncat {
+      color: $orange-exec;
+    }
+
+    // BUTTONS
+    .btn-transparent {
+      background-image: linear-gradient(to top, $black-exec 50%, transparent 0);
+      color: $black-exec;
+      border: solid 1px $black-exec;
+    }
+
+    .btn-blanc {
+      background-image: linear-gradient(to top, $black-exec 50%, $white 0);
+      color: $black-exec;
+      border: solid 1px $black-exec;
+    }
+
+    .btn-jaune {
+      background-image: linear-gradient(to top, $black-exec 50%, $orange-exec 0);
+      color: $black-exec;
+    }
+
+    .btn-jaune-to-border-white {
+      background-image: linear-gradient(to top, $black-exec 50%, $orange-exec 0);
+      color: $black-exec;
+      border: solid 1px $orange-exec;
+    }
+
+    .btn-jaune-to-blanc {
+      background-image: linear-gradient(to top, $white 50%, $orange-exec 0);
+
+      &:hover {
+        color: $black-exec;
+      }
+    }
+
+    // ACCORDIONS
+    .accordion {
+      &__title {
+        &:hover {
+          background-color: $orange-exec;
+        }
+
+        .is-expanded & {
+          background-color: $orange-exec;
+
+        }
+      }
+    }
+
+    // FOOTER
+    .footer {
+
+      .footer-container {
+        background-color: $black-exec;
+
+        .footer-wrapper {
+
+          .titre {
+            color: $black-exec;
+          }
+        }
+      }
+    }
+
+    // FORMS
+    .nf-form-cont {
+
+      .nf-field-container {
+
+        &.listselect-container {
+
+          .nf-element {
+
+            option {
+              color: $black-exec;
+            }
+          }
+        }
+      }
+
+      .nf-error-msg {
+        color: $orange-exec;
+      }
+
+      .nf-error-field-errors {
+        border: solid 1px $orange-exec;
+        background-color: $orange-exec;
+        color: $black-exec;
+      }
+
+      .nf-response-msg {
+        border: solid 1px $black-exec;
+        color: $black-exec;
+
+        .text-center {
+          border-bottom: solid 1px $black-exec;
+        }
+      }
+
+    }
+
+    // TESTIMONIALS
+    .testimonials {
+
+      .slick-arrow {
+
+        &.slick-prev {
+          background: url('../img/pictos/picto_fleche_gauche_bg_noir.svg') no-repeat center/contain;
+
+          &:hover {
+            background: url('../img/pictos/picto_fleche_gauche_bg_orange.svg') no-repeat center/contain;
+          }
+        }
+
+        &.slick-next {
+          background: url('../img/pictos/picto_fleche_droite_contours_noirs.svg') no-repeat center/contain;
+
+          &:hover {
+            background: url('../img/pictos/picto_fleche_droite_contours_oranges.svg') no-repeat center/contain;
+          }
+        }
+      }
+
+      .testi-slide {
+
+        .testimonial {
+
+          .infos {
+
+            .titre {
+              background-color: $orange-exec;
+              color: $black-exec;
+
+              > a {
+
+                &:hover {
+                  color: $black-exec;
+                }
+              }
+            }
+
+            .meta {
+              background-color: $orange-exec;
+              color: $black-exec;
+            }
+          }
+
+          .testi-excerpt {
+
+            > a {
+
+              &:hover {
+                color: $black-exec;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // SECTION HERO
+    .hero-container {
+
+      .hero-wrapper {
+        .hero-inner {
+          .hero {
+            .hero-slide {
+              background-color: $black-exec;
+
+              .content {
+                .titre {
+                  color: $orange-exec;
+                }
+
+                .cta {
+                  @include respond-to('small') {
+                    color: $black-exec;
+                  }
+
+                  &::before {
+                    content: '';
+                    display: block;
+                    width: 1rem;
+                    height: 1rem;
+                    background: url("../img/pictos/picto_fleche_blanche.svg") no-repeat center/contain;
+                    margin: 0 0.5rem 0 0;
+                    @include respond-to('small') {
+                      background: url("../img/pictos/picto_fleche_bleue.svg") no-repeat center/contain;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // SECTION KEYFACTS
+    .keyfacts-container {
+      background-color: $black-exec;
+    }
+
+    // SECTION VIDEO
+    .video-container {
+      background-color: $black-exec;
+
+      .video-wrapper {
+        .video-inner {
+
+          > .titre {
+            color: $black-exec;
+
+            &::before {
+              background: $black-exec url("../img/pictos/picto_fleche_bg_blanc.svg") no-repeat left center/1.5rem;
+            }
+
+            &::after {
+              background-color: $black-exec;
+            }
+          }
+
+        }
+      }
+    }
+
+    // SECTION NUMBERS
+    .numbers-container {
+
+      .numbers-wrapper {
+
+        .numbers-inner {
+
+          .numbers {
+
+            .number {
+
+              .value {
+                //background: linear-gradient(to top, $black-exec, $black-exec 50%, $grey 50%) no-repeat 0 0;
+              }
+
+              .unit {
+                color: $black-exec;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // SECTION FORM
+    .form-container {
+      background-color: $black-exec;
+
+      .form-wrapper {
+        .titre {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+

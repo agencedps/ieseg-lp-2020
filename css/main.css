@@ -1093,7 +1093,7 @@ html body .main-container {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 1.5rem;
+  padding: 0 0 1.5rem 0;
   width: 100%;
   background: transparent url("../img/pictos/picto_chevron_bas_blanc.svg") no-repeat right center/1.5rem;
   -webkit-appearance: none;
@@ -1106,10 +1106,11 @@ html body .main-container {
   background-color: #FFFFFF;
   color: #001F44;
   font-size: 0.75rem;
+  padding-left: 0.5rem;
 }
 @media (min-width: 768px) {
   .nf-form-cont .nf-field-container.listselect-container .nf-element {
-    padding-bottom: 0;
+    padding: 0;
   }
 }
 .nf-form-cont .nf-field-container.checkbox-container .field-wrap.checkbox-wrap {
@@ -2123,6 +2124,167 @@ html body .main-container {
   .form-container .form-wrapper .desc {
     font-size: 1rem;
   }
+}
+
+/**
+ * themes
+ * if needed, contains styling for different themes inside the WordPress theme (inception !)
+ */
+/**
+ * theme exec
+ * particulars styles for exec pages
+ */
+#container-global.exec {
+  color: #000000;
+}
+#container-global.exec h2, #container-global.exec .titre2,
+#container-global.exec h3, #container-global.exec .titre3,
+#container-global.exec h4, #container-global.exec .titre4 {
+  color: #000000;
+}
+#container-global.exec h2::before, #container-global.exec .titre2::before {
+  background: url("../img/pictos/picto_fleche_bg_noir.svg") no-repeat center/contain;
+}
+#container-global.exec a:hover, #container-global.exec .link:hover {
+  color: #F7A600;
+}
+#container-global.exec a.troncat, #container-global.exec .link.troncat {
+  color: #F7A600;
+}
+.editor-content #container-global.exec ul li::before {
+  color: #F7A600;
+}
+#container-global.exec .troncat {
+  color: #F7A600;
+}
+#container-global.exec .btn-transparent {
+  background-image: linear-gradient(to top, #000000 50%, transparent 0);
+  color: #000000;
+  border: solid 1px #000000;
+}
+#container-global.exec .btn-blanc {
+  background-image: linear-gradient(to top, #000000 50%, #FFFFFF 0);
+  color: #000000;
+  border: solid 1px #000000;
+}
+#container-global.exec .btn-jaune, #container-global.exec .btn-jaune-to-blanc, #container-global.exec .nf-form-cont .nf-response-msg a.btn, .nf-form-cont .nf-response-msg #container-global.exec a.btn, #container-global.exec .nf-form-cont .nf-response-msg a.btn-transparent, .nf-form-cont .nf-response-msg #container-global.exec a.btn-transparent, #container-global.exec .nf-form-cont .nf-response-msg a.btn-blanc, .nf-form-cont .nf-response-msg #container-global.exec a.btn-blanc, #container-global.exec .nf-form-cont .nf-response-msg a.btn-jaune-to-border-white, .nf-form-cont .nf-response-msg #container-global.exec a.btn-jaune-to-border-white, #container-global.exec .nf-form-cont .nf-response-msg .nf-field-container.textbox-container.submit-container .nf-field-element a.nf-element, .nf-form-cont .nf-response-msg .nf-field-container.textbox-container.submit-container .nf-field-element #container-global.exec a.nf-element, #container-global.exec .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-response-msg a.nf-element, .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-response-msg #container-global.exec a.nf-element {
+  background-image: linear-gradient(to top, #000000 50%, #F7A600 0);
+  color: #000000;
+}
+#container-global.exec .btn-jaune-to-border-white, #container-global.exec .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element, .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element #container-global.exec .nf-element {
+  background-image: linear-gradient(to top, #000000 50%, #F7A600 0);
+  color: #000000;
+  border: solid 1px #F7A600;
+}
+#container-global.exec .btn-jaune-to-blanc {
+  background-image: linear-gradient(to top, #FFFFFF 50%, #F7A600 0);
+}
+#container-global.exec .btn-jaune-to-blanc:hover {
+  color: #000000;
+}
+#container-global.exec .accordion__title:hover {
+  background-color: #F7A600;
+}
+.is-expanded #container-global.exec .accordion__title {
+  background-color: #F7A600;
+}
+#container-global.exec .footer .footer-container {
+  background-color: #000000;
+}
+#container-global.exec .footer .footer-container .footer-wrapper .titre {
+  color: #000000;
+}
+#container-global.exec .nf-form-cont .nf-field-container.listselect-container .nf-element option {
+  color: #000000;
+}
+#container-global.exec .nf-form-cont .nf-error-msg {
+  color: #F7A600;
+}
+#container-global.exec .nf-form-cont .nf-error-field-errors {
+  border: solid 1px #F7A600;
+  background-color: #F7A600;
+  color: #000000;
+}
+#container-global.exec .nf-form-cont .nf-response-msg {
+  border: solid 1px #000000;
+  color: #000000;
+}
+#container-global.exec .nf-form-cont .nf-response-msg .text-center {
+  border-bottom: solid 1px #000000;
+}
+#container-global.exec .testimonials .slick-arrow.slick-prev {
+  background: url("../img/pictos/picto_fleche_gauche_bg_noir.svg") no-repeat center/contain;
+}
+#container-global.exec .testimonials .slick-arrow.slick-prev:hover {
+  background: url("../img/pictos/picto_fleche_gauche_bg_orange.svg") no-repeat center/contain;
+}
+#container-global.exec .testimonials .slick-arrow.slick-next {
+  background: url("../img/pictos/picto_fleche_droite_contours_noirs.svg") no-repeat center/contain;
+}
+#container-global.exec .testimonials .slick-arrow.slick-next:hover {
+  background: url("../img/pictos/picto_fleche_droite_contours_oranges.svg") no-repeat center/contain;
+}
+#container-global.exec .testimonials .testi-slide .testimonial .infos .titre {
+  background-color: #F7A600;
+  color: #000000;
+}
+#container-global.exec .testimonials .testi-slide .testimonial .infos .titre > a:hover {
+  color: #000000;
+}
+#container-global.exec .testimonials .testi-slide .testimonial .infos .meta {
+  background-color: #F7A600;
+  color: #000000;
+}
+#container-global.exec .testimonials .testi-slide .testimonial .testi-excerpt > a:hover {
+  color: #000000;
+}
+#container-global.exec .hero-container .hero-wrapper .hero-inner .hero .hero-slide {
+  background-color: #000000;
+}
+#container-global.exec .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .titre {
+  color: #F7A600;
+}
+@media (min-width: 768px) {
+  #container-global.exec .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta {
+    color: #000000;
+  }
+}
+#container-global.exec .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta::before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url("../img/pictos/picto_fleche_blanche.svg") no-repeat center/contain;
+  margin: 0 0.5rem 0 0;
+}
+@media (min-width: 768px) {
+  #container-global.exec .hero-container .hero-wrapper .hero-inner .hero .hero-slide .content .cta::before {
+    background: url("../img/pictos/picto_fleche_bleue.svg") no-repeat center/contain;
+  }
+}
+#container-global.exec .keyfacts-container {
+  background-color: #000000;
+}
+#container-global.exec .video-container {
+  background-color: #000000;
+}
+#container-global.exec .video-container .video-wrapper .video-inner > .titre {
+  color: #000000;
+}
+#container-global.exec .video-container .video-wrapper .video-inner > .titre::before {
+  background: #000000 url("../img/pictos/picto_fleche_bg_blanc.svg") no-repeat left center/1.5rem;
+}
+#container-global.exec .video-container .video-wrapper .video-inner > .titre::after {
+  background-color: #000000;
+}
+#container-global.exec .numbers-container .numbers-wrapper .numbers-inner .numbers .number .unit {
+  color: #000000;
+}
+#container-global.exec .form-container {
+  background-color: #000000;
+}
+#container-global.exec .form-container .form-wrapper .titre {
+  color: #FFFFFF;
 }
 
 /**
