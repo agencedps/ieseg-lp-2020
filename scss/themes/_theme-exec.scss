@@ -125,6 +125,18 @@ $black-exec: #000000;
             }
           }
         }
+
+        &.textbox-container.submit-container {
+          .nf-field-element {
+
+            .nf-element {
+              &:hover {
+                border: solid 1px $orange-exec;
+                color: $orange-exec;
+              }
+            }
+          }
+        }
       }
 
       .nf-error-msg {

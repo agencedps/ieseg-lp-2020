@@ -2197,6 +2197,10 @@ html body .main-container {
 #container-global.exec .nf-form-cont .nf-field-container.listselect-container .nf-element option {
   color: #000000;
 }
+#container-global.exec .nf-form-cont .nf-field-container.textbox-container.submit-container .nf-field-element .nf-element:hover {
+  border: solid 1px #F7A600;
+  color: #F7A600;
+}
 #container-global.exec .nf-form-cont .nf-error-msg {
   color: #F7A600;
 }
