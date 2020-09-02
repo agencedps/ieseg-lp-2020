@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="79.577" height="65.822" viewBox="0 0 79.577 65.822"><defs><style>.a{fill:#fd9e00;stroke-width:2px;}.a,.b{stroke:#fd9e00;}.a,.b,.e{stroke-miterlimit:10;}.b{fill:#2b3642;}.b,.c,.d,.e{stroke-width:2.5px;}.c,.d{fill:none;stroke-linejoin:round;}.c,.d,.e{stroke:#fff;}.d{stroke-linecap:round;}.e{fill:#fff;}</style></defs><g transform="translate(-889.877 -423.637)"><g transform="translate(904.216 457.066)"><g transform="translate(0 0)"><path class="a" d="M904.739,455a.856.856,0,1,1-.855-.857A.854.854,0,0,1,904.739,455Z" transform="translate(-903.027 -454.144)"/></g><g transform="translate(8.661)"><circle class="b" cx="0.857" cy="0.857" r="0.857"/></g><g transform="translate(17.324)"><circle class="b" cx="0.857" cy="0.857" r="0.857"/></g></g><path class="c" d="M938.428,459.224h6.35l11.254,13.059,0-13.059h3.042a6.253,6.253,0,0,0,6.235-6.234V431.122a6.254,6.254,0,0,0-6.235-6.235H926.317a6.254,6.254,0,0,0-6.235,6.235v4.843" transform="translate(2.892)"/><path class="d" d="M900.407,486.762V473.7h-3.043a6.254,6.254,0,0,1-6.235-6.236V445.6a6.253,6.253,0,0,1,6.235-6.235h32.759a6.253,6.253,0,0,1,6.235,6.235v21.866a6.254,6.254,0,0,1-6.235,6.236H911.661Z" transform="translate(0 1.446)"/><g transform="translate(944.265 441.129)"><circle class="e" cx="0.857" cy="0.857" r="0.857"/></g><g transform="translate(952.928 441.129)"><circle class="e" cx="0.857" cy="0.857" r="0.857"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 55.5 45.9" style="enable-background:new 0 0 55.5 45.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3A4553;stroke:#F7A600;stroke-width:1.75;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:1.75;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#F7A600;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#3A4553;stroke:#FFFFFF;stroke-width:1.75;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1 960 540)" style="font-family:'MyriadPro-Regular'; font-size:12px;">picto_keyfact_language</text>
+<g id="Calque_2_1_">
+	<g id="Calque_1-2">
+		<path class="st0" d="M11.2,23.9c0,0.3-0.2,0.6-0.6,0.6c0,0,0,0,0,0c-0.3,0-0.6-0.3-0.6-0.6c0,0,0,0,0,0c0-0.3,0.3-0.6,0.6-0.6h0
+			C10.9,23.3,11.2,23.6,11.2,23.9C11.2,23.9,11.2,23.9,11.2,23.9z"/>
+		<circle class="st0" cx="16.6" cy="23.9" r="0.6"/>
+		<circle class="st0" cx="22.7" cy="23.9" r="0.6"/>
+		<path class="st1" d="M35.9,24.8h4.4l7.8,9.2v-9.2h2.1c2.4,0,4.3-1.9,4.3-4.4V5.2c0-2.4-1.9-4.3-4.3-4.3H27.5
+			c-2.4,0-4.4,1.9-4.4,4.3l0,0v3.4"/>
+		<path class="st2" d="M7.3,45.1V36H5.2c-2.4,0-4.4-2-4.4-4.4c0,0,0,0,0,0V16.3c0-2.4,2-4.3,4.3-4.3h22.9c2.4,0,4.4,1.9,4.4,4.4l0,0
+			v15.2c0,2.4-1.9,4.4-4.3,4.4c0,0,0,0,0,0H15.2L7.3,45.1z"/>
+		<circle class="st3" cx="38.5" cy="12.8" r="0.6"/>
+		<circle class="st3" cx="44.6" cy="12.8" r="0.6"/>
+	</g>
+</g>
+</svg>

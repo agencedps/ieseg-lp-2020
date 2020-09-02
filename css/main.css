@@ -1656,9 +1656,8 @@ html body .main-container {
 }
 @media (min-width: 768px) {
   .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto {
-    justify-content: center;
     height: 40px;
-    width: auto;
+    width: 40px;
   }
 }
 .keyfacts-container .keyfacts-wrapper .keyfacts-inner .keyfacts .keyfact .picto img {
